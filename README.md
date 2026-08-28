@@ -8,6 +8,7 @@ Esta carpeta contiene el marco corporativo, la guía técnica detallada y módul
 2. **Implementación técnica:** [Manual-Desarrollo.md](./Manual-Desarrollo.md). Complementa al manual corporativo con arquitectura hexagonal, frontend, Git, GEM y uso operativo de las skills.
 3. **Contexto por tarea:** [skills/](./skills/). Son los 11 módulos portables existentes, independientes de OpenCode, Claude, Codex u otro proveedor.
 4. **Documentación lista para copiar:** [templates/](./templates/). Incluye requerimientos, ADRs, postmortems y checklist de PR.
+5. **Herramientas de documentación:** [tools/](./tools/). Incluye generadores para producir entregables editables y finales con el formato corporativo.
 
 ## Relación entre los materiales
 
@@ -26,6 +27,10 @@ El manual corporativo establece **qué debe gobernarse y por qué**. `Manual-Des
 - [`gaci-product-discovery.md`](./skills/gaci-product-discovery.md)
 - [`gaci-react.md`](./skills/gaci-react.md)
 - [`gaci-ui-styles.md`](./skills/gaci-ui-styles.md)
+
+## Herramientas disponibles
+
+- [`generador-documentacion`](./tools/generador-documentacion/README.md): genera documentos corporativos genéricos en PDF y DOCX editable a partir de una definición JSON.
 
 ## Orden mínimo de adopción
 
