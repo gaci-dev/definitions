@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExportFile>
+  <Objects>
+    <Object guid="41bd479c-e869-4d63-8144-fe218d7e43cf"
+            fullyQualifiedName="Auditoria.Graba_auditoria"
+            name="Graba_auditoria"
+            type="84a12160-f59b-4ad7-a683-ea4481ac23e9">
+      <Part type="528d1c06-a9c2-420d-bd35-21dca83f12ff">
+        <Source><![CDATA[&sdt_auditoria.FromJson(&json)
+
+new
+
+AuditoriaTRN = &sdt_auditoria.AuditoriaTRN]]></Source>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[parm(in: &json);]]></Source>
+      </Part>
+    </Object>
+  </Objects>
+</ExportFile>

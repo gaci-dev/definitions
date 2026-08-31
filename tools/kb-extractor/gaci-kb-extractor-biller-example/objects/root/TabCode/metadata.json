@@ -1,0 +1,46 @@
+{
+  "attributes": {
+    "parentGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2007-06-28T21:58:08.0000000Z",
+    "checksum": "6b7e2b0e4b2b81bdf25c43bde8aa37e0",
+    "fullyQualifiedName": "TabCode",
+    "moduleGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "guid": "7396ea52-298a-484a-8465-1631dbbfb0e2",
+    "name": "TabCode",
+    "type": "00972a17-9975-449e-aab1-d26165d51393",
+    "description": "Tab Code"
+  },
+  "guid": "7396ea52-298a-484a-8465-1631dbbfb0e2",
+  "object_kind": "domain",
+  "fully_qualified_name": "TabCode",
+  "module": "root",
+  "name": "TabCode",
+  "normalized_path": "objects/root/TabCode",
+  "parts": [
+    {
+      "index": 1,
+      "type": "ad3ca970-19d0-44e1-a7b7-db05556e820c",
+      "file": "parts/001-ad3ca970-19d0-44e1-a7b7-db05556e820c.txt",
+      "kind": "help",
+      "part_kind": "help",
+      "projection_file": "help.md"
+    },
+    {
+      "index": 2,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/002-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "help": 1,
+      "object_defaults": 1
+    }
+  }
+}

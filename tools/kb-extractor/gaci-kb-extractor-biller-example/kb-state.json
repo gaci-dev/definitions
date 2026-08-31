@@ -1,0 +1,1213 @@
+{
+  "schema_version": 1,
+  "kb": {
+    "guid": "fdc1eb4b-008a-4ca2-aa3e-43da32a9389d"
+  },
+  "versions": {
+    "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+      "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+      "name": "Biller",
+      "import_count": 3,
+      "last_seen": "2026-08-28T18:22:01Z"
+    }
+  },
+  "objects": {
+    "object:6e56899a-b5b2-4642-b374-cb237eb7e0f5": {
+      "guid": "6e56899a-b5b2-4642-b374-cb237eb7e0f5",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "05afbec84f4ff48e7be599da60eea4f37d8aef513d281507836b5243bc9d4011",
+          "active": true,
+          "last_seen": "2026-08-28T18:20:47Z",
+          "import_count": 1,
+          "path": "objects/CuentaCorriente/CuentaCorr",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:20:47Z"
+    },
+    "object:c402b8ab-c05a-4acf-a298-c5f47e9ad0cb": {
+      "guid": "c402b8ab-c05a-4acf-a298-c5f47e9ad0cb",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "7b998847afe272102dbbc9c78477e63d928b5c77d202b1151cb71b6d4c97cb7e",
+          "active": true,
+          "last_seen": "2026-08-28T18:20:47Z",
+          "import_count": 1,
+          "path": "objects/root/CuentaCorr",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:20:47Z"
+    },
+    "object:b5deb469-fda5-40d8-94e4-041ab7a9e0aa": {
+      "guid": "b5deb469-fda5-40d8-94e4-041ab7a9e0aa",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "eed22a4a84bd9c646e108f63d39ed9ceb0c94943645086bead666f46eb8ab9af",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 2,
+          "path": "objects/Cliente/TipoCliente",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 2,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:e684a21c-d30b-40c1-8794-83aa5095d324": {
+      "guid": "e684a21c-d30b-40c1-8794-83aa5095d324",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "0e990205e85a86c16d7e8697ee9e42bd35bea323dfbe4d18e930f068ea87d3c1",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 2,
+          "path": "objects/CuentaCorriente/ImporteTotalConSigno",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 2,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:fb601a64-992a-4531-8475-75fe69301003": {
+      "guid": "fb601a64-992a-4531-8475-75fe69301003",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "6f75ec4e84edd079136731d546f9ae0abcfa3e954ecdcdc8b6da363c04736fb1",
+          "active": true,
+          "last_seen": "2026-08-28T18:20:47Z",
+          "import_count": 1,
+          "path": "objects/CuentaCorriente/Contabilizado",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:20:47Z"
+    },
+    "object:4590e980-a6b2-4677-8f8d-28cd76ce5c33": {
+      "guid": "4590e980-a6b2-4677-8f8d-28cd76ce5c33",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "344d5a540bedd2a0f58d894da89a2b4628bb5e23687c5c0a6894c96fb9a04414",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 2,
+          "path": "objects/CuentaCorriente/EstadoCuentaCorr",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 2,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:4497ba90-59c7-4df2-99e3-e60e91018460": {
+      "guid": "4497ba90-59c7-4df2-99e3-e60e91018460",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "9601c813d787e4ca2fe0f627a75e711633b9655cb7d61a87596fe305bb6bfd51",
+          "active": true,
+          "last_seen": "2026-08-28T18:20:47Z",
+          "import_count": 1,
+          "path": "objects/CuentaCorriente/CuentaCorr_Modalidad",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:20:47Z"
+    },
+    "object:f523ade2-585a-44b1-aac1-7528cfb170b7": {
+      "guid": "f523ade2-585a-44b1-aac1-7528cfb170b7",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "ff830adc14b779f2a6a2327e10932d77ba9079b3d38869783ffdc87b4887b68c",
+          "active": true,
+          "last_seen": "2026-08-28T18:20:47Z",
+          "import_count": 1,
+          "path": "objects/CuentaCorriente/CuentaCorr_Moneda",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:20:47Z"
+    },
+    "object:89475a0d-043c-4e9f-aa9e-5d32806a3c3c": {
+      "guid": "89475a0d-043c-4e9f-aa9e-5d32806a3c3c",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "5e9d21514beff541acb8568ab8ffb2be5713e9e666c16784c728496de6ef43e0",
+          "active": true,
+          "last_seen": "2026-08-28T18:20:47Z",
+          "import_count": 1,
+          "path": "objects/CuentaCorriente/CuentaCorr_Cliente",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:20:47Z"
+    },
+    "object:da519a37-eacf-463c-a86b-91aafa6b3c76": {
+      "guid": "da519a37-eacf-463c-a86b-91aafa6b3c76",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "394b93cfb0c366d1c85b6bd9a8cab9629abfd7ade42426f27f721117a2905d36",
+          "active": true,
+          "last_seen": "2026-08-28T18:20:47Z",
+          "import_count": 1,
+          "path": "objects/CuentaCorriente/CuentaCorr_Carrera",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:20:47Z"
+    },
+    "object:59a82731-c1e0-4dd8-a9a3-651a6a17c16c": {
+      "guid": "59a82731-c1e0-4dd8-a9a3-651a6a17c16c",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "7d7a75178ceaa283f01bd942477b099115bbd34b2f90e89d8fa83af7a86a6b3e",
+          "active": true,
+          "last_seen": "2026-08-28T18:20:47Z",
+          "import_count": 1,
+          "path": "objects/CuentaCorriente/CuentaCorr_Empresa",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:20:47Z"
+    },
+    "object:c92eeec2-2659-4a98-a800-992ddf510233": {
+      "guid": "c92eeec2-2659-4a98-a800-992ddf510233",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "1a83c97b8ffc0c1605ca249d0f57f6f22306b8323a6f77b95e1617da208b01c1",
+          "active": true,
+          "last_seen": "2026-08-28T18:20:47Z",
+          "import_count": 1,
+          "path": "objects/Facturacion/Comprobantes",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:20:47Z"
+    },
+    "object:2bde67a1-40b1-408f-a949-af7a8b2cc662": {
+      "guid": "2bde67a1-40b1-408f-a949-af7a8b2cc662",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "285b86a43657a3e064bfa3bcd0d886b6531e6576faa31e201fd260ce6d535f3a",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/root/Auditoria--2bde67a1-40b",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:41bd479c-e869-4d63-8144-fe218d7e43cf": {
+      "guid": "41bd479c-e869-4d63-8144-fe218d7e43cf",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "9bd87b3be7b143d834c246ebedaaf2aabeb06601bc458ae04a0cc3e6149d6b71",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/Graba_auditoria",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:6351935c-215a-4a89-81e4-87d4f62859c5": {
+      "guid": "6351935c-215a-4a89-81e4-87d4f62859c5",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "142499231744dc69d1d86111aec6ca640176a9580c9377758abdb3acd0ee14a9",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/AuditoriaWWGetFilterData",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:7367c0a3-560d-4431-a478-ad71ca4b6a8e": {
+      "guid": "7367c0a3-560d-4431-a478-ad71ca4b6a8e",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "1952f4b9e47e046424fd62948eb34efa461957c23cd0cf972da858def8e96c58",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/AuditoriaWWExport",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:ae83b292-8da2-4573-be03-6dae76496290": {
+      "guid": "ae83b292-8da2-4573-be03-6dae76496290",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "bdf53a8cd122568d9e63a21d21f721bc2cfd5dcd33d314f896c62e46921a680d",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/AuditoriaWWExportReport",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:302a45e2-fe95-4cc1-88b4-a3c6556b61d7": {
+      "guid": "302a45e2-fe95-4cc1-88b4-a3c6556b61d7",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "930b35a366d37edef52d00988101b1d7dee1fb3bde8c0b2ca57ac0f22bb2e3c6",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/sdt_auditoria",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:13b19510-c6d4-4dfd-8dd4-77b7bfc1deb9": {
+      "guid": "13b19510-c6d4-4dfd-8dd4-77b7bfc1deb9",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "64c34eddd7642fdfb554e398b2d3178d201a9b3282034b8296b9ba0b0d996b7a",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/Auditoria",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:fda7cd19-ed5c-48c8-8105-985f904163ae": {
+      "guid": "fda7cd19-ed5c-48c8-8105-985f904163ae",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "50f0fdd340b8b6b8c7eb2f3e9c30698b2bf3c244eebe939477b7d2d55f05dce8",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/AuditoriaWWDS",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:065dbcac-8e8c-4695-be92-a2b63ecc9747": {
+      "guid": "065dbcac-8e8c-4695-be92-a2b63ecc9747",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "81678a3e843fba24ef8b2d295f73638fdb770a001ba74073c9dfe355e665a66d",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/AuditoriaWW",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:bc4ae75e-3497-4921-9404-4ab77eff3006": {
+      "guid": "bc4ae75e-3497-4921-9404-4ab77eff3006",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "35549bf26ef189972648ea1d75bafae0447091d6f35dbbe2581e0c1ff189bc16",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/AuditoriaView",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:1dcbed10-e54b-4d46-937f-a0ddf6960719": {
+      "guid": "1dcbed10-e54b-4d46-937f-a0ddf6960719",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "5df4bcc073ef63a9dfcac0a7a0c2158d43900f60866fea4bbef7de434867df29",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/Auditoria/AuditoriaGeneral",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:73654f5f-8dc1-4463-9d5e-b33af8bb76d3": {
+      "guid": "73654f5f-8dc1-4463-9d5e-b33af8bb76d3",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "f5b377761c49dadc58f8c392ff0a828834b27605152f65b2601cd578e816e59f",
+          "active": true,
+          "last_seen": "2026-08-28T18:21:27Z",
+          "import_count": 1,
+          "path": "objects/root/Auditoria--73654f5f-8dc",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": null
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:21:27Z"
+    },
+    "object:a3149f29-1031-4f7d-b1cb-abe5fb6a0562": {
+      "guid": "a3149f29-1031-4f7d-b1cb-abe5fb6a0562",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "9a12f735337ae5268ca4f8a59ccfeeb9321d44fc9fcb6298806a111aee5a8de4",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 2,
+          "path": "objects/root/Page",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 2,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:7396ea52-298a-484a-8465-1631dbbfb0e2": {
+      "guid": "7396ea52-298a-484a-8465-1631dbbfb0e2",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "9cd6e1ea35fc2d1b983ea10bf24d3b4551073a2be893e9eb2610a0a5fb1158f0",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 2,
+          "path": "objects/root/TabCode",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 2,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:679986c6-da99-4f21-bb5f-6f924ef62176": {
+      "guid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "2d2d423b6c3b1ebebe414cbe6e3d279f41321fbe04a7d5edbdc8cc087661ef55",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/root/BillerExterno",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:30a467b6-ef76-4e43-8583-8bf490bf4bf0": {
+      "guid": "30a467b6-ef76-4e43-8583-8bf490bf4bf0",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "20047dfd0a38bd1954836a829b3d2e3cdc15e6c8800b04760e247ede568f35c9",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/Vistas",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:870f4e61-71b1-4359-ae62-ca12e8392c1e": {
+      "guid": "870f4e61-71b1-4359-ae62-ca12e8392c1e",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "587b0bc7dd80e48552061d42c6324ab98e3e98be6f9595304037567f17b13c5f",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/CuentaCorr",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:db92d545-9e57-479d-9f28-ce2ef9fd28f9": {
+      "guid": "db92d545-9e57-479d-9f28-ce2ef9fd28f9",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "4e38dac53f0b6884428414b397af28b3bd1ce14edd225b6a857993bd7840a7b9",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorr--db92d545-9e5",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:58bb0362-3cf2-491a-845c-08b2f5d11e5e": {
+      "guid": "58bb0362-3cf2-491a-845c-08b2f5d11e5e",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "c94baea0e75de2f3b33d8da838fad3afedc4fdbf6dec3488b55696ea82b0fd14",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/root/Ivw_CuentaCorr",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:06e63df3-842b-4008-af8d-6ee4880d1c56": {
+      "guid": "06e63df3-842b-4008-af8d-6ee4880d1c56",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "eaa2f15d3327a41a20302ed6cde95022c79e74e97bb3fd2d40cb5b954c689af4",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorr--06e63df3-842",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:049abb72-b21d-41c4-875e-3b7b5190e21a": {
+      "guid": "049abb72-b21d-41c4-875e-3b7b5190e21a",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "dd20b7049743d40b3462fdd4f27b1cc54cb96afdaeb458e9a47688ec4412219a",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorrView",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:b0b705ae-9aa0-42ab-833f-0ed657d91fc1": {
+      "guid": "b0b705ae-9aa0-42ab-833f-0ed657d91fc1",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "b8957a03e1802a2b898bcdc99974f14f9de17594559b7f8790757101ddb73086",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorrViewWWDS",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d": {
+      "guid": "b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "6e275d63e9d993a0357fa0596febcfbdbba18c7a53ca5c935184e5ebfe53b79a",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorrViewWWGetFilterData",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:8e79d696-d0be-440d-92fd-cef787f4b091": {
+      "guid": "8e79d696-d0be-440d-92fd-cef787f4b091",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorrViewWWExport",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:1a62751a-d7dd-4541-bd5d-5c86c94b5ec9": {
+      "guid": "1a62751a-d7dd-4541-bd5d-5c86c94b5ec9",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "9fd897aa5cc41b615c45bf157e59e7b733c9c8397e10b256c4670dc6d756ef09",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorrViewWWExportReport",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:a26228ac-8543-4bb4-a7e0-7a798c7614e2": {
+      "guid": "a26228ac-8543-4bb4-a7e0-7a798c7614e2",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "e251e205640e57d8dfc2354ec2fa037dcb11e46e81be18fb85cab2f89ed65a93",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/get_vw_cuentacorr",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:8fc3f43a-1949-46bc-8362-f1a18f696174": {
+      "guid": "8fc3f43a-1949-46bc-8362-f1a18f696174",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "ae7922b91ea51b9edc7c5500720d91fbf5717142a83918366bde5853f71ccced",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorrViewWW",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:845dafee-b584-4651-9425-578cb9830c5b": {
+      "guid": "845dafee-b584-4651-9425-578cb9830c5b",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "a657d9f70de05240f928afaf5c1a1ba47674c2cec503cdbb97326bf2dcdd87e2",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorrViewView",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:7abee1ad-502c-4179-9bde-eab7643bacc2": {
+      "guid": "7abee1ad-502c-4179-9bde-eab7643bacc2",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "e501bdf171c35b334cd8e0b4b08dfc5e2ab79b8235ef873f8555d538d6325ecc",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorr_testGeneral",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:06255d75-6a22-4b43-bcc0-0cae23032bfc": {
+      "guid": "06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "32a69c97c3afff8e1b49b4fc461bf70f7444ad8cb24d3aa12ccb30b62759df9a",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/vw_CuentaCorr_testvw_CuentaCorr",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:e1aef07e-475d-4c41-afd7-f6763f5884c8": {
+      "guid": "e1aef07e-475d-4c41-afd7-f6763f5884c8",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "1281a861d1f422c736e3725760a8fa10a91371ba8409ab9269a60df60c2d7c13",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/DP_getCuentaCorr",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:e6b4b5cd-e672-4dae-b6b2-d30d29a705e4": {
+      "guid": "e6b4b5cd-e672-4dae-b6b2-d30d29a705e4",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "b7677d0c9c5be6ff9f7b74cab52c9be00e57d4603a8aa7dc6019de63ec6705bf",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/CuentaCorr_vista",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:f9153425-7bec-4038-ab59-73327e9fd043": {
+      "guid": "f9153425-7bec-4038-ab59-73327e9fd043",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "fc0f69dbfa8760a7f69a7921e97d5a266d363aff457f5d2cd894885d590a3730",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/BillerExterno/apiBillerExterno",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:8fe2acb8-3bec-4aa7-bb14-428afcaaf780": {
+      "guid": "8fe2acb8-3bec-4aa7-bb14-428afcaaf780",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "5db773f463fdc39fc64dcae017b1ddab2be1c6c153f8fca4f9fae7116d419b44",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/root/vw_CuentaCorr",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    },
+    "object:6029a20c-73f9-45a6-a111-f891e9e1b4cb": {
+      "guid": "6029a20c-73f9-45a6-a111-f891e9e1b4cb",
+      "versions": {
+        "42fce5e2-b2ed-4be6-afd6-526f735e739d": {
+          "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+          "name": "Biller",
+          "object_hash": "ba3988a28621bb22418cc08577f4e4aaf2b239f320470a099034ae6599425f1a",
+          "active": true,
+          "last_seen": "2026-08-28T18:22:01Z",
+          "import_count": 1,
+          "path": "objects/root/Id",
+          "source_filename": "[REDACTED_INPUT]",
+          "source_hash": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+          "redact_source": true,
+          "preserve_raw": false,
+          "raw_path": null,
+          "raw_redacted": false,
+          "raw_kind": "xml_selected"
+        }
+      },
+      "import_count": 1,
+      "active": true,
+      "last_seen": "2026-08-28T18:22:01Z"
+    }
+  },
+  "imports": [
+    {
+      "timestamp": "2026-08-28T18:20:47Z",
+      "source": {
+        "source_input_path": "[REDACTED_INPUT]",
+        "kind": "xpz",
+        "sha256": "e0b795b870d98af2bae85870835a5e6ba1164776fc14d0e503a03ae69d96b8e6",
+        "raw": null
+      },
+      "version": {
+        "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+        "name": "Biller"
+      },
+      "processed_objects": 380,
+      "skipped_objects": 0,
+      "reconciliation": {
+        "mode": "partial",
+        "scope": "kb-version",
+        "complete_input": false,
+        "retired_objects": [],
+        "retired_count": 0
+      }
+    },
+    {
+      "timestamp": "2026-08-28T18:21:27Z",
+      "source": {
+        "source_input_path": "[REDACTED_INPUT]",
+        "kind": "xpz",
+        "sha256": "aff4a482a6615424af2c6d73613ef94f94dd12408ef83a4c641bcaff65087bc3",
+        "raw": null
+      },
+      "version": {
+        "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+        "name": "Biller"
+      },
+      "processed_objects": 383,
+      "skipped_objects": 0,
+      "reconciliation": {
+        "mode": "partial",
+        "scope": "kb-version",
+        "complete_input": false,
+        "retired_objects": [],
+        "retired_count": 0
+      }
+    },
+    {
+      "timestamp": "2026-08-28T18:22:01Z",
+      "source": {
+        "source_input_path": "[REDACTED_INPUT]",
+        "kind": "xpz",
+        "sha256": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9",
+        "raw": null
+      },
+      "version": {
+        "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+        "name": "Biller"
+      },
+      "processed_objects": 28,
+      "skipped_objects": 367,
+      "reconciliation": {
+        "mode": "partial",
+        "scope": "kb-version",
+        "complete_input": false,
+        "retired_objects": [],
+        "retired_count": 0
+      }
+    }
+  ],
+  "share_safe": true
+}

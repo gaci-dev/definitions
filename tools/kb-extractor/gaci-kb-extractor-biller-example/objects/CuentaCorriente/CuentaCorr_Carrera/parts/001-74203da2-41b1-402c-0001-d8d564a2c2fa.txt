@@ -1,0 +1,16 @@
+<Part type="74203da2-41b1-402c-0001-d8d564a2c2fa">
+        <Subtype guid="3cdf951d-ae28-4ae3-a27b-7745c4d2de33">
+          <Name>CuentaCorrCarrera</Name>
+          <Supertype guid="91be10b9-0d94-4e87-8c55-a8267fe850a0">CarreraId</Supertype>
+        </Subtype>
+        <Subtype guid="d3632122-a404-499f-ba3b-78fdc41a966a">
+          <Name>CuentaCorrCL_CarreraId</Name>
+          <Supertype guid="3ae69065-cca4-40dc-b996-9235cd6e9a81">CL_carreraId</Supertype>
+        </Subtype>
+        <Subtype guid="3c519534-f1cd-452d-9d98-e6b24df1fc98">
+          <Name>CuentaCorrCL_observaciones</Name>
+          <Supertype guid="8c1c0446-23db-458a-a602-fe79749553e4">CL_observaciones</Supertype>
+        </Subtype>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

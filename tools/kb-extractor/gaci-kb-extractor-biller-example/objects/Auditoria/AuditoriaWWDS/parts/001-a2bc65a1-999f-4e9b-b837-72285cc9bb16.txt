@@ -1,0 +1,1 @@
+(AuditoriaTRN like !'%' + &FilterFullText) OR (AuditoriaPK like !'%' + &FilterFullText) OR (AuditoriaATTR like !'%' + &FilterFullText) OR (AuditoriaOldValue like !'%' + &FilterFullText) OR (AuditoriaValue like !'%' + &FilterFullText) OR (AuditoriaMode like !'%' + &FilterFullText) OR (AuditoriaUser like !'%' + &FilterFullText) When not &FilterFullText.IsEmpty()

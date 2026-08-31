@@ -1,0 +1,131 @@
+{
+  "kind": "variables",
+  "part_attributes": {
+    "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47"
+  },
+  "properties": {
+    "Name": [
+      "IsAuthorized",
+      "WWPContext",
+      "TabCode",
+      "Exists",
+      "vw_CC_Id",
+      "LoadAllTabs",
+      "SelectedTabCode"
+    ],
+    "ATTCUSTOMTYPE": [
+      "bas:Boolean",
+      "sdt:WWPContext, WWPBaseObjects",
+      "bas:Boolean",
+      "bas:Boolean"
+    ],
+    "idBasedOn": [
+      "Domain:TabCode",
+      "Attribute:vw_CC_Id",
+      "Domain:TabCode"
+    ],
+    "IsDefault": "False"
+  },
+  "variables": [
+    {
+      "name": "IsAuthorized",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "IsAuthorized",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "IsAuthorized"
+      },
+      "raw": "<Variable Name=\"IsAuthorized\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>IsAuthorized</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "WWPContext",
+      "type": "sdt:WWPContext, WWPBaseObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WWPContext",
+        "ATTCUSTOMTYPE": "sdt:WWPContext, WWPBaseObjects"
+      },
+      "attributes": {
+        "Name": "WWPContext"
+      },
+      "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPContext"
+    },
+    {
+      "name": "TabCode",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TabCode",
+        "idBasedOn": "Domain:TabCode"
+      },
+      "attributes": {
+        "Name": "TabCode"
+      },
+      "raw": "<Variable Name=\"TabCode\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TabCode</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:TabCode</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Exists",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Exists",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "Exists"
+      },
+      "raw": "<Variable Name=\"Exists\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Exists</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "vw_CC_Id",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "vw_CC_Id",
+        "idBasedOn": "Attribute:vw_CC_Id"
+      },
+      "attributes": {
+        "Name": "vw_CC_Id"
+      },
+      "raw": "<Variable Name=\"vw_CC_Id\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "LoadAllTabs",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "LoadAllTabs",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "LoadAllTabs"
+      },
+      "raw": "<Variable Name=\"LoadAllTabs\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>LoadAllTabs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "SelectedTabCode",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "SelectedTabCode",
+        "idBasedOn": "Domain:TabCode"
+      },
+      "attributes": {
+        "Name": "SelectedTabCode"
+      },
+      "raw": "<Variable Name=\"SelectedTabCode\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>SelectedTabCode</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:TabCode</Value></Property></Properties>\n        </Variable>\n        "
+    }
+  ],
+  "raw": "<Part type=\"e4c4ade7-53f0-4a56-bdfd-843735b66f47\">\n        <Variable Name=\"IsAuthorized\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>IsAuthorized</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TabCode\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TabCode</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:TabCode</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Exists\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Exists</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"vw_CC_Id\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"LoadAllTabs\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>LoadAllTabs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"SelectedTabCode\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>SelectedTabCode</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:TabCode</Value></Property></Properties>\n        </Variable>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      "
+}

@@ -1,0 +1,60 @@
+# GeneXus layout/form projection
+
+This file is a readable projection of a layout part.
+
+- `GxMultiForm` (rootId='1' version='html:15.0.0;layout:17.11.0')
+- `Form` (id='1' type='layout')
+- `detail`
+- `layout`
+- `table` (controlName='LayoutMainTable' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `table` (class='TableMainTransaction' controlName='TableMain' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `errorviewer` (class='ErrorViewer' controlName='ErrorViewer')
+- `row`
+- `cell`
+- `table` (class='CellMarginTop10' controlName='TableContent' responsiveSizes='[{"scale":"sm","rows":[[{"width":75}]]}]' tableType='Responsive')
+- `row`
+- `cell`
+- `ucw` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlName</Name><Value>DVPanel_TableAttributes</Value></Property><Property><Name>Width</Name><Value>100%</Value></Property><Property><Name>AutoWidth</Name><Value>False</Value></Property><Property><Name>AutoHeight</Name><Value>True</Value></Property><Property><Name>Cls</Name><Value>PanelCard_GrayTitle</Value></Property><Property><Name>Title</Name><Value>WWP_TemplateDataPanelTitle</Value></Property><Property><Name>Collapsible</Name><Value>False</Value></Property><Property><Name>Collapsed</Name><Value>False</Value></Property><Property><Name>ShowCollapseIcon</Name><Value>False</Value></Property><Property><Name>IconPosition</Name><Value>Right</Value></Property><Property><Name>AutoScroll</Name><Value>False</Value></Property></Properties>' gxControlType='-104584741')
+- `table` (containerSlotName='TableAttributes' controlName='TableAttributes' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlType</Name><Value>Edit</Value></Property><Property><Name>InputType</Name><Value>Values</Value></Property></Properties>' attribute='AuditoriaGUID' class='AttributeFL' labelCaption='GUID')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaTRN' class='AttributeFL' labelCaption='Transaccion')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaPK' class='AttributeFL' labelCaption='Clave Primaria')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaATTR' class='AttributeFL' labelCaption='Atributo')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaOldValue' class='AttributeFL' labelCaption='Valor Anterior')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaValue' class='AttributeFL' labelCaption='Valor')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaMode' class='AttributeFL' labelCaption='Operacion Realizada')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaUser' class='AttributeFL' labelCaption='Usuario')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaDateTime' class='AttributeFL' labelCaption='del Evento')
+- `row`
+- `cell`
+- `actiongroup` (controlName='ActionGroup_Actions')
+- `actionGroups`
+- `actionGroup` (class='CellMarginTop10' controlName='ActionGroup_Actions')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GX_BtnEnter</Value></Property></Properties>' caption='GX_BtnEnter' controlName='BtnTrn_Enter' onClickEvent='Enter')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GX_BtnCancel</Value></Property></Properties>' caption='GX_BtnCancel' class='BtnDefault' controlName='BtnTrn_Cancel' onClickEvent='Cancel')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GX_BtnDelete</Value></Property></Properties>' caption='GX_BtnDelete' class='BtnDefault' controlName='BtnTrn_Delete' onClickEvent='Delete')

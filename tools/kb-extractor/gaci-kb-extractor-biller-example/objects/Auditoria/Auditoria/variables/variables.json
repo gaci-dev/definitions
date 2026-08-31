@@ -1,0 +1,82 @@
+{
+  "kind": "variables",
+  "part_attributes": {
+    "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47"
+  },
+  "properties": {
+    "Name": [
+      "AuditoriaGUID",
+      "WWPContext",
+      "TrnContext",
+      "WebSession"
+    ],
+    "idBasedOn": "Attribute:AuditoriaGUID",
+    "ATTCUSTOMTYPE": [
+      "sdt:WWPContext, WWPBaseObjects",
+      "sdt:WWPTransactionContext, WorkWithPlus_CommonObjects",
+      "ext:WebSession"
+    ],
+    "IsDefault": "False"
+  },
+  "variables": [
+    {
+      "name": "AuditoriaGUID",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AuditoriaGUID",
+        "idBasedOn": "Attribute:AuditoriaGUID"
+      },
+      "attributes": {
+        "Name": "AuditoriaGUID"
+      },
+      "raw": "<Variable Name=\"AuditoriaGUID\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaGUID</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaGUID</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "WWPContext",
+      "type": "sdt:WWPContext, WWPBaseObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WWPContext",
+        "ATTCUSTOMTYPE": "sdt:WWPContext, WWPBaseObjects"
+      },
+      "attributes": {
+        "Name": "WWPContext"
+      },
+      "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPContext"
+    },
+    {
+      "name": "TrnContext",
+      "type": "sdt:WWPTransactionContext, WorkWithPlus_CommonObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TrnContext",
+        "ATTCUSTOMTYPE": "sdt:WWPTransactionContext, WorkWithPlus_CommonObjects"
+      },
+      "attributes": {
+        "Name": "TrnContext"
+      },
+      "raw": "<Variable Name=\"TrnContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPTransactionContext"
+    },
+    {
+      "name": "WebSession",
+      "type": "ext:WebSession",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WebSession",
+        "ATTCUSTOMTYPE": "ext:WebSession"
+      },
+      "attributes": {
+        "Name": "WebSession"
+      },
+      "raw": "<Variable Name=\"WebSession\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        "
+    }
+  ],
+  "raw": "<Part type=\"e4c4ade7-53f0-4a56-bdfd-843735b66f47\">\n        <Variable Name=\"AuditoriaGUID\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaGUID</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaGUID</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TrnContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WebSession\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      "
+}

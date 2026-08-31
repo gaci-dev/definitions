@@ -1,0 +1,46 @@
+{
+  "attributes": {
+    "parentGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "user": "[REDACTED]",
+    "versionDate": "0001-01-01T00:00:00.0000000",
+    "lastUpdate": "2026-07-30T14:11:24.0000000Z",
+    "checksum": "9d93ded1ef74e3c8fa89cfd0d89ef1d0",
+    "fullyQualifiedName": "CuentaCorr",
+    "moduleGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "guid": "c402b8ab-c05a-4acf-a298-c5f47e9ad0cb",
+    "name": "CuentaCorr",
+    "type": "857ca50e-7905-0000-0007-c5d9ff2975ec",
+    "description": ""
+  },
+  "guid": "c402b8ab-c05a-4acf-a298-c5f47e9ad0cb",
+  "object_kind": "table",
+  "fully_qualified_name": "CuentaCorr",
+  "module": "root",
+  "name": "CuentaCorr",
+  "normalized_path": "objects/root/CuentaCorr",
+  "parts": [
+    {
+      "index": 1,
+      "type": "00000000-0000-0000-0002-000000000004",
+      "file": "parts/001-00000000-0000-0000-0002-000000000004.txt",
+      "kind": "key",
+      "part_kind": "key",
+      "projection_file": "key.json"
+    },
+    {
+      "index": 2,
+      "type": "a5c0e770-560d-0001-0001-7fe71c260de3",
+      "file": "parts/002-a5c0e770-560d-0001-0001-7fe71c260de3.txt",
+      "kind": "indexes",
+      "part_kind": "indexes",
+      "projection_file": "indexes.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "key": 1,
+      "indexes": 1
+    }
+  }
+}

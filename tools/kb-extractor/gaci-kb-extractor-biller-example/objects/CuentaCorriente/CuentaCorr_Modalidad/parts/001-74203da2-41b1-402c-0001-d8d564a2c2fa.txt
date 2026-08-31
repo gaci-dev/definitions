@@ -1,0 +1,8 @@
+<Part type="74203da2-41b1-402c-0001-d8d564a2c2fa">
+        <Subtype guid="1f83aea6-4223-4260-b09d-eae1e4afcd3f">
+          <Name>CuentaCorrModalidadId</Name>
+          <Supertype guid="322ead7b-cdd1-477f-a315-71b9d065a9c2">ModalidadId</Supertype>
+        </Subtype>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

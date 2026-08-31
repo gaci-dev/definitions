@@ -1,0 +1,8 @@
+<Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="CuentaCorr_vista">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorr_vista</Value></Property><Property><Name>idIsAutoDefinedVariable</Name><Value>True</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:CuentaCorr_vista, BillerExterno</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

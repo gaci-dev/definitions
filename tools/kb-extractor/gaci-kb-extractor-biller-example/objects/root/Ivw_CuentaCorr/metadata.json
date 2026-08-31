@@ -1,0 +1,47 @@
+{
+  "attributes": {
+    "type": "fc1b76c4-95c5-0000-0101-44f9543121bd",
+    "parentGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-05-13T17:58:14.0000000Z",
+    "checksum": "3d6946fbc7501ea57d55b8bc862a518f",
+    "fullyQualifiedName": "Ivw_CuentaCorr",
+    "moduleGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "guid": "58bb0362-3cf2-491a-845c-08b2f5d11e5e",
+    "name": "Ivw_CuentaCorr",
+    "description": "Ivw_Cuenta Corr",
+    "raw_attributes": [
+      {
+        "name": "Type",
+        "value": "Unique"
+      },
+      {
+        "name": "type",
+        "value": "fc1b76c4-95c5-0000-0101-44f9543121bd"
+      }
+    ]
+  },
+  "guid": "58bb0362-3cf2-491a-845c-08b2f5d11e5e",
+  "object_kind": "index_definition",
+  "fully_qualified_name": "Ivw_CuentaCorr",
+  "module": "root",
+  "name": "Ivw_CuentaCorr",
+  "normalized_path": "objects/root/Ivw_CuentaCorr",
+  "parts": [
+    {
+      "index": 1,
+      "type": "fe47b55c-ea2a-1000-0101-5b38901e24f7",
+      "file": "parts/001-fe47b55c-ea2a-1000-0101-5b38901e24f7.txt",
+      "kind": "members",
+      "part_kind": "members",
+      "projection_file": "members.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 1,
+    "parts_by_kind": {
+      "members": 1
+    }
+  }
+}

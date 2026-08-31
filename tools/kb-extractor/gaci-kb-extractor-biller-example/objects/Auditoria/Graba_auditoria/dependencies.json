@@ -1,0 +1,29 @@
+{
+  "explicit_references": [],
+  "inferred_dependencies": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"sdt_auditoria\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>sdt_auditoria</Value></Property><Property><Name>idIsAutoDefinedVariable</Name><Value>False</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:sdt_auditoria, Auditoria</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "sdt_auditoria"
+      },
+      "from_object_id": "object:41bd479c-e869-4d63-8144-fe218d7e43cf",
+      "id": "dependency:27a002cc007262371a27",
+      "identity_occurrence": 0,
+      "object_hash": "9bd87b3be7b143d834c246ebedaaf2aabeb06601bc458ae04a0cc3e6149d6b71",
+      "object_id": "object:41bd479c-e869-4d63-8144-fe218d7e43cf",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": true,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[5]/Part[5]#dependency#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:5e7a3b96fa5802e6acfc",
+      "target_guid": null,
+      "target_name": "sdt_auditoria",
+      "to_object_id": "object:302a45e2-fe95-4cc1-88b4-a3c6556b61d7",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "unresolved_references": [],
+  "references": []
+}

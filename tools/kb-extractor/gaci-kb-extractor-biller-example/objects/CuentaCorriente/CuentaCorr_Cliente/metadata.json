@@ -1,0 +1,38 @@
+{
+  "attributes": {
+    "parentGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "user": "[REDACTED]",
+    "versionDate": "0001-01-01T00:00:00.0000000",
+    "lastUpdate": "2025-12-09T19:12:56.0000000Z",
+    "checksum": "eef4656e4b1a944a07e0b553691f1054",
+    "fullyQualifiedName": "CuentaCorriente.CuentaCorr_Cliente",
+    "moduleGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "guid": "89475a0d-043c-4e9f-aa9e-5d32806a3c3c",
+    "name": "CuentaCorr_Cliente",
+    "type": "87313f43-5eb2-41d7-9b8c-e8d9f5bf9588",
+    "description": "Cuenta Corriente Cliente",
+    "parent": "CuentaCorriente",
+    "parentType": "c88fffcd-b6f8-0000-8fec-00b5497e2117"
+  },
+  "guid": "89475a0d-043c-4e9f-aa9e-5d32806a3c3c",
+  "object_kind": "unknown",
+  "fully_qualified_name": "CuentaCorriente.CuentaCorr_Cliente",
+  "module": "CuentaCorriente",
+  "name": "CuentaCorr_Cliente",
+  "normalized_path": "objects/CuentaCorriente/CuentaCorr_Cliente",
+  "parts": [
+    {
+      "index": 1,
+      "type": "74203da2-41b1-402c-0001-d8d564a2c2fa",
+      "file": "parts/001-74203da2-41b1-402c-0001-d8d564a2c2fa.txt",
+      "kind": null,
+      "part_kind": null
+    }
+  ],
+  "semantic_counts": {
+    "parts": 1,
+    "parts_by_kind": {
+      "unknown": 1
+    }
+  }
+}

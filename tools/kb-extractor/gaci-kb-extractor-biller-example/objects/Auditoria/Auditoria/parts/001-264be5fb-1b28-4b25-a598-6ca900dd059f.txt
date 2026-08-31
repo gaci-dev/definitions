@@ -1,0 +1,16 @@
+<Part type="264be5fb-1b28-4b25-a598-6ca900dd059f">
+        <Level Name="Auditoria" Type="Auditoria" Description="Auditoria" Guid="13b19510-c6d4-4dfd-8dd4-77b7bfc1deb9">
+          <Properties />
+          <Attribute key="True" guid="1f6d0eae-0aaa-4acb-ac5b-da35f8324e5c">AuditoriaGUID</Attribute>
+          <Attribute key="False" guid="7e9887aa-6147-4e80-86c1-78dc46f23e5a">AuditoriaTRN</Attribute>
+          <Attribute key="False" guid="b4b57d79-c261-4880-961d-249c8cbc54f2">AuditoriaPK</Attribute>
+          <Attribute key="False" guid="35ffc08c-5b3e-41a9-937e-9cb435eabe60" isNullable="True">AuditoriaATTR</Attribute>
+          <Attribute key="False" guid="f1f760fb-75d4-4966-ad66-7f48b3d81256" isNullable="True">AuditoriaOldValue</Attribute>
+          <Attribute key="False" guid="a74b1a57-4253-490d-9def-e85aca660a05" isNullable="True">AuditoriaValue</Attribute>
+          <Attribute key="False" guid="02cb6e41-615a-4546-9953-3aed574835a4">AuditoriaMode</Attribute>
+          <Attribute key="False" guid="b6dbab8e-9fc6-4ac9-b1e8-b4c7cd32a31f">AuditoriaUser</Attribute>
+          <Attribute key="False" guid="83bb9091-20c0-4e2f-9986-49155ae828c8">AuditoriaDateTime</Attribute>
+        </Level>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

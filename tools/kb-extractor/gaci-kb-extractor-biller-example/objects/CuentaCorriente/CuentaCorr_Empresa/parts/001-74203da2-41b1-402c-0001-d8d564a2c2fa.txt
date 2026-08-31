@@ -1,0 +1,8 @@
+<Part type="74203da2-41b1-402c-0001-d8d564a2c2fa">
+        <Subtype guid="f3522190-74e8-4d82-bd8d-7cebc28c3d93">
+          <Name>CuentaCorrEmpresa</Name>
+          <Supertype guid="679f9108-7f17-4945-8a5b-acd4805da566">EmpresaId</Supertype>
+        </Subtype>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

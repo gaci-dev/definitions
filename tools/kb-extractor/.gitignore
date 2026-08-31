@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+normalized-kb/
+shared-kb/
+kb-state.json
+manifest.json
+objects-index.jsonl
+canonical/
+graph/
+objects/
+raw/
+
+# Share-safe reduced fixture; do not unignore other generated outputs.
+!gaci-kb-extractor-biller-example/
+!gaci-kb-extractor-biller-example/kb-state.json
+!gaci-kb-extractor-biller-example/manifest.json
+!gaci-kb-extractor-biller-example/objects-index.jsonl
+!gaci-kb-extractor-biller-example/canonical/
+!gaci-kb-extractor-biller-example/canonical/**
+!gaci-kb-extractor-biller-example/graph/
+!gaci-kb-extractor-biller-example/graph/**
+!gaci-kb-extractor-biller-example/objects/
+!gaci-kb-extractor-biller-example/objects/**

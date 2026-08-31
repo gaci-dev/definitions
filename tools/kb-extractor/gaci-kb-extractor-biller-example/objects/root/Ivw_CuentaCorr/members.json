@@ -1,0 +1,16 @@
+{
+  "kind": "members",
+  "part_attributes": {
+    "type": "fe47b55c-ea2a-1000-0101-5b38901e24f7"
+  },
+  "properties": {},
+  "raw_xml": "<Part type=\"fe47b55c-ea2a-1000-0101-5b38901e24f7\">\n              <Members>\n                <Member Order=\"Ascending\">vw_CC_Id</Member>\n              </Members>\n              <Properties />\n            </Part>\n            ",
+  "members": [
+    {
+      "tag": "Members",
+      "attributes": {},
+      "text": "vw_CC_Id",
+      "raw_xml": "<Members>\n                <Member Order=\"Ascending\">vw_CC_Id</Member>\n              </Members>\n              "
+    }
+  ]
+}

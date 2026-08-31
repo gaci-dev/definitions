@@ -1,0 +1,93 @@
+{
+  "attributes": {
+    "parentGuid": "2bde67a1-40b1-408f-a949-af7a8b2cc662",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2023-04-13T17:56:19.0000000Z",
+    "checksum": "f52d457796035c7578bcf034d414ca57",
+    "fullyQualifiedName": "Auditoria.Graba_auditoria",
+    "moduleGuid": "2bde67a1-40b1-408f-a949-af7a8b2cc662",
+    "guid": "41bd479c-e869-4d63-8144-fe218d7e43cf",
+    "name": "Graba_auditoria",
+    "type": "84a12160-f59b-4ad7-a683-ea4481ac23e9",
+    "description": "Graba_auditoria",
+    "parent": "Auditoria",
+    "parentType": "c88fffcd-b6f8-0000-8fec-00b5497e2117"
+  },
+  "guid": "41bd479c-e869-4d63-8144-fe218d7e43cf",
+  "object_kind": "procedure",
+  "fully_qualified_name": "Auditoria.Graba_auditoria",
+  "module": "Auditoria",
+  "name": "Graba_auditoria",
+  "normalized_path": "objects/Auditoria/Graba_auditoria",
+  "parts": [
+    {
+      "index": 1,
+      "type": "528d1c06-a9c2-420d-bd35-21dca83f12ff",
+      "file": "parts/001-528d1c06-a9c2-420d-bd35-21dca83f12ff.txt",
+      "kind": "procedure_code",
+      "part_kind": "procedure_code",
+      "projection_file": "code.gx"
+    },
+    {
+      "index": 2,
+      "type": "c414ed00-8cc4-4f44-8820-4baf93547173",
+      "file": "parts/002-c414ed00-8cc4-4f44-8820-4baf93547173.txt",
+      "kind": "report_layout",
+      "part_kind": "report_layout",
+      "projection_file": "layout.gx"
+    },
+    {
+      "index": 3,
+      "type": "9b0a32a3-de6d-4be1-a4dd-1b85d3741534",
+      "file": "parts/003-9b0a32a3-de6d-4be1-a4dd-1b85d3741534.txt",
+      "kind": "rules",
+      "part_kind": "rules",
+      "projection_file": "rules.gx"
+    },
+    {
+      "index": 4,
+      "type": "763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9",
+      "file": "parts/004-763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9.txt",
+      "kind": "auxiliary_source",
+      "part_kind": "auxiliary_source",
+      "projection_file": "auxiliary-source.gx"
+    },
+    {
+      "index": 5,
+      "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "file": "parts/005-e4c4ade7-53f0-4a56-bdfd-843735b66f47.txt",
+      "kind": "variables",
+      "part_kind": "variables",
+      "projection_file": "variables/variables.json"
+    },
+    {
+      "index": 6,
+      "type": "ad3ca970-19d0-44e1-a7b7-db05556e820c",
+      "file": "parts/006-ad3ca970-19d0-44e1-a7b7-db05556e820c.txt",
+      "kind": "help",
+      "part_kind": "help",
+      "projection_file": "help.md"
+    },
+    {
+      "index": 7,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/007-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 7,
+    "parts_by_kind": {
+      "procedure_code": 1,
+      "report_layout": 1,
+      "rules": 1,
+      "auxiliary_source": 1,
+      "variables": 1,
+      "help": 1,
+      "object_defaults": 1
+    }
+  }
+}

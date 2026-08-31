@@ -1,0 +1,16 @@
+{
+  "kind": "key",
+  "part_attributes": {
+    "type": "00000000-0000-0000-0002-000000000004"
+  },
+  "properties": {},
+  "raw_xml": "<Part type=\"00000000-0000-0000-0002-000000000004\">\n        <Key>\n          <Item guid=\"122309b9-35d7-4ec6-ba41-bd73294d1c5e\">CuentaCorrId</Item>\n        </Key>\n        <Properties />\n      </Part>\n      ",
+  "keys": [
+    {
+      "tag": "Key",
+      "attributes": {},
+      "text": "CuentaCorrId",
+      "raw_xml": "<Key>\n          <Item guid=\"122309b9-35d7-4ec6-ba41-bd73294d1c5e\">CuentaCorrId</Item>\n        </Key>\n        "
+    }
+  ]
+}

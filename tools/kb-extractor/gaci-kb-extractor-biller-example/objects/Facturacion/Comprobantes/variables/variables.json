@@ -1,0 +1,230 @@
+{
+  "kind": "variables",
+  "part_attributes": {
+    "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47"
+  },
+  "properties": {
+    "Name": [
+      "CurrentStep",
+      "CurrentStepAux",
+      "FacturaEmpresa",
+      "FacturaOrigen",
+      "GoingBack",
+      "PreviousStep",
+      "StepNumber",
+      "WebSession",
+      "WebSessionKey",
+      "WizardStep",
+      "WizardSteps",
+      "ClienteId",
+      "ParVentaID"
+    ],
+    "ATTCUSTOMTYPE": [
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:Boolean",
+      "bas:VarChar",
+      "ext:WebSession",
+      "bas:VarChar",
+      "sdt:WizardSteps.WizardStepsItem, WorkWithPlus_Web",
+      "sdt:WizardSteps, WorkWithPlus_Web"
+    ],
+    "idBasedOn": [
+      "Attribute:FacturaEmpresa",
+      "Attribute:FacturaOrigen",
+      "Domain:StepNumber, WorkWithPlus_Web",
+      "Attribute:ClienteId",
+      "Attribute:ParVentaID"
+    ],
+    "Description": "Id",
+    "IsDefault": "False"
+  },
+  "variables": [
+    {
+      "name": "CurrentStep",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CurrentStep",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "CurrentStep"
+      },
+      "raw": "<Variable Name=\"CurrentStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CurrentStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CurrentStepAux",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CurrentStepAux",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "CurrentStepAux"
+      },
+      "raw": "<Variable Name=\"CurrentStepAux\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CurrentStepAux</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "FacturaEmpresa",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "FacturaEmpresa",
+        "idBasedOn": "Attribute:FacturaEmpresa"
+      },
+      "attributes": {
+        "Name": "FacturaEmpresa"
+      },
+      "raw": "<Variable Name=\"FacturaEmpresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FacturaEmpresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:FacturaEmpresa</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "FacturaOrigen",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "FacturaOrigen",
+        "idBasedOn": "Attribute:FacturaOrigen"
+      },
+      "attributes": {
+        "Name": "FacturaOrigen"
+      },
+      "raw": "<Variable Name=\"FacturaOrigen\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FacturaOrigen</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:FacturaOrigen</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GoingBack",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GoingBack",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "GoingBack"
+      },
+      "raw": "<Variable Name=\"GoingBack\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GoingBack</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "PreviousStep",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "PreviousStep",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "PreviousStep"
+      },
+      "raw": "<Variable Name=\"PreviousStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>PreviousStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "StepNumber",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "StepNumber",
+        "idBasedOn": "Domain:StepNumber, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "StepNumber"
+      },
+      "raw": "<Variable Name=\"StepNumber\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>StepNumber</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:StepNumber, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "WebSession",
+      "type": "ext:WebSession",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WebSession",
+        "ATTCUSTOMTYPE": "ext:WebSession"
+      },
+      "attributes": {
+        "Name": "WebSession"
+      },
+      "raw": "<Variable Name=\"WebSession\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "WebSessionKey",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WebSessionKey",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "WebSessionKey"
+      },
+      "raw": "<Variable Name=\"WebSessionKey\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WebSessionKey</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "WizardStep",
+      "type": "sdt:WizardSteps.WizardStepsItem, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WizardStep",
+        "ATTCUSTOMTYPE": "sdt:WizardSteps.WizardStepsItem, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "WizardStep"
+      },
+      "raw": "<Variable Name=\"WizardStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WizardStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps.WizardStepsItem, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WizardSteps.WizardStepsItem"
+    },
+    {
+      "name": "WizardSteps",
+      "type": "sdt:WizardSteps, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WizardSteps",
+        "ATTCUSTOMTYPE": "sdt:WizardSteps, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "WizardSteps"
+      },
+      "raw": "<Variable Name=\"WizardSteps\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WizardSteps</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WizardSteps"
+    },
+    {
+      "name": "ClienteId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ClienteId",
+        "Description": "Id",
+        "idBasedOn": "Attribute:ClienteId"
+      },
+      "attributes": {
+        "Name": "ClienteId"
+      },
+      "raw": "<Variable Name=\"ClienteId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ClienteId</Value></Property><Property><Name>Description</Name><Value>Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ParVentaID",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ParVentaID",
+        "idBasedOn": "Attribute:ParVentaID"
+      },
+      "attributes": {
+        "Name": "ParVentaID"
+      },
+      "raw": "<Variable Name=\"ParVentaID\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ParVentaID</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ParVentaID</Value></Property></Properties>\n        </Variable>\n        "
+    }
+  ],
+  "raw": "<Part type=\"e4c4ade7-53f0-4a56-bdfd-843735b66f47\">\n        <Variable Name=\"CurrentStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CurrentStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CurrentStepAux\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CurrentStepAux</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"FacturaEmpresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FacturaEmpresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:FacturaEmpresa</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"FacturaOrigen\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FacturaOrigen</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:FacturaOrigen</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GoingBack\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GoingBack</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"PreviousStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>PreviousStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"StepNumber\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>StepNumber</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:StepNumber, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WebSession\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WebSessionKey\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WebSessionKey</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WizardStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WizardStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps.WizardStepsItem, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WizardSteps\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WizardSteps</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ClienteId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ClienteId</Value></Property><Property><Name>Description</Name><Value>Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ParVentaID\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ParVentaID</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ParVentaID</Value></Property></Properties>\n        </Variable>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      "
+}

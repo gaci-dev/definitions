@@ -1,0 +1,22 @@
+<Part type="7706bd3b-212a-1000-0006-8aaeb59068b9">
+        <Indexes>
+          <Object Type="Unique" parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="[REDACTED_USER]" versionDate="2026-05-21T18:08:45.0000000Z" lastUpdate="2026-05-13T17:58:14.0000000Z" checksum="3d6946fbc7501ea57d55b8bc862a518f" fullyQualifiedName="Ivw_CuentaCorr" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="58bb0362-3cf2-491a-845c-08b2f5d11e5e" name="Ivw_CuentaCorr" type="fc1b76c4-95c5-0000-0101-44f9543121bd" description="Ivw_Cuenta Corr">
+            <Platforms>
+              <DataViewIndexesPlatform Dbms="12">
+                <PlatformProperties>
+                  <Properties />
+                </PlatformProperties>
+              </DataViewIndexesPlatform>
+            </Platforms>
+            <Part type="fe47b55c-ea2a-1000-0101-5b38901e24f7">
+              <Members>
+                <Member Order="Ascending">vw_CC_Id</Member>
+              </Members>
+              <Properties />
+            </Part>
+            <Properties><Property><Name>Name</Name><Value>Ivw_CuentaCorr</Value></Property></Properties>
+          </Object>
+        </Indexes>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

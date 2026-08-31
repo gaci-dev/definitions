@@ -1,0 +1,144 @@
+<Part type="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
+        <Level Name="CuentaCorr_vista">
+          <LevelInfo guid="2f34647f-c9dc-4566-9759-0c6c7e477131" name="CuentaCorr_vista" type="a76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Cuenta Corr_vista" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>CuentaCorr_vista</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>
+          </LevelInfo>
+          <Item guid="4b91635e-6df9-44ff-a77d-3eef9eafc7c7" name="vw_CC_Id" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Id" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property></Properties>
+          </Item>
+          <Item guid="aad3b17f-0dee-415b-a609-86935cb988a7" name="vw_CC_Empresa" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Empresa" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>
+          </Item>
+          <Item guid="e194a012-93ef-4f58-829b-7d273cb190a1" name="vw_CC_Cliente" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Cliente ID" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_Cliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Cliente</Value></Property></Properties>
+          </Item>
+          <Item guid="52a53d12-7df2-4e50-a8b3-5dcfd859c9c1" name="vw_CC_ClieNombre" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Cliente Nombre" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_ClieNombre</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNombre</Value></Property></Properties>
+          </Item>
+          <Item guid="deeaeafa-28bb-46b4-b225-5a4b1e70ebbe" name="vw_CC_ClieNroDoc" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Numero Documento" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_ClieNroDoc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNroDoc</Value></Property></Properties>
+          </Item>
+          <Item guid="b40cdc06-52d1-4f43-aac5-98ab8cb3bd30" name="vw_CC_ClieCBU" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Cliente CBU" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_ClieCBU</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieCBU</Value></Property></Properties>
+          </Item>
+          <Item guid="8710941f-e0e8-4482-9c20-d23436b44311" name="vw_CC_ClieEmail" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Cliente Email" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_ClieEmail</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieEmail</Value></Property></Properties>
+          </Item>
+          <Item guid="85491402-405b-423f-a8f1-39ad0ca3684c" name="vw_CC_EstAdmId" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Estado Administrativo Id" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_EstAdmId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmId</Value></Property></Properties>
+          </Item>
+          <Item guid="419f7b44-c6c9-4eda-9e63-b1fb98ba8532" name="vw_CC_EstAdmDesc" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Estado Administrativo" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_EstAdmDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmDesc</Value></Property></Properties>
+          </Item>
+          <Item guid="000f9629-e4fe-4031-b6da-7e7381962343" name="vw_CC_EstAcaId" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Estado Academico Id" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_EstAcaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaId</Value></Property></Properties>
+          </Item>
+          <Item guid="3006dc2d-1feb-491a-9d21-f92ccc5e00c5" name="vw_CC_EstAcaDesc" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Estado Academico" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_EstAcaDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaDesc</Value></Property></Properties>
+          </Item>
+          <Item guid="db7dbc9e-e1f6-444f-b89a-21c3828e3ea1" name="vw_CC_FacTipo" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Factura Tipo" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTipo</Value></Property></Properties>
+          </Item>
+          <Item guid="8a57ba2e-87b7-4747-b804-38e01f33501b" name="vw_CC_FacSerie" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Factura Serie" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacSerie</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSerie</Value></Property></Properties>
+          </Item>
+          <Item guid="9b42981a-d394-414f-b3a8-e996106239bf" name="vw_CC_FacSuc" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Factura Sucursal" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacSuc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSuc</Value></Property></Properties>
+          </Item>
+          <Item guid="9dbf4187-7e51-42b4-affa-1f30196c0d13" name="vw_CC_FacNro" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Factura Numero" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNro</Value></Property></Properties>
+          </Item>
+          <Item guid="2ea75ce6-8068-42d2-a29e-4248fb3dc08c" name="vw_CC_FacFecha" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Factura Fecha" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>
+          </Item>
+          <Item guid="8f215dea-1985-4502-9237-1952236297cd" name="vw_CC_FacVto" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Factura Vto" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>
+          </Item>
+          <Item guid="e0ae662f-b335-4177-a125-e29ef78592ab" name="vw_CC_FacMoneda" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Factura Moneda" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacMoneda</Value></Property></Properties>
+          </Item>
+          <Item guid="42c7c795-8858-4639-a3ad-292ea5b1ecee" name="vw_CC_FacTotal" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Factura Total" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacTotal</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTotal</Value></Property></Properties>
+          </Item>
+          <Item guid="dda6393c-283c-4042-8380-948efa5a0485" name="vw_CC_FacNroSAP" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Factura Nro SAP" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacNroSAP</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNroSAP</Value></Property></Properties>
+          </Item>
+          <Item guid="207b28d2-7dce-49f6-aa97-c8b69e2c1b47" name="vw_CC_McCod" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Medio Cobro Codigo" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_McCod</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property></Properties>
+          </Item>
+          <Item guid="6a8ecccc-f32b-4c4f-9709-c62ab7259fd1" name="vw_CC_McNro" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Medio Cobro Numero" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_McNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McNro</Value></Property></Properties>
+          </Item>
+          <Item guid="e0ab042c-ffe8-4483-9359-2cc94aaca41d" name="vw_CC_McMoneda" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Medio Cobro Moneda" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_McMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McMoneda</Value></Property></Properties>
+          </Item>
+          <Item guid="f1caabbf-c606-4d24-ad6c-24b6815e62df" name="vw_CC_McTotal" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Medio Cobro Total" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_McTotal</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McTotal</Value></Property></Properties>
+          </Item>
+          <Item guid="88c8ff39-e817-4757-9443-faf9f81a6a5c" name="vw_CC_McFecha" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Medio Cobro Fecha" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_McFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McFecha</Value></Property></Properties>
+          </Item>
+          <Item guid="55b10228-8b96-4b63-ab17-9225d112d19c" name="vw_CC_McVto" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Medio Cobro Vto" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_McVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McVto</Value></Property></Properties>
+          </Item>
+          <Item guid="0646dc0e-1798-454c-b34d-175bce158ee1" name="vw_CC_AsigNro" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Asig OP" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_AsigNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigNro</Value></Property></Properties>
+          </Item>
+          <Item guid="fb6e8b03-afa6-4023-b480-e8661eff3fab" name="vw_CC_AsigFecha" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Fecha Asignacion" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_AsigFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigFecha</Value></Property></Properties>
+          </Item>
+          <Item guid="7e19df82-b8a6-401c-8183-433e6f15a702" name="vw_CC_DiasPago" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Dias de Pago" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_DiasPago</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_DiasPago</Value></Property></Properties>
+          </Item>
+          <Item guid="3fed502b-5880-491c-92b5-f26af3fafbae" name="vw_CC_IntTipo" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Tipo Comp" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_IntTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntTipo</Value></Property></Properties>
+          </Item>
+          <Item guid="47818499-11e7-46c4-a37d-64a8f022b46b" name="vw_CC_IntNro" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Numero Comp" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_IntNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntNro</Value></Property></Properties>
+          </Item>
+          <Item guid="c69e9abd-55c1-40c4-9ad5-d1a6c471ec1c" name="vw_CC_Carrera" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Carrera Id" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_Carrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property></Properties>
+          </Item>
+          <Item guid="d424392f-c164-455a-b056-08072d7bbd35" name="vw_CC_CLCarreraId" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="CL Id" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_CLCarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property></Properties>
+          </Item>
+          <Item guid="58ffacba-c065-4aee-ad81-62fbfa829397" name="vw_CC_CLObs" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Cl obs" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_CLObs</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLObs</Value></Property></Properties>
+          </Item>
+          <Item guid="e0f0ac47-3eb0-48f4-845b-cda61c6ae64e" name="vw_CC_MaterialId" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Material Id" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_MaterialId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_MaterialId</Value></Property></Properties>
+          </Item>
+          <Item guid="4764b87f-5f0a-456e-aa1d-d3333b29fd03" name="vw_CC_CCostoId" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="C. Costo id" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_CCostoId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoId</Value></Property></Properties>
+          </Item>
+          <Item guid="84c23122-1719-4680-9879-b9692bf1db5a" name="vw_CC_CCostoDesc" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="C. Costo Descripcion" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_CCostoDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoDesc</Value></Property></Properties>
+          </Item>
+          <Item guid="6e3c1754-54b0-442b-b256-4f4a4c228196" name="vw_CC_FacDetPlanItem" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Cuota" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacDetPlanItem</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanItem</Value></Property></Properties>
+          </Item>
+          <Item guid="31e61ab7-49ba-4b32-8ae4-802d6b6cb014" name="vw_CC_FacDetPlanId" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Plan" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacDetPlanId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanId</Value></Property></Properties>
+          </Item>
+          <Item guid="9a8e805c-3b14-4422-8650-3f88a91dfbc3" name="vw_CC_FacDebAuto" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Debito Automatico" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FacDebAuto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDebAuto</Value></Property></Properties>
+          </Item>
+          <Item guid="c2c32c7b-ea74-48c5-a9b6-1802c30b9839" name="vw_CC_Texto" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Texto Interno" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_Texto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Texto</Value></Property></Properties>
+          </Item>
+          <Item guid="2f7c5ad1-399c-439e-9461-1d637f9f7520" name="vw_CC_Anulado" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Cbte. Anulado" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_Anulado</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Anulado</Value></Property></Properties>
+          </Item>
+          <Item guid="b6b69cef-8c13-42b1-b734-5f990068890b" name="vw_CC_ModalidadId" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Modalidad Id" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_ModalidadId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ModalidadId</Value></Property></Properties>
+          </Item>
+          <Item guid="7c0a9925-a4d6-4feb-a586-f93d7ec86172" name="vw_CC_Usuario" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Modalidad Id" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_Usuario</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ModalidadId</Value></Property></Properties>
+          </Item>
+          <Item guid="ea9216b6-2eac-4e20-9800-5ed4f6dbf1ee" name="vw_CC_FechaHoraAud" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Fecha y Hora Creacion" user="[REDACTED_USER]">
+            <Properties><Property><Name>Name</Name><Value>vw_CC_FechaHoraAud</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FechaHoraAud</Value></Property></Properties>
+          </Item>
+        </Level>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

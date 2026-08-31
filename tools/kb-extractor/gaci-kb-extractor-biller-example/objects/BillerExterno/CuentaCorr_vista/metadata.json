@@ -1,0 +1,48 @@
+{
+  "attributes": {
+    "parentGuid": "870f4e61-71b1-4359-ae62-ca12e8392c1e",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-05-19T17:50:45.0000000Z",
+    "checksum": "b65994883cb51047656fcbed5c416e57",
+    "fullyQualifiedName": "BillerExterno.CuentaCorr_vista",
+    "moduleGuid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+    "guid": "e6b4b5cd-e672-4dae-b6b2-d30d29a705e4",
+    "name": "CuentaCorr_vista",
+    "type": "447527b5-9210-4523-898b-5dccb17be60a",
+    "description": "Cuenta Corr_vista",
+    "parent": "BillerExterno.CuentaCorr",
+    "parentType": "00000000-0000-0000-0000-000000000008"
+  },
+  "guid": "e6b4b5cd-e672-4dae-b6b2-d30d29a705e4",
+  "object_kind": "sdt",
+  "fully_qualified_name": "BillerExterno.CuentaCorr_vista",
+  "module": "BillerExterno",
+  "name": "CuentaCorr_vista",
+  "normalized_path": "objects/BillerExterno/CuentaCorr_vista",
+  "parts": [
+    {
+      "index": 1,
+      "type": "5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a",
+      "file": "parts/001-5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a.txt",
+      "kind": "sdt_structure",
+      "part_kind": "sdt_structure",
+      "projection_file": "structure.json"
+    },
+    {
+      "index": 2,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/002-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "sdt_structure": 1,
+      "object_defaults": 1
+    }
+  }
+}

@@ -1,0 +1,56 @@
+<Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="CurrentStep">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CurrentStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CurrentStepAux">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CurrentStepAux</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="FacturaEmpresa">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>FacturaEmpresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:FacturaEmpresa</Value></Property></Properties>
+        </Variable>
+        <Variable Name="FacturaOrigen">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>FacturaOrigen</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:FacturaOrigen</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GoingBack">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GoingBack</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="PreviousStep">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>PreviousStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="StepNumber">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>StepNumber</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:StepNumber, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WebSession">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WebSessionKey">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WebSessionKey</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WizardStep">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WizardStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps.WizardStepsItem, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WizardSteps">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WizardSteps</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ClienteId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ClienteId</Value></Property><Property><Name>Description</Name><Value>Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ParVentaID">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ParVentaID</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ParVentaID</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

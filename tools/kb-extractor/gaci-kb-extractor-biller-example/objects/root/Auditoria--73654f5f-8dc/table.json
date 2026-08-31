@@ -1,0 +1,93 @@
+{
+  "kind": "table",
+  "object": {
+    "guid": "73654f5f-8dc1-4463-9d5e-b33af8bb76d3",
+    "name": "Auditoria",
+    "fully_qualified_name": "Auditoria",
+    "attributes": {
+      "parentGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+      "user": "[REDACTED]",
+      "versionDate": "2026-05-21T18:08:45.0000000Z",
+      "lastUpdate": "2023-05-30T18:00:13.0000000Z",
+      "checksum": "5b815b63f16beb82fc8c706883f91d08",
+      "fullyQualifiedName": "Auditoria",
+      "moduleGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+      "guid": "73654f5f-8dc1-4463-9d5e-b33af8bb76d3",
+      "name": "Auditoria",
+      "type": "857ca50e-7905-0000-0007-c5d9ff2975ec",
+      "description": "Auditoria"
+    }
+  },
+  "parts": [
+    {
+      "index": 1,
+      "part_kind": "key",
+      "type": "00000000-0000-0000-0002-000000000004",
+      "file": null,
+      "semantic": {
+        "kind": "key",
+        "part_attributes": {
+          "type": "00000000-0000-0000-0002-000000000004"
+        },
+        "properties": {},
+        "raw_xml": "<Part type=\"00000000-0000-0000-0002-000000000004\">\n        <Key>\n          <Item guid=\"1f6d0eae-0aaa-4acb-ac5b-da35f8324e5c\">AuditoriaGUID</Item>\n        </Key>\n        <Properties />\n      </Part>\n      ",
+        "keys": [
+          {
+            "tag": "Key",
+            "attributes": {},
+            "text": "AuditoriaGUID",
+            "raw_xml": "<Key>\n          <Item guid=\"1f6d0eae-0aaa-4acb-ac5b-da35f8324e5c\">AuditoriaGUID</Item>\n        </Key>\n        "
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "part_kind": "indexes",
+      "type": "a5c0e770-560d-0001-0001-7fe71c260de3",
+      "file": "indexes.json",
+      "semantic": {
+        "kind": "indexes",
+        "part_attributes": {
+          "type": "a5c0e770-560d-0001-0001-7fe71c260de3"
+        },
+        "properties": {
+          "Name": "IAuditoria"
+        },
+        "raw_xml": "<Part type=\"a5c0e770-560d-0001-0001-7fe71c260de3\">\n        <Indexes>\n          <TableIndex>\n            <Index Type=\"Unique\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"2026-05-21T18:08:45.0000000Z\" lastUpdate=\"2023-05-30T17:55:40.0000000Z\" checksum=\"e39cdb7b3fc5f778685e3004ec55eb55\" fullyQualifiedName=\"IAuditoria\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"efd6360b-74dc-4b0a-b32c-f945669c099e\" name=\"IAuditoria\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"IAuditoria\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">AuditoriaGUID</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>IAuditoria</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n        </Indexes>\n        <Properties />\n      </Part>\n      ",
+        "properties_nodes": [
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameIAuditoria",
+            "raw_xml": "<Property><Name>Name</Name><Value>IAuditoria</Value></Property>",
+            "properties": {
+              "Name": "IAuditoria"
+            },
+            "name": "Name",
+            "value": "IAuditoria"
+          }
+        ],
+        "members": [
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "AuditoriaGUID",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">AuditoriaGUID</Member>\n                </Members>\n                "
+          }
+        ],
+        "indexes": [
+          {
+            "tag": "Indexes",
+            "attributes": {},
+            "text": "AuditoriaGUID\n                \n                \n              \n              NameIAuditoria",
+            "raw_xml": "<Indexes>\n          <TableIndex>\n            <Index Type=\"Unique\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"2026-05-21T18:08:45.0000000Z\" lastUpdate=\"2023-05-30T17:55:40.0000000Z\" checksum=\"e39cdb7b3fc5f778685e3004ec55eb55\" fullyQualifiedName=\"IAuditoria\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"efd6360b-74dc-4b0a-b32c-f945669c099e\" name=\"IAuditoria\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"IAuditoria\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">AuditoriaGUID</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>IAuditoria</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n        </Indexes>\n        ",
+            "properties": {
+              "Name": "IAuditoria"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

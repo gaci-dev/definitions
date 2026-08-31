@@ -1,0 +1,6 @@
+billerExterno
+{
+	[RestMethod(GET)]
+	GetCuentaCorriente(out:&CuentaCorr_vista) 
+	=> BillerExterno.get_vw_cuentacorr(&CuentaCorr_vista);
+}

@@ -1,0 +1,76 @@
+<Part type="264be5fb-1b28-4b25-a598-6ca900dd059f">
+        <Level Name="CuentaCorr" Type="CuentaCorr" Description="Cuenta Corriente" Guid="6e56899a-b5b2-4642-b374-cb237eb7e0f5">
+          <Properties />
+          <AttributeProperties Attribute="CuentaCorrEstAdministrativo">
+            <Properties><Property><Name>IncludeInForms</Name><Value>False</Value></Property></Properties>
+          </AttributeProperties>
+          <AttributeProperties Attribute="CuentaCorrEstAcademico">
+            <Properties><Property><Name>IncludeInForms</Name><Value>False</Value></Property></Properties>
+          </AttributeProperties>
+          <Attribute key="True" guid="122309b9-35d7-4ec6-ba41-bd73294d1c5e">CuentaCorrId</Attribute>
+          <Attribute key="False" guid="f3522190-74e8-4d82-bd8d-7cebc28c3d93">CuentaCorrEmpresa</Attribute>
+          <Attribute key="False" guid="3cdf951d-ae28-4ae3-a27b-7745c4d2de33">CuentaCorrCarrera</Attribute>
+          <Attribute key="False" guid="d3632122-a404-499f-ba3b-78fdc41a966a">CuentaCorrCL_CarreraId</Attribute>
+          <Attribute key="False" guid="3c519534-f1cd-452d-9d98-e6b24df1fc98">CuentaCorrCL_observaciones</Attribute>
+          <Attribute key="False" guid="974b2f1b-e970-4415-b16b-93b0a109d672">CuentaCorrCliente</Attribute>
+          <Attribute key="False" guid="108c8559-1cb7-40ff-b681-f520df82bbed">CuentaCorrClienteNombre</Attribute>
+          <Attribute key="False" guid="5c37e071-c688-4773-bcfd-9733ecf7ef7a">CuentaCorrClienteTipo</Attribute>
+          <Attribute key="False" guid="bf62b02b-6a03-45f8-9212-243f4e05b6fc">CuentaCorrClienteNroDoc</Attribute>
+          <Attribute key="False" guid="13fcc51b-e17c-48cc-8e3d-f53a716acf9e">CuentaCorrEstAdministrativo</Attribute>
+          <Attribute key="False" guid="ad063ee5-68cc-459c-8104-0181eeb3b9e1">CuentaCorrEstAcademico</Attribute>
+          <Attribute key="False" guid="22701028-7aca-40ed-8864-be86af693ad9">CuentaCorrFacturaTipo</Attribute>
+          <Attribute key="False" guid="ca67e815-b717-40a1-8f10-b8837896b1de">CuentaCorrFacturaSerie</Attribute>
+          <Attribute key="False" guid="f9415630-d25d-41f7-8192-05d0c10d1bb0">CuentaCorrFacturaSucursal</Attribute>
+          <Attribute key="False" guid="0d42c966-a97e-4db4-ba6a-54115cb2ce56">CuentaCorrFacturaNumero</Attribute>
+          <Attribute key="False" guid="3124c32a-daa0-4671-ab68-66c6b8a612d6">CuentaCorrFacturaFecha</Attribute>
+          <Attribute key="False" guid="92c72859-e0c6-44d2-8995-92c0826532d8">CuentaCorrFacturaVto</Attribute>
+          <Attribute key="False" guid="dfcd551e-6ad7-42c6-87ad-e1074806a236">CuentaCorrFacturaMoneda</Attribute>
+          <Attribute key="False" guid="a6221d36-6b17-4a84-9175-0adb1ece7e09">CuentaCorrFacturaTotal</Attribute>
+          <Attribute key="False" guid="344963ba-b5ea-4d02-8439-fbe8cf1d4c4f" isNullable="True">CuentaCorrFacturaNroSAP</Attribute>
+          <Attribute key="False" guid="c78c6f7c-d769-4380-a4fd-f55664047ef5" isNullable="True">CuentaCorrMedioCobroId</Attribute>
+          <Attribute key="False" guid="bc1a48e9-b75e-45c7-8833-4b466a4caf12" isNullable="True">CuentaCorrMedioCobroCod</Attribute>
+          <Attribute key="False" guid="34bb3fc9-1c0f-46e5-b3c9-d616530aa031" isNullable="True">CuentaCorrMedioCobroNumero</Attribute>
+          <Attribute key="False" guid="6f0e41dd-cf98-4c5f-99d0-516ef9d56026">CuentaCorrMedioCobroMoneda</Attribute>
+          <Attribute key="False" guid="748e8752-2c1c-494b-b099-465dfc917447">CuentaCorrMedioCobroMonedaDescripcion</Attribute>
+          <Attribute key="False" guid="01b5a946-9995-4bf3-8a63-4ec374a5b722">CuentaCorrMedioCobroTotal</Attribute>
+          <Attribute key="False" guid="99de6900-f82b-46d0-8595-5b79da7d7aaf">CuentaCorrMedioCobroFecha</Attribute>
+          <Attribute key="False" guid="78bf93ba-cf96-40be-baf3-4741142f2ea0">CuentaCorrMedioCobroVto</Attribute>
+          <Attribute key="False" guid="93ba8926-df3f-4050-8419-fe7cbc538b14" isNullable="True">CuentaCorrAsigNumero</Attribute>
+          <Attribute key="False" guid="6cdc3a6e-e5db-482a-aca6-03b0fc592bec">CuentaCorrAsigFecha</Attribute>
+          <Attribute key="False" guid="aa6ad430-3d0d-4b0b-86c7-22ba10deb107" isNullable="True">CuentaCorrDiasPago</Attribute>
+          <Attribute key="False" guid="5dda391e-c122-45eb-add2-52451ebadea9">CuentaCorrInternoTipo</Attribute>
+          <Attribute key="False" guid="c32338b9-8eec-4d7f-8843-14dd85154ccb">CuentaCorrInternoNumero</Attribute>
+          <Attribute key="False" guid="b4f31405-0737-4b26-8fb1-8f20a650f0eb" isNullable="True">CuentaCorrMod</Attribute>
+          <Attribute key="False" guid="17d77f01-5571-4c82-b70d-e485f305b5ec" isNullable="True">CuentaCorrTrn</Attribute>
+          <Attribute key="False" guid="f6d443fb-0c57-4bb4-bc7e-6ecb26ecc7c4" isNullable="True">CuentaCorrRel</Attribute>
+          <Attribute key="False" guid="915d2ff1-6510-4c5b-b6bf-6cf2e10c2bc7" isNullable="True">CuentaCorrContabilizado</Attribute>
+          <Attribute key="False" guid="beb09743-3e4c-4c1a-8417-2fac55a173cb" isNullable="True">CuentaCorrEstado</Attribute>
+          <Attribute key="False" guid="78bba2fa-6e80-4619-bd07-e6cbce9c2a79">CuentaCorrRegistroProcesado</Attribute>
+          <Attribute key="False" guid="54b7e7bf-04c1-4506-bd58-67243bb640ed">CuentaCorrFacturaVtoPro</Attribute>
+          <Attribute key="False" guid="e66fed93-8c10-4b1d-9bc3-e9e293a47617">CuentaCorrTotalSaldo</Attribute>
+          <Attribute key="False" guid="1f83aea6-4223-4260-b09d-eae1e4afcd3f" isNullable="True">CuentaCorrModalidadId</Attribute>
+          <Attribute key="False" guid="f16527ce-f202-4f8f-bef6-a2e326ce93c4" isNullable="True">CuentaCorrAnulado</Attribute>
+          <Attribute key="False" guid="c7c31462-5d39-4cdc-b857-305f22435336" isNullable="True">CuentaCorrSaldado</Attribute>
+          <Attribute key="False" guid="b66ea302-3fea-45c3-8a5a-743650f907a6" isNullable="True">CuentaCorrMaterialId</Attribute>
+          <Attribute key="False" guid="61afcdc9-d588-47bd-824c-dedd5d6c0fd3" isNullable="True">CuentaCorrCcostoId</Attribute>
+          <Attribute key="False" guid="036c05f8-7d3e-49ad-b851-852998b950a0" isNullable="True">CuentaCorrCCostoDescripcion</Attribute>
+          <Attribute key="False" guid="5d6b4fee-4749-4fcf-84d9-c4f5519d0862" isNullable="True">CuentaCorrFacDetPlanitem</Attribute>
+          <Attribute key="False" guid="b7e2a3bd-47c1-43ee-8583-36f820cca581" isNullable="True">CuentaCorrFacDetPlanid</Attribute>
+          <Attribute key="False" guid="7b785286-911c-4814-a07b-e540f1d56451" isNullable="True">CuentaCorrFacturaDebitoAutomatico</Attribute>
+          <Attribute key="False" guid="a12a106b-1da2-4ec7-896e-103259a5adb3" isNullable="True">CuentaCorrMedioCobrodescripcion</Attribute>
+          <Attribute key="False" guid="f33207e6-9883-47b1-9dfa-c467d99ab610" isNullable="True">CuentaCorrFacturaVto2</Attribute>
+          <Attribute key="False" guid="46ec8bb5-faae-41a9-b347-e026adcc3651" isNullable="True">CuentaCorrTexto</Attribute>
+          <Attribute key="False" guid="9c4e172f-f384-4882-9aca-bd7dca95442f" isNullable="True">CuentaCorrProcesadoPMC</Attribute>
+          <Attribute key="False" guid="509d29ae-43e2-403b-ab6f-54ea1c0e2f2b" isNullable="True">CuentaCorrAnticipo</Attribute>
+          <Attribute key="False" guid="8d573bb7-c10b-4da1-86dc-c68d063c195f">CuentaCorrClienteEmail</Attribute>
+          <Attribute key="False" guid="de335be9-1341-46b1-947b-c4134932d2f9">CuentaCorrCBU</Attribute>
+          <Attribute key="False" guid="9801f745-4162-425b-804c-ec2fda8a67f1">CuentaCorrMaterialConcepto</Attribute>
+          <Attribute key="False" guid="10d72314-d5dc-4209-8443-0c93e0488994" isNullable="True">CuentaCorrUsuario</Attribute>
+          <Attribute key="False" guid="0cd8576d-65ea-445a-bc2b-23af9ede64dd" isNullable="True">CuentaCorrFechaHoraAud</Attribute>
+          <Attribute key="False" guid="e72c7df5-6dd8-4322-8d81-6252b939cfd8">CuentaCorrPaisId</Attribute>
+          <Attribute key="False" guid="dbd3ef24-3c27-4f56-9b67-0772a3b20aec">CuentaCorrPaisTxt</Attribute>
+          <Attribute key="False" guid="747201c7-0057-44fa-9fcd-5dafbfea3553">CuentaCorrClienteCodigoUniversitas</Attribute>
+        </Level>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

@@ -1,0 +1,29 @@
+# GeneXus layout/form projection
+
+This file is a readable projection of a layout part.
+
+- `GxMultiForm` (rootId='1' version='html:15.0.0;layout:17.11.0')
+- `Form` (id='1' type='layout')
+- `detail`
+- `layout`
+- `table` (controlName='LayoutMainTable' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `table` (class='TableMain' controlName='TableMain' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='CellWWLink')
+- `table` (controlName='TableViewRightItems' justifyContent='Flex End' tableType='Flex')
+- `row`
+- `cell` (cellClass='ViewCellRightItem' flexGrow='0')
+- `textblock` (caption='Ir a Auditoria' class='TextBlockLink' controlName='WorkWithLink')
+- `row`
+- `cell` (cellClass='CellViewTabsPosition TabsWithRightActions')
+- `table` (controlName='UnnamedTableViewContainer' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='CellViewTab')
+- `tab` (class='ViewTab Tab' controlName='Tabs' historyManagement='True')
+- `item` (caption='General' itemControlName='General')
+- `table` (class='TableViewTab' controlName='UnnamedTableGeneral' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `component` (controlName='GeneralWC')

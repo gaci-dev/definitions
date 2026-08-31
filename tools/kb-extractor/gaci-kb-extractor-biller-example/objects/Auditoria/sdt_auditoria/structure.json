@@ -1,0 +1,125 @@
+{
+  "kind": "sdt_structure",
+  "levels": [
+    {
+      "name": "sdt_auditoria",
+      "attributes": {
+        "Name": "sdt_auditoria"
+      },
+      "level_info": {
+        "attributes": {
+          "guid": "2a70b7ef-8922-4ea9-91c6-72834499d8ea",
+          "name": "sdt_auditoria",
+          "type": "a76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "sdt_auditoria",
+          "user": "[REDACTED]"
+        },
+        "properties": {
+          "Name": "sdt_auditoria"
+        }
+      },
+      "items": [
+        {
+          "guid": "3e636094-8010-4fad-b8a1-6d93df4dc01d",
+          "name": "AuditoriaGUID",
+          "type": "f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "Auditoria GUID",
+          "user": "[REDACTED]",
+          "properties": {
+            "Name": "AuditoriaGUID",
+            "idBasedOn": "Attribute:AuditoriaGUID"
+          }
+        },
+        {
+          "guid": "cc641fc2-d810-4199-998b-927e55b62461",
+          "name": "AuditoriaTRN",
+          "type": "f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "Auditoria Transaccion",
+          "user": "[REDACTED]",
+          "properties": {
+            "Name": "AuditoriaTRN",
+            "idBasedOn": "Attribute:AuditoriaTRN"
+          }
+        },
+        {
+          "guid": "b5629082-388a-4b4c-b6ba-fd955e5e6e23",
+          "name": "AuditoriaPK",
+          "type": "f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "Auditoria Clave Primaria",
+          "user": "[REDACTED]",
+          "properties": {
+            "Name": "AuditoriaPK",
+            "idBasedOn": "Attribute:AuditoriaPK"
+          }
+        },
+        {
+          "guid": "30ab27d4-b5b4-4975-9597-da1fcb495ff2",
+          "name": "AuditoriaATTR",
+          "type": "f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "Auditoria Atributo",
+          "user": "[REDACTED]",
+          "properties": {
+            "Name": "AuditoriaATTR",
+            "idBasedOn": "Attribute:AuditoriaATTR"
+          }
+        },
+        {
+          "guid": "3267242d-cfd6-45e6-94fb-fe07d42dd976",
+          "name": "AuditoriaOldValue",
+          "type": "f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "Auditoria Valor Anterior",
+          "user": "[REDACTED]",
+          "properties": {
+            "Name": "AuditoriaOldValue",
+            "idBasedOn": "Attribute:AuditoriaOldValue"
+          }
+        },
+        {
+          "guid": "42ef0be0-eae1-42ad-b5e4-8d460b81e8c9",
+          "name": "AuditoriaValue",
+          "type": "f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "Auditoria Valor",
+          "user": "[REDACTED]",
+          "properties": {
+            "Name": "AuditoriaValue",
+            "idBasedOn": "Attribute:AuditoriaValue"
+          }
+        },
+        {
+          "guid": "14128892-00b2-4a4f-8bbd-8a2b601e1f4a",
+          "name": "AuditoriaMode",
+          "type": "f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "Auditoria Operacion Realizada",
+          "user": "[REDACTED]",
+          "properties": {
+            "Name": "AuditoriaMode",
+            "idBasedOn": "Attribute:AuditoriaMode"
+          }
+        },
+        {
+          "guid": "ea7ce5b1-14fa-499e-971e-9a0ffcee19e0",
+          "name": "AuditoriaUser",
+          "type": "f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "Auditoria Usuario",
+          "user": "[REDACTED]",
+          "properties": {
+            "Name": "AuditoriaUser",
+            "idBasedOn": "Attribute:AuditoriaUser"
+          }
+        },
+        {
+          "guid": "44b65b79-58c2-40db-ab65-04c11f1f9993",
+          "name": "AuditoriaDateTime",
+          "type": "f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3",
+          "description": "Auditoria Fecha del Evento",
+          "user": "[REDACTED]",
+          "properties": {
+            "Name": "AuditoriaDateTime",
+            "idBasedOn": "Attribute:AuditoriaDateTime"
+          }
+        }
+      ]
+    }
+  ],
+  "item_count": 9
+}

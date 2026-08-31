@@ -1,0 +1,20 @@
+<Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="AuditoriaGUID">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AuditoriaGUID</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaGUID</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WWPContext">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TrnContext">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WebSession">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

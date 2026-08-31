@@ -1,0 +1,211 @@
+{
+  "kind": "table_view",
+  "object": {
+    "guid": "db92d545-9e57-479d-9f28-ce2ef9fd28f9",
+    "name": "vw_CuentaCorr",
+    "fully_qualified_name": "BillerExterno.vw_CuentaCorr",
+    "attributes": {
+      "parentGuid": "30a467b6-ef76-4e43-8583-8bf490bf4bf0",
+      "user": "[REDACTED]",
+      "versionDate": "2026-05-21T18:08:45.0000000Z",
+      "lastUpdate": "2026-05-19T17:43:15.0000000Z",
+      "checksum": "1dd53c5a686f85bcf442c7b41e5aecb9",
+      "fullyQualifiedName": "BillerExterno.vw_CuentaCorr",
+      "moduleGuid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+      "guid": "db92d545-9e57-479d-9f28-ce2ef9fd28f9",
+      "name": "vw_CuentaCorr",
+      "type": "19abc6ff-2cd2-0000-0006-6d172bc2333b",
+      "description": "vw_Cuenta Corr",
+      "parent": "BillerExterno.Vistas",
+      "parentType": "00000000-0000-0000-0000-000000000008"
+    }
+  },
+  "parts": [
+    {
+      "index": 1,
+      "part_kind": "platforms",
+      "type": "19abc6ff-2cd2-1000-0006-6d172bc2333b",
+      "file": null,
+      "semantic": {
+        "kind": "platforms",
+        "part_attributes": {
+          "type": "19abc6ff-2cd2-1000-0006-6d172bc2333b"
+        },
+        "properties": {
+          "NAME": "vw_CuentaCorr",
+          "SCHEMA": "biller",
+          "IsDefault": "False"
+        },
+        "raw_xml": "<Part type=\"19abc6ff-2cd2-1000-0006-6d172bc2333b\">\n        <Platforms>\n          <DataViewStructurePlatform Dbms=\"12\">\n            <PlatformProperties>\n              <Properties><Property><Name>NAME</Name><Value>vw_CuentaCorr</Value></Property><Property><Name>SCHEMA</Name><Value>biller</Value></Property></Properties>\n            </PlatformProperties>\n          </DataViewStructurePlatform>\n        </Platforms>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      ",
+        "properties_nodes": [
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NAMEvw_CuentaCorr",
+            "raw_xml": "<Property><Name>NAME</Name><Value>vw_CuentaCorr</Value></Property>",
+            "properties": {
+              "NAME": "vw_CuentaCorr"
+            },
+            "name": "NAME",
+            "value": "vw_CuentaCorr"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "SCHEMAbiller",
+            "raw_xml": "<Property><Name>SCHEMA</Name><Value>biller</Value></Property>",
+            "properties": {
+              "SCHEMA": "biller"
+            },
+            "name": "SCHEMA",
+            "value": "biller"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "IsDefaultFalse",
+            "raw_xml": "<Property><Name>IsDefault</Name><Value>False</Value></Property>",
+            "properties": {
+              "IsDefault": "False"
+            },
+            "name": "IsDefault",
+            "value": "False"
+          }
+        ],
+        "platform_properties": [
+          {
+            "tag": "PlatformProperties",
+            "attributes": {},
+            "text": "NAMEvw_CuentaCorrSCHEMAbiller",
+            "raw_xml": "<PlatformProperties>\n              <Properties><Property><Name>NAME</Name><Value>vw_CuentaCorr</Value></Property><Property><Name>SCHEMA</Name><Value>biller</Value></Property></Properties>\n            </PlatformProperties>\n          ",
+            "properties": {
+              "NAME": "vw_CuentaCorr",
+              "SCHEMA": "biller"
+            }
+          }
+        ],
+        "platforms": [
+          {
+            "tag": "Platforms",
+            "attributes": {},
+            "text": "NAMEvw_CuentaCorrSCHEMAbiller",
+            "raw_xml": "<Platforms>\n          <DataViewStructurePlatform Dbms=\"12\">\n            <PlatformProperties>\n              <Properties><Property><Name>NAME</Name><Value>vw_CuentaCorr</Value></Property><Property><Name>SCHEMA</Name><Value>biller</Value></Property></Properties>\n            </PlatformProperties>\n          </DataViewStructurePlatform>\n        </Platforms>\n        ",
+            "properties": {
+              "NAME": "vw_CuentaCorr",
+              "SCHEMA": "biller"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "part_kind": "indexes",
+      "type": "7706bd3b-212a-1000-0006-8aaeb59068b9",
+      "file": null,
+      "semantic": {
+        "kind": "indexes",
+        "part_attributes": {
+          "type": "7706bd3b-212a-1000-0006-8aaeb59068b9"
+        },
+        "properties": {
+          "Name": "Ivw_CuentaCorr",
+          "IsDefault": "False"
+        },
+        "raw_xml": "<Part type=\"7706bd3b-212a-1000-0006-8aaeb59068b9\">\n        <Indexes>\n          <Object Type=\"Unique\" parentGuid=\"afa47377-41d5-4ae8-9755-6f53150aa361\" user=\"[REDACTED]\" versionDate=\"2026-05-21T18:08:45.0000000Z\" lastUpdate=\"2026-05-13T17:58:14.0000000Z\" checksum=\"3d6946fbc7501ea57d55b8bc862a518f\" fullyQualifiedName=\"Ivw_CuentaCorr\" moduleGuid=\"afa47377-41d5-4ae8-9755-6f53150aa361\" guid=\"58bb0362-3cf2-491a-845c-08b2f5d11e5e\" name=\"Ivw_CuentaCorr\" type=\"fc1b76c4-95c5-0000-0101-44f9543121bd\" description=\"Ivw_Cuenta Corr\">\n            <Platforms>\n              <DataViewIndexesPlatform Dbms=\"12\">\n                <PlatformProperties>\n                  <Properties />\n                </PlatformProperties>\n              </DataViewIndexesPlatform>\n            </Platforms>\n            <Part type=\"fe47b55c-ea2a-1000-0101-5b38901e24f7\">\n              <Members>\n                <Member Order=\"Ascending\">vw_CC_Id</Member>\n              </Members>\n              <Properties />\n            </Part>\n            <Properties><Property><Name>Name</Name><Value>Ivw_CuentaCorr</Value></Property></Properties>\n          </Object>\n        </Indexes>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      ",
+        "properties_nodes": [
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameIvw_CuentaCorr",
+            "raw_xml": "<Property><Name>Name</Name><Value>Ivw_CuentaCorr</Value></Property>",
+            "properties": {
+              "Name": "Ivw_CuentaCorr"
+            },
+            "name": "Name",
+            "value": "Ivw_CuentaCorr"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "IsDefaultFalse",
+            "raw_xml": "<Property><Name>IsDefault</Name><Value>False</Value></Property>",
+            "properties": {
+              "IsDefault": "False"
+            },
+            "name": "IsDefault",
+            "value": "False"
+          }
+        ],
+        "members": [
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "vw_CC_Id",
+            "raw_xml": "<Members>\n                <Member Order=\"Ascending\">vw_CC_Id</Member>\n              </Members>\n              "
+          }
+        ],
+        "indexes": [
+          {
+            "tag": "Indexes",
+            "attributes": {},
+            "text": "vw_CC_Id\n              \n              \n            \n            NameIvw_CuentaCorr",
+            "raw_xml": "<Indexes>\n          <Object Type=\"Unique\" parentGuid=\"afa47377-41d5-4ae8-9755-6f53150aa361\" user=\"[REDACTED]\" versionDate=\"2026-05-21T18:08:45.0000000Z\" lastUpdate=\"2026-05-13T17:58:14.0000000Z\" checksum=\"3d6946fbc7501ea57d55b8bc862a518f\" fullyQualifiedName=\"Ivw_CuentaCorr\" moduleGuid=\"afa47377-41d5-4ae8-9755-6f53150aa361\" guid=\"58bb0362-3cf2-491a-845c-08b2f5d11e5e\" name=\"Ivw_CuentaCorr\" type=\"fc1b76c4-95c5-0000-0101-44f9543121bd\" description=\"Ivw_Cuenta Corr\">\n            <Platforms>\n              <DataViewIndexesPlatform Dbms=\"12\">\n                <PlatformProperties>\n                  <Properties />\n                </PlatformProperties>\n              </DataViewIndexesPlatform>\n            </Platforms>\n            <Part type=\"fe47b55c-ea2a-1000-0101-5b38901e24f7\">\n              <Members>\n                <Member Order=\"Ascending\">vw_CC_Id</Member>\n              </Members>\n              <Properties />\n            </Part>\n            <Properties><Property><Name>Name</Name><Value>Ivw_CuentaCorr</Value></Property></Properties>\n          </Object>\n        </Indexes>\n        ",
+            "properties": {
+              "Name": "Ivw_CuentaCorr"
+            }
+          }
+        ],
+        "platform_properties": [
+          {
+            "tag": "PlatformProperties",
+            "attributes": {},
+            "text": "",
+            "raw_xml": "<PlatformProperties>\n                  <Properties />\n                </PlatformProperties>\n              "
+          }
+        ],
+        "platforms": [
+          {
+            "tag": "Platforms",
+            "attributes": {},
+            "text": "",
+            "raw_xml": "<Platforms>\n              <DataViewIndexesPlatform Dbms=\"12\">\n                <PlatformProperties>\n                  <Properties />\n                </PlatformProperties>\n              </DataViewIndexesPlatform>\n            </Platforms>\n            "
+          }
+        ],
+        "objects": [
+          {
+            "tag": "Object",
+            "attributes": {
+              "type": "fc1b76c4-95c5-0000-0101-44f9543121bd",
+              "parentGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+              "user": "[REDACTED]",
+              "versionDate": "2026-05-21T18:08:45.0000000Z",
+              "lastUpdate": "2026-05-13T17:58:14.0000000Z",
+              "checksum": "3d6946fbc7501ea57d55b8bc862a518f",
+              "fullyQualifiedName": "Ivw_CuentaCorr",
+              "moduleGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+              "guid": "58bb0362-3cf2-491a-845c-08b2f5d11e5e",
+              "name": "Ivw_CuentaCorr",
+              "description": "Ivw_Cuenta Corr",
+              "raw_attributes": [
+                {
+                  "name": "Type",
+                  "value": "Unique"
+                },
+                {
+                  "name": "type",
+                  "value": "fc1b76c4-95c5-0000-0101-44f9543121bd"
+                }
+              ]
+            },
+            "text": "vw_CC_Id\n              \n              \n            \n            NameIvw_CuentaCorr",
+            "raw_xml": "<Object Type=\"Unique\" parentGuid=\"afa47377-41d5-4ae8-9755-6f53150aa361\" user=\"[REDACTED]\" versionDate=\"2026-05-21T18:08:45.0000000Z\" lastUpdate=\"2026-05-13T17:58:14.0000000Z\" checksum=\"3d6946fbc7501ea57d55b8bc862a518f\" fullyQualifiedName=\"Ivw_CuentaCorr\" moduleGuid=\"afa47377-41d5-4ae8-9755-6f53150aa361\" guid=\"58bb0362-3cf2-491a-845c-08b2f5d11e5e\" name=\"Ivw_CuentaCorr\" type=\"fc1b76c4-95c5-0000-0101-44f9543121bd\" description=\"Ivw_Cuenta Corr\">\n            <Platforms>\n              <DataViewIndexesPlatform Dbms=\"12\">\n                <PlatformProperties>\n                  <Properties />\n                </PlatformProperties>\n              </DataViewIndexesPlatform>\n            </Platforms>\n            <Part type=\"fe47b55c-ea2a-1000-0101-5b38901e24f7\">\n              <Members>\n                <Member Order=\"Ascending\">vw_CC_Id</Member>\n              </Members>\n              <Properties />\n            </Part>\n            <Properties><Property><Name>Name</Name><Value>Ivw_CuentaCorr</Value></Property></Properties>\n          </Object>\n        ",
+            "properties": {
+              "Name": "Ivw_CuentaCorr"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

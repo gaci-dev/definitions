@@ -1,0 +1,7 @@
+<Part type="00000000-0000-0000-0002-000000000004">
+        <Key>
+          <Item guid="1f6d0eae-0aaa-4acb-ac5b-da35f8324e5c">AuditoriaGUID</Item>
+        </Key>
+        <Properties />
+      </Part>
+      

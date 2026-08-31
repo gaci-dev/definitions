@@ -1,0 +1,35 @@
+{
+  "kind": "defaults",
+  "part_attributes": {
+    "type": "4c28dfb9-f83b-46f0-9cf3-f7e090b525d5"
+  },
+  "properties": {
+    "IsDefault": "True",
+    "Defaults": "gx:TrnDefaultWinForm.dkt"
+  },
+  "raw_xml": "<Part type=\"4c28dfb9-f83b-46f0-9cf3-f7e090b525d5\">\n        <Properties><Property><Name>IsDefault</Name><Value>True</Value></Property><Property><Name>Defaults</Name><Value>gx:TrnDefaultWinForm.dkt</Value></Property></Properties>\n      </Part>\n      ",
+  "properties_nodes": [
+    {
+      "tag": "Property",
+      "attributes": {},
+      "text": "IsDefaultTrue",
+      "raw_xml": "<Property><Name>IsDefault</Name><Value>True</Value></Property>",
+      "properties": {
+        "IsDefault": "True"
+      },
+      "name": "IsDefault",
+      "value": "True"
+    },
+    {
+      "tag": "Property",
+      "attributes": {},
+      "text": "Defaultsgx:TrnDefaultWinForm.dkt",
+      "raw_xml": "<Property><Name>Defaults</Name><Value>gx:TrnDefaultWinForm.dkt</Value></Property>",
+      "properties": {
+        "Defaults": "gx:TrnDefaultWinForm.dkt"
+      },
+      "name": "Defaults",
+      "value": "gx:TrnDefaultWinForm.dkt"
+    }
+  ]
+}

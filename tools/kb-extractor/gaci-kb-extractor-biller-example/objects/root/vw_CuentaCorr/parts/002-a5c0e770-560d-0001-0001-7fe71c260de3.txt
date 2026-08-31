@@ -1,0 +1,17 @@
+<Part type="a5c0e770-560d-0001-0001-7fe71c260de3">
+        <Indexes>
+          <TableIndex>
+            <Index Type="Unique" Source="Automatic" parentGuid="00000000-0000-0000-0000-000000000000" user="[REDACTED_USER]" versionDate="2026-05-21T18:08:45.0000000Z" lastUpdate="2026-05-13T17:56:40.0000000Z" checksum="fe52883a1d80b8f1bc4f21e854948877" fullyQualifiedName="Ivw_CuentaCorr" moduleGuid="00000000-0000-0000-0000-000000000000" guid="0483aa8b-366d-4a7f-b6a0-c3d3244bed08" name="Ivw_CuentaCorr" type="9e750647-3679-0000-0100-2529de263960" description="Ivw_Cuenta Corr">
+              <Part type="62cfa789-c127-0001-0100-77676175e433">
+                <Members>
+                  <Member Order="Ascending">vw_CC_Id</Member>
+                </Members>
+                <Properties />
+              </Part>
+              <Properties><Property><Name>Name</Name><Value>Ivw_CuentaCorr</Value></Property></Properties>
+            </Index>
+          </TableIndex>
+        </Indexes>
+        <Properties />
+      </Part>
+      

@@ -1,0 +1,4 @@
+<Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Properties><Property><Name>IsDefault</Name><Value>True</Value></Property><Property><Name>Defaults</Name><Value>gx:TrnDefaultWebForm.dkt</Value></Property></Properties>
+      </Part>
+      

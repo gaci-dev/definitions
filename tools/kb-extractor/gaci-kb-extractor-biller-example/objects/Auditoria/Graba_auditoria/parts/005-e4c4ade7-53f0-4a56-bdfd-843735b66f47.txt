@@ -1,0 +1,12 @@
+<Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="json">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>json</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="sdt_auditoria">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>sdt_auditoria</Value></Property><Property><Name>idIsAutoDefinedVariable</Name><Value>False</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:sdt_auditoria, Auditoria</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

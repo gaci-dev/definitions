@@ -1,0 +1,185 @@
+# GeneXus layout/form projection
+
+This file is a readable projection of a layout part.
+
+- `GxMultiForm` (rootId='1' version='html:15.0.0;layout:17.11.0')
+- `Form` (id='1' type='layout')
+- `detail`
+- `layout`
+- `table` (controlName='LayoutMainTable' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `table` (class='TableMainTransaction' controlName='TableMain' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `errorviewer` (class='ErrorViewer' controlName='ErrorViewer')
+- `row`
+- `cell`
+- `table` (class='CellMarginTop10' controlName='TableContent' responsiveSizes='[{"scale":"sm","rows":[[{"width":75}]]}]' tableType='Responsive')
+- `row`
+- `cell`
+- `ucw` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlName</Name><Value>DVPanel_TableAttributes</Value></Property><Property><Name>Width</Name><Value>100%</Value></Property><Property><Name>AutoWidth</Name><Value>False</Value></Property><Property><Name>AutoHeight</Name><Value>True</Value></Property><Property><Name>Cls</Name><Value>PanelCard_GrayTitle</Value></Property><Property><Name>Title</Name><Value>WWP_TemplateDataPanelTitle</Value></Property><Property><Name>Collapsible</Name><Value>False</Value></Property><Property><Name>Collapsed</Name><Value>False</Value></Property><Property><Name>ShowCollapseIcon</Name><Value>False</Value></Property><Property><Name>IconPosition</Name><Value>Right</Value></Property><Property><Name>AutoScroll</Name><Value>False</Value></Property></Properties>' gxControlType='-104584741')
+- `table` (containerSlotName='TableAttributes' controlName='TableAttributes' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlType</Name><Value>Edit</Value></Property><Property><Name>InputType</Name><Value>Values</Value></Property></Properties>' attribute='CuentaCorrId' class='AttributeFL' labelCaption='Corr Id')
+- `row`
+- `cell` (cellClass='DataContentCellFL ExtendedComboCell')
+- `table` (controlName='TableSplittedCuentaCorrEmpresa' responsiveSizes='[{"scale":"sm","rows":[[{"width":25},{"width":75}]]}]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='MergeLabelCell')
+- `textblock` (caption='Corr Empresa' class='Label' controlName='TextBlockCuentaCorrEmpresa')
+- `cell`
+- `ucw` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlName</Name><Value>Combo_CuentaCorrEmpresa</Value></Property><Property><Name>Cls</Name><Value>ExtendedCombo AttributeFL</Value></Property><Property><Name>DataListProc</Name><Value>CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>DataListGXProc</Name><Value>84a12160-f59b-4ad7-a683-ea4481ac23e9-CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>DataListProcParametersPrefix</Name><Value> "ComboName": "CuentaCorrEmpresa", "TrnMode": "INS", "IsDynamicCall": true, "CuentaCorrId": 0</Value></Property><Property><Name>EmptyItem</Name><Value>False</Value></Property><Property><Name>DropDownOptionsTitleSettingsIcons</Name><Value>&amp;DDO_TitleSettingsIcons</Value></Property><Property><Name>DropDownOptionsData</Name><Value>&amp;CuentaCorrEmpresa_Data</Value></Property></Properties>' gxControlType='-1912433058')
+- `cell` (cellClass='Invisible')
+- `data` (attribute='CuentaCorrEmpresa' labelPosition='None')
+- `row`
+- `cell` (cellClass='DataContentCellFL ExtendedComboCell')
+- `table` (controlName='TableSplittedCuentaCorrCarrera' responsiveSizes='[{"scale":"sm","rows":[[{"width":25},{"width":75}]]}]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='MergeLabelCell')
+- `textblock` (caption='Id' class='Label' controlName='TextBlockCuentaCorrCarrera')
+- `cell`
+- `ucw` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlName</Name><Value>Combo_CuentaCorrCarrera</Value></Property><Property><Name>Cls</Name><Value>ExtendedCombo AttributeFL</Value></Property><Property><Name>DataListProc</Name><Value>CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>DataListGXProc</Name><Value>84a12160-f59b-4ad7-a683-ea4481ac23e9-CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>DataListProcParametersPrefix</Name><Value> "ComboName": "CuentaCorrCarrera", "TrnMode": "INS", "IsDynamicCall": true, "CuentaCorrId": 0</Value></Property><Property><Name>EmptyItem</Name><Value>False</Value></Property><Property><Name>DropDownOptionsTitleSettingsIcons</Name><Value>&amp;DDO_TitleSettingsIcons</Value></Property><Property><Name>DropDownOptionsData</Name><Value>&amp;CuentaCorrCarrera_Data</Value></Property></Properties>' gxControlType='-1912433058')
+- `cell` (cellClass='Invisible')
+- `data` (attribute='CuentaCorrCarrera' labelPosition='None')
+- `row`
+- `cell` (cellClass='DataContentCellFL ExtendedComboCell')
+- `table` (controlName='TableSplittedCuentaCorrCliente' responsiveSizes='[{"scale":"sm","rows":[[{"width":25},{"width":75}]]}]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='MergeLabelCell')
+- `textblock` (caption='Clientes' class='Label' controlName='TextBlockCuentaCorrCliente')
+- `cell`
+- `ucw` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlName</Name><Value>Combo_CuentaCorrCliente</Value></Property><Property><Name>Cls</Name><Value>ExtendedCombo AttributeFL</Value></Property><Property><Name>DataListProc</Name><Value>CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>DataListGXProc</Name><Value>84a12160-f59b-4ad7-a683-ea4481ac23e9-CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>DataListProcParametersPrefix</Name><Value> "ComboName": "CuentaCorrCliente", "TrnMode": "INS", "IsDynamicCall": true, "CuentaCorrId": 0</Value></Property><Property><Name>EmptyItem</Name><Value>False</Value></Property><Property><Name>DropDownOptionsTitleSettingsIcons</Name><Value>&amp;DDO_TitleSettingsIcons</Value></Property><Property><Name>DropDownOptionsData</Name><Value>&amp;CuentaCorrCliente_Data</Value></Property></Properties>' gxControlType='-1912433058')
+- `cell` (cellClass='Invisible')
+- `data` (attribute='CuentaCorrCliente' labelPosition='None')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrClienteTipo' class='AttributeFL' labelCaption='Cliente Tipo')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaTipo' class='AttributeFL' labelCaption='Factura Tipo')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaSerie' class='AttributeFL' labelCaption='Factura Serie')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaSucursal' class='AttributeFL' labelCaption='Sucursal')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaNumero' class='AttributeFL' labelCaption='Factura Numero')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaFecha' class='AttributeFL' labelCaption='Factura Fecha')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaVto' class='AttributeFL' labelCaption='Factura Vto')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaMoneda' class='AttributeFL' labelCaption='Factura Moneda')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaTotal' class='AttributeFL' labelCaption='Factura Total')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaNroSAP' class='AttributeFL' labelCaption='Factura Nro SAP')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrMedioCobroNumero' class='AttributeFL' labelCaption='Operacion')
+- `row`
+- `cell` (cellClass='DataContentCellFL ExtendedComboCell')
+- `table` (controlName='TableSplittedCuentaCorrMedioCobroMoneda' responsiveSizes='[{"scale":"sm","rows":[[{"width":25},{"width":75}]]}]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='MergeLabelCell')
+- `textblock` (caption='Monedas' class='Label' controlName='TextBlockCuentaCorrMedioCobroMoneda')
+- `cell`
+- `ucw` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlName</Name><Value>Combo_CuentaCorrMedioCobroMoneda</Value></Property><Property><Name>Cls</Name><Value>ExtendedCombo AttributeFL</Value></Property><Property><Name>DataListProc</Name><Value>CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>DataListGXProc</Name><Value>84a12160-f59b-4ad7-a683-ea4481ac23e9-CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>DataListProcParametersPrefix</Name><Value> "ComboName": "CuentaCorrMedioCobroMoneda", "TrnMode": "INS", "IsDynamicCall": true, "CuentaCorrId": 0</Value></Property><Property><Name>EmptyItem</Name><Value>False</Value></Property><Property><Name>DropDownOptionsTitleSettingsIcons</Name><Value>&amp;DDO_TitleSettingsIcons</Value></Property><Property><Name>DropDownOptionsData</Name><Value>&amp;CuentaCorrMedioCobroMoneda_Data</Value></Property></Properties>' gxControlType='-1912433058')
+- `cell` (cellClass='Invisible')
+- `data` (attribute='CuentaCorrMedioCobroMoneda' labelPosition='None')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrMedioCobroTotal' class='AttributeFL' labelCaption='Medio Cobro Total')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrMedioCobroFecha' class='AttributeFL' labelCaption='Medio de Cobro')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrMedioCobroVto' class='AttributeFL' labelCaption='Medio Cobro Vto')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrAsigNumero' class='AttributeFL' labelCaption='Asignacion Operatoria')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrAsigFecha' class='AttributeFL' labelCaption='Asignacion de Fecha')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrDiasPago' class='AttributeFL' labelCaption='Dias de Pago')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrInternoTipo' class='AttributeFL' labelCaption='Tipo Comp. Interno')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrInternoNumero' class='AttributeFL' labelCaption='Número Comprobante')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrMod' class='AttributeFL' labelCaption='Modulo')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrTrn' class='AttributeFL' labelCaption='Factura Transaccion')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrRel' class='AttributeFL' labelCaption='Resultante')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrContabilizado' class='AttributeFL' labelCaption='Contabilizado')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrEstado' class='AttributeFL' labelCaption='Estado')
+- `row`
+- `cell` (cellClass='DataContentCellFL ExtendedComboCell')
+- `table` (controlName='TableSplittedCuentaCorrCL_CarreraId' responsiveSizes='[{"scale":"sm","rows":[[{"width":25},{"width":75}]]}]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='MergeLabelCell')
+- `textblock` (caption='Carreras' class='Label' controlName='TextBlockCuentaCorrCL_CarreraId')
+- `cell`
+- `ucw` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlName</Name><Value>Combo_CuentaCorrCL_CarreraId</Value></Property><Property><Name>Cls</Name><Value>ExtendedCombo AttributeFL</Value></Property><Property><Name>DataListProc</Name><Value>CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>DataListGXProc</Name><Value>84a12160-f59b-4ad7-a683-ea4481ac23e9-CuentaCorriente.CuentaCorrLoadDVCombo</Value></Property><Property><Name>EmptyItem</Name><Value>False</Value></Property><Property><Name>DropDownOptionsTitleSettingsIcons</Name><Value>&amp;DDO_TitleSettingsIcons</Value></Property><Property><Name>DropDownOptionsData</Name><Value>&amp;CuentaCorrCL_CarreraId_Data</Value></Property></Properties>' gxControlType='-1912433058')
+- `cell` (cellClass='Invisible')
+- `data` (attribute='CuentaCorrCL_CarreraId' labelPosition='None')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrFacturaVtoPro' class='AttributeFL' labelCaption='con Prórroga')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrMedioCobroId' class='AttributeFL' labelCaption='Id')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrTotalSaldo' class='AttributeFL' labelCaption='Total Saldo')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='CuentaCorrRegistroProcesado' class='AttributeFL' labelCaption='Registro Procesado')
+- `row`
+- `cell`
+- `actiongroup` (controlName='ActionGroup_Actions')
+- `row`
+- `cell`
+- `html` (controlName='Html_BottomAuxiliarControls' formId='2')
+- `actionGroups`
+- `actionGroup` (class='CellMarginTop10' controlName='ActionGroup_Actions')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GX_BtnEnter</Value></Property></Properties>' caption='GX_BtnEnter' controlName='BtnTrn_Enter' onClickEvent='Enter')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GX_BtnCancel</Value></Property></Properties>' caption='GX_BtnCancel' class='BtnDefault' controlName='BtnTrn_Cancel' onClickEvent='Cancel')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GX_BtnDelete</Value></Property></Properties>' caption='GX_BtnDelete' class='BtnDefault' controlName='BtnTrn_Delete' onClickEvent='Delete')
+- `Form` (id='2' type='html')
+- `BODY`
+- `div` (id='SectionAttribute_CuentaCorrEmpresa')
+- `gxAttribute` (AttID='&ComboCuentaCorrEmpresa')
+- `div` (id='SectionAttribute_CuentaCorrCarrera')
+- `gxAttribute` (AttID='&ComboCuentaCorrCarrera')
+- `div` (id='SectionAttribute_CuentaCorrCliente')
+- `gxAttribute` (AttID='&ComboCuentaCorrCliente')
+- `div` (id='SectionAttribute_CuentaCorrMedioCobroMoneda')
+- `gxAttribute` (AttID='&ComboCuentaCorrMedioCobroMoneda')
+- `div` (id='SectionAttribute_CuentaCorrCL_CarreraId')
+- `gxAttribute` (AttID='&ComboCuentaCorrCL_CarreraId')

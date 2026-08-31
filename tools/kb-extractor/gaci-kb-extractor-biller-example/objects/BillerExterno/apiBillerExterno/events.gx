@@ -1,0 +1,22 @@
+Event Before
+	Msg("Ni bien entra", nowait)
+	//	&token = &HttpRequest.GetHeader(!'Authorization').Replace(!"Bearer ", "")
+	//	ValidarToken(&token, &Emp, &UsuId, &RestCode)
+	
+	//	If &RestCode = 401
+	//		Return
+	//	EndIf
+	//	
+	//	If not ProcesoIsAutorizado_MenuMovimientosContables()
+	//		&RestCode = 403
+	//		Return
+	//	EndIf
+Endevent
+
+event GetCuentaCorriente.Before
+	Msg("Antes del GET", nowait)
+Endevent
+
+event GetCuentaCorriente.After
+	Msg("despues del GET", nowait)
+Endevent

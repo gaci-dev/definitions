@@ -1,0 +1,47 @@
+{
+  "attributes": {
+    "parentGuid": "14a2cd80-9028-0566-39dc-71809d3b41c4",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2024-04-15T17:20:45.0000000Z",
+    "checksum": "2c327e9a2f532620ddcb47d2a1aa9962",
+    "fullyQualifiedName": "Auditoria.AuditoriaWWDS",
+    "moduleGuid": "2bde67a1-40b1-408f-a949-af7a8b2cc662",
+    "guid": "fda7cd19-ed5c-48c8-8105-985f904163ae",
+    "name": "AuditoriaWWDS",
+    "type": "ffd44be7-3bb4-4d01-9e7e-d1c1a3c095af",
+    "description": "Auditoria WWDS",
+    "parent": "[REDACTED]",
+    "parentType": "07135890-56fc-489b-b408-063722fa9f7d"
+  },
+  "guid": "fda7cd19-ed5c-48c8-8105-985f904163ae",
+  "object_kind": "data_selector",
+  "fully_qualified_name": "Auditoria.AuditoriaWWDS",
+  "module": "Auditoria",
+  "name": "AuditoriaWWDS",
+  "normalized_path": "objects/Auditoria/AuditoriaWWDS",
+  "parts": [
+    {
+      "index": 1,
+      "type": "a2bc65a1-999f-4e9b-b837-72285cc9bb16",
+      "file": "parts/001-a2bc65a1-999f-4e9b-b837-72285cc9bb16.txt",
+      "kind": "data_selector",
+      "part_kind": "data_selector"
+    },
+    {
+      "index": 2,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/002-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "data_selector": 1,
+      "object_defaults": 1
+    }
+  }
+}

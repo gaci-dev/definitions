@@ -1,0 +1,162 @@
+# GeneXus layout/form projection
+
+This file is a readable projection of a layout part.
+
+- `GxMultiForm` (rootId='1' version='html:15.0.0;layout:17.11.0')
+- `Form` (id='1' type='layout')
+- `detail`
+- `layout`
+- `table` (controlName='LayoutMainTable' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `table` (controlName='Table' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `table` (controlName='TransactionDetail_TableAttributes' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_Id' class='AttributeFL' labelCaption='Id')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_Empresa' class='AttributeFL' labelCaption='Empresa')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_Estado' class='AttributeFL' labelCaption='Estado')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_Cliente' class='AttributeFL' labelCaption='ID')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_ClieNombre' class='AttributeFL' labelCaption='Nombre')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_ClieNroDoc' class='AttributeFL' labelCaption='Documento')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_ClieCBU' class='AttributeFL' labelCaption='CBU')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_ClieEmail' class='AttributeFL' labelCaption='Email')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_EstAdmId' class='AttributeFL' labelCaption='Administrativo Id')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_EstAdmDesc' class='AttributeFL' labelCaption='Administrativo')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_EstAcaId' class='AttributeFL' labelCaption='Academico Id')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_EstAcaDesc' class='AttributeFL' labelCaption='Academico')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacTipo' class='AttributeFL' labelCaption='Tipo')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacSerie' class='AttributeFL' labelCaption='Serie')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacSuc' class='AttributeFL' labelCaption='Sucursal')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacNro' class='AttributeFL' labelCaption='Numero')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacFecha' class='AttributeFL' labelCaption='Fecha')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacVto' class='AttributeFL' labelCaption='Vto')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacMoneda' class='AttributeFL' labelCaption='Moneda')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacTotal' class='AttributeFL' labelCaption='Total')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacNroSAP' class='AttributeFL' labelCaption='Nro SAP')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_McCod' class='AttributeFL' labelCaption='Cobro Codigo')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_McNro' class='AttributeFL' labelCaption='Cobro Numero')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_McMoneda' class='AttributeFL' labelCaption='Cobro Moneda')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_McTotal' class='AttributeFL' labelCaption='Cobro Total')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_McFecha' class='AttributeFL' labelCaption='Cobro Fecha')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_McVto' class='AttributeFL' labelCaption='Cobro Vto')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_AsigNro' class='AttributeFL' labelCaption='OP')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_AsigFecha' class='AttributeFL' labelCaption='Asignacion')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_DiasPago' class='AttributeFL' labelCaption='de Pago')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_IntTipo' class='AttributeFL' labelCaption='Comp')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_IntNro' class='AttributeFL' labelCaption='Comp')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_Carrera' class='AttributeFL' labelCaption='Id')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_CLCarreraId' class='AttributeFL' labelCaption='Id')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_CLObs' class='AttributeFL' labelCaption='obs')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_MaterialId' class='AttributeFL' labelCaption='Id')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_CCostoId' class='AttributeFL' labelCaption='Costo id')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_CCostoDesc' class='AttributeFL' labelCaption='Costo Descripcion')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacDetPlanItem' class='AttributeFL' labelCaption='Cuota')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacDetPlanId' class='AttributeFL' labelCaption='Plan')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FacDebAuto' class='AttributeFL' labelCaption='Automatico')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_Texto' class='AttributeFL' labelCaption='Interno')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_Anulado' class='AttributeFL' labelCaption='Anulado')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_ModalidadId' class='AttributeFL' labelCaption='Id')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_Usuario' class='AttributeFL' labelCaption='Usuario')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='vw_CC_FechaHoraAud' class='AttributeFL' labelCaption='Hora Creacion')
+- `row`
+- `cell`
+- `actiongroup` (controlName='ActionGroup_Actions')
+- `actionGroups`
+- `actionGroup` (class='CellMarginTop10' controlName='ActionGroup_Actions')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GXM_update</Value></Property></Properties>' caption='GXM_update' controlName='BtnUpdate' onClickEvent="'DoUpdate'")
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GX_BtnDelete</Value></Property></Properties>' caption='GX_BtnDelete' class='BtnDefault' controlName='BtnDelete' onClickEvent="'DoDelete'")

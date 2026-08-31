@@ -1,0 +1,7 @@
+<Part type="00000000-0000-0000-0002-000000000004">
+        <Key>
+          <Item guid="94a127ee-c090-42e6-85ef-82995df198fe">vw_CC_Id</Item>
+        </Key>
+        <Properties />
+      </Part>
+      

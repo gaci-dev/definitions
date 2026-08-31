@@ -1,0 +1,57 @@
+{
+  "attributes": {
+    "parentGuid": "30a467b6-ef76-4e43-8583-8bf490bf4bf0",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-05-19T17:43:15.0000000Z",
+    "checksum": "1dd53c5a686f85bcf442c7b41e5aecb9",
+    "fullyQualifiedName": "BillerExterno.vw_CuentaCorr",
+    "moduleGuid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+    "guid": "db92d545-9e57-479d-9f28-ce2ef9fd28f9",
+    "name": "vw_CuentaCorr",
+    "type": "19abc6ff-2cd2-0000-0006-6d172bc2333b",
+    "description": "vw_Cuenta Corr",
+    "parent": "BillerExterno.Vistas",
+    "parentType": "00000000-0000-0000-0000-000000000008"
+  },
+  "guid": "db92d545-9e57-479d-9f28-ce2ef9fd28f9",
+  "object_kind": "table_view",
+  "fully_qualified_name": "BillerExterno.vw_CuentaCorr",
+  "module": "BillerExterno",
+  "name": "vw_CuentaCorr",
+  "normalized_path": "objects/BillerExterno/vw_CuentaCorr--db92d545-9e5",
+  "parts": [
+    {
+      "index": 1,
+      "type": "19abc6ff-2cd2-1000-0006-6d172bc2333b",
+      "file": "parts/001-19abc6ff-2cd2-1000-0006-6d172bc2333b.txt",
+      "kind": "platforms",
+      "part_kind": "platforms",
+      "projection_file": "platforms.json"
+    },
+    {
+      "index": 2,
+      "type": "7706bd3b-212a-1000-0006-8aaeb59068b9",
+      "file": "parts/002-7706bd3b-212a-1000-0006-8aaeb59068b9.txt",
+      "kind": "indexes",
+      "part_kind": "indexes",
+      "projection_file": "indexes.json"
+    },
+    {
+      "index": 3,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/003-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 3,
+    "parts_by_kind": {
+      "platforms": 1,
+      "indexes": 1,
+      "object_defaults": 1
+    }
+  }
+}

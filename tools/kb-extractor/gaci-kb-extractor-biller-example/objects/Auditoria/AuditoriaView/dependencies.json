@@ -1,0 +1,52 @@
+{
+  "explicit_references": [],
+  "inferred_dependencies": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WWPContext"
+      },
+      "from_object_id": "object:bc4ae75e-3497-4921-9404-4ab77eff3006",
+      "id": "dependency:57b35cfb054e5a2878c3",
+      "identity_occurrence": 0,
+      "object_hash": "35549bf26ef189972648ea1d75bafae0447091d6f35dbbe2581e0c1ff189bc16",
+      "object_id": "object:bc4ae75e-3497-4921-9404-4ab77eff3006",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[15]/Part[5]#dependency#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:72af3b0ed5e3fddbe60c",
+      "target_guid": null,
+      "target_name": "WWPContext",
+      "unresolved_reason": "no object matches target name 'WWPContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "unresolved_references": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WWPContext"
+      },
+      "from_object_id": "object:bc4ae75e-3497-4921-9404-4ab77eff3006",
+      "id": "dependency:57b35cfb054e5a2878c3",
+      "identity_occurrence": 0,
+      "object_hash": "35549bf26ef189972648ea1d75bafae0447091d6f35dbbe2581e0c1ff189bc16",
+      "object_id": "object:bc4ae75e-3497-4921-9404-4ab77eff3006",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[15]/Part[5]#dependency#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:72af3b0ed5e3fddbe60c",
+      "target_guid": null,
+      "target_name": "WWPContext",
+      "unresolved_reason": "no object matches target name 'WWPContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "references": []
+}

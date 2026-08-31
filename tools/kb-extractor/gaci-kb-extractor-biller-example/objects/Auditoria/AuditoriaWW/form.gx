@@ -1,0 +1,143 @@
+# GeneXus layout/form projection
+
+This file is a readable projection of a layout part.
+
+- `GxMultiForm` (rootId='1' version='html:15.0.0;layout:17.11.0')
+- `Form` (id='1' type='layout')
+- `detail`
+- `layout`
+- `table` (controlName='LayoutMainTable' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `table` (class='TableMainWithShadow' controlName='TableMain' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='CellPaddingBottom')
+- `table` (controlName='TableHeader' flexDirection='Column' tableType='Flex')
+- `row`
+- `cell`
+- `table` (controlName='TableHeaderContent' flexWrap='Wrap' tableType='Flex')
+- `row`
+- `cell`
+- `table` (controlName='TableActions' tableType='Flex')
+- `row`
+- `cell` (alignSelf='Center' flexGrow='0')
+- `actiongroup` (controlName='ActionGroup_Actions')
+- `cell` (alignSelf='Center' flexGrow='0')
+- `table` (controlName='TableRightHeader' tableType='Flex')
+- `row`
+- `cell`
+- `ucw` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlName</Name><Value>ddo_ManageFilters</Value></Property><Property><Name>IconType</Name><Value>FontIcon</Value></Property><Property><Name>Icon</Name><Value>fas fa-filter</Value></Property><Property><Name>Tooltip</Name><Value>WWP_ManageFiltersTooltip</Value></Property><Property><Name>Cls</Name><Value>ManageFilters</Value></Property><Property><Name>DropDownOptionsData</Name><Value>&amp;ManageFiltersData</Value></Property></Properties>' gxControlType='1204120062')
+- `cell` (alignSelf='Center')
+- `table` (class='TableFilters' controlName='TableFilters' tableType='Flex')
+- `row`
+- `cell`
+- `data` (attribute='&FilterFullText' class='Attribute' inviteMessage='WWP_Search' labelPosition='None')
+- `cell` (cellClass='CellAdvancedFiltersHidden')
+- `table` (controlName='AdvancedFiltersContainer' flexWrap='Wrap' justifyContent='Flex End' tableType='Flex')
+- `row`
+- `cell` (flexGrow='0')
+- `table` (class='TableDynamicFiltersFlex' controlName='TableDynamicFilters' flexDirection='Column' tableType='Flex')
+- `row`
+- `cell` (cellClass='DynRowVisible')
+- `table` (controlName='TableDynamicFiltersRow1' tableType='Flex')
+- `row`
+- `cell`
+- `textblock` (caption='WWP_DynFilterPrefix' class='DataFilterDescriptionPrefix' controlName='DynamicFiltersPrefix1')
+- `cell`
+- `data` (attribute='&DynamicFiltersSelector1' class='Attribute' labelPosition='None')
+- `cell`
+- `textblock` (caption='WWP_DynFilterMiddle' class='DataFilterDescription' controlName='DynamicFiltersMiddle1')
+- `cell`
+- `table` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>cellPadding</Name><Value>0</Value></Property><Property><Name>cellSpacing</Name><Value>0</Value></Property></Properties>' controlName='TableMergedDynamicFilters1')
+- `row`
+- `cell`
+- `data` (attribute='&DynamicFiltersOperator1' class='Attribute' labelPosition='None')
+- `cell` (cellControlName='Filter_AuditoriaTRN1_Cell')
+- `data` (attribute='&AuditoriaTRN1' class='Attribute' labelPosition='None')
+- `cell` (cellControlName='DynamicFilters_AddFilter1_Cell')
+- `image` (PATTERN_ELEMENT_CUSTOM_PROPERTIES="<Properties><Property><Name>eventGX</Name><Value>'AddDynamicFilters1'</Value></Property><Property><Name>title</Name><Value>WWP_DynFilterAddTooltip</Value></Property></Properties>" class='Image' controlName='AddDynamicFilters1' image='9fb193d9-64a4-4d30-b129-ff7c76830f7e-ActionNewDynamicFilter')
+- `cell` (cellControlName='DynamicFilters_RemoveFilter1_Cell')
+- `image` (PATTERN_ELEMENT_CUSTOM_PROPERTIES="<Properties><Property><Name>eventGX</Name><Value>'RemoveDynamicFilters1'</Value></Property><Property><Name>title</Name><Value>WWP_DynFilterRemoveTooltip</Value></Property></Properties>" class='Image' controlName='RemoveDynamicFilters1' image='9fb193d9-64a4-4d30-b129-ff7c76830f7e-ActionRemoveDynamicFilter')
+- `cell`
+- `table` (controlName='TableDynamicFiltersRow2' tableType='Flex')
+- `row`
+- `cell` (cellClass='Invisible')
+- `textblock` (caption='WWP_DynFilterPrefix' class='DataFilterDescriptionPrefix' controlName='DynamicFiltersPrefix2')
+- `cell` (cellClass='Invisible')
+- `data` (attribute='&DynamicFiltersSelector2' class='Attribute' labelPosition='None')
+- `cell` (cellClass='Invisible')
+- `textblock` (caption='WWP_DynFilterMiddle' class='DataFilterDescription' controlName='DynamicFiltersMiddle2')
+- `cell` (cellClass='Invisible')
+- `table` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>cellPadding</Name><Value>0</Value></Property><Property><Name>cellSpacing</Name><Value>0</Value></Property></Properties>' controlName='TableMergedDynamicFilters2')
+- `row`
+- `cell`
+- `data` (attribute='&DynamicFiltersOperator2' class='Attribute' labelPosition='None')
+- `cell` (cellControlName='Filter_AuditoriaTRN2_Cell')
+- `data` (attribute='&AuditoriaTRN2' class='Attribute' labelPosition='None')
+- `cell` (cellControlName='DynamicFilters_AddFilter2_Cell')
+- `image` (PATTERN_ELEMENT_CUSTOM_PROPERTIES="<Properties><Property><Name>eventGX</Name><Value>'AddDynamicFilters2'</Value></Property><Property><Name>title</Name><Value>WWP_DynFilterAddTooltip</Value></Property></Properties>" class='Image' controlName='AddDynamicFilters2' image='9fb193d9-64a4-4d30-b129-ff7c76830f7e-ActionNewDynamicFilter')
+- `cell` (cellControlName='DynamicFilters_RemoveFilter2_Cell')
+- `image` (PATTERN_ELEMENT_CUSTOM_PROPERTIES="<Properties><Property><Name>eventGX</Name><Value>'RemoveDynamicFilters2'</Value></Property><Property><Name>title</Name><Value>WWP_DynFilterRemoveTooltip</Value></Property></Properties>" class='Image' controlName='RemoveDynamicFilters2' image='9fb193d9-64a4-4d30-b129-ff7c76830f7e-ActionRemoveDynamicFilter')
+- `cell`
+- `table` (controlName='TableDynamicFiltersRow3' tableType='Flex')
+- `row`
+- `cell` (cellClass='Invisible')
+- `textblock` (caption='WWP_DynFilterPrefix' class='DataFilterDescriptionPrefix' controlName='DynamicFiltersPrefix3')
+- `cell` (cellClass='Invisible')
+- `data` (attribute='&DynamicFiltersSelector3' class='Attribute' labelPosition='None')
+- `cell` (cellClass='Invisible')
+- `textblock` (caption='WWP_DynFilterMiddle' class='DataFilterDescription' controlName='DynamicFiltersMiddle3')
+- `cell` (cellClass='Invisible')
+- `table` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>cellPadding</Name><Value>0</Value></Property><Property><Name>cellSpacing</Name><Value>0</Value></Property></Properties>' controlName='TableMergedDynamicFilters3')
+- `row`
+- `cell`
+- `data` (attribute='&DynamicFiltersOperator3' class='Attribute' labelPosition='None')
+- `cell` (cellControlName='Filter_AuditoriaTRN3_Cell')
+- `data` (attribute='&AuditoriaTRN3' class='Attribute' labelPosition='None')
+- `cell` (cellControlName='DynamicFilters_RemoveFilter3_Cell')
+- `image` (PATTERN_ELEMENT_CUSTOM_PROPERTIES="<Properties><Property><Name>eventGX</Name><Value>'RemoveDynamicFilters3'</Value></Property><Property><Name>title</Name><Value>WWP_DynFilterRemoveTooltip</Value></Property></Properties>" class='Image' controlName='RemoveDynamicFilters3' image='9fb193d9-64a4-4d30-b129-ff7c76830f7e-ActionRemoveDynamicFilter')
+- `row`
+- `cell`
+- `errorviewer` (class='ErrorViewer' controlName='ErrorViewer')
+- `row`
+- `cell` (cellClass='SectionGrid GridNoBorderCell HasGridEmpowerer')
+- `table` (controlName='GridTableWithPaginationBar' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `simplegrid` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlBaseTable</Name><Value>Auditoria</Value></Property><Property><Name>ControlOrder</Name><Value>AuditoriaTRN  when &amp;OrderedBy = 1 AND &amp;OrderedDsc = [REDACTED_USER]\n(AuditoriaTRN)  when &amp;OrderedBy = 1 AND &amp;OrderedDsc = [REDACTED_USER]\nAuditoriaPK  when &amp;OrderedBy = 2 AND &amp;OrderedDsc = [REDACTED_USER]\n(AuditoriaPK)  when &amp;OrderedBy = 2 AND &amp;OrderedDsc = [REDACTED_USER]\nAuditoriaATTR  when &amp;OrderedBy = 3 AND &amp;OrderedDsc = [REDACTED_USER]\n(AuditoriaATTR)  when &amp;OrderedBy = 3 AND &amp;OrderedDsc = [REDACTED_USER]\nAuditoriaOldValue  when &amp;OrderedBy = 4 AND &amp;OrderedDsc = [REDACTED_USER]\n(AuditoriaOldValue)  when &amp;OrderedBy = 4 AND &amp;OrderedDsc = [REDACTED_USER]\nAuditoriaValue  when &amp;OrderedBy = 5 AND &amp;OrderedDsc = [REDACTED_USER]\n(AuditoriaValue)  when &amp;OrderedBy = 5 AND &amp;OrderedDsc = [REDACTED_USER]\nAuditoriaMode  when &amp;OrderedBy = 6 AND &amp;OrderedDsc = [REDACTED_USER]\n(AuditoriaMode)  when &amp;OrderedBy = 6 AND &amp;OrderedDsc = [REDACTED_USER]\nAuditoriaUser  when &amp;OrderedBy = 7 AND &amp;OrderedDsc = [REDACTED_USER]\n(AuditoriaUser)  when &amp;OrderedBy = 7 AND &amp;OrderedDsc = [REDACTED_USER]\nAuditoriaDateTime  when &amp;OrderedBy = 8 AND &amp;OrderedDsc = [REDACTED_USER]\n(AuditoriaDateTime)  when &amp;OrderedBy = 8 AND &amp;OrderedDsc = True</Value></Property><Property><Name>idDataSelector</Name><Value>ffd44be7-3bb4-4d01-9e7e-d1c1a3c095af-Auditoria.AuditoriaWWDS</Value></Property><Property><Name>idDataSelectorParms</Name><Value>&amp;FilterFullText, &amp;DynamicFiltersSelector1, &amp;DynamicFiltersOperator1, &amp;AuditoriaTRN1, &amp;DynamicFiltersEnabled2, &amp;DynamicFiltersSelector2, &amp;DynamicFiltersOperator2, &amp;AuditoriaTRN2, &amp;DynamicFiltersEnabled3, &amp;DynamicFiltersSelector3, &amp;DynamicFiltersOperator3, &amp;AuditoriaTRN3, &amp;TFAuditoriaTRN, &amp;TFAuditoriaTRN_Sel, &amp;TFAuditoriaPK, &amp;TFAuditoriaPK_Sel, &amp;TFAuditoriaATTR, &amp;TFAuditoriaATTR_Sel, &amp;TFAuditoriaOldValue, &amp;TFAuditoriaOldValue_Sel, &amp;TFAuditoriaValue, &amp;TFAuditoriaValue_Sel, &amp;TFAuditoriaMode_Sels, &amp;TFAuditoriaUser, &amp;TFAuditoriaUser_Sel, &amp;TFAuditoriaDateTime, &amp;TFAuditoriaDateTime_To</Value></Property><Property><Name>Sortable</Name><Value>False</Value></Property></Properties>' class='GridWithPaginationBar GridNoBorder WorkWith' controlName='Grid')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWActionGroupColumn</Value></Property></Properties>' attribute='&GridActions' class='ConvertToDDO' titleExp='')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property><Property><Name>ColVisible</Name><Value>False</Value></Property></Properties>' attribute='AuditoriaGUID' class='Attribute' titleExp='')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property><Property><Name>ColReadOnly</Name><Value>True</Value></Property><Property><Name>GxFormat</Name><Value>HTML</Value></Property></Properties>' attribute='&AuditoriaTRNWithTags' class='Attribute' titleExp='Transaccion')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property><Property><Name>ColReadOnly</Name><Value>True</Value></Property><Property><Name>ColVisible</Name><Value>False</Value></Property></Properties>' attribute='AuditoriaTRN' class='Attribute' titleExp='')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property></Properties>' attribute='AuditoriaPK' class='Attribute' titleExp='Clave Primaria')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property></Properties>' attribute='AuditoriaATTR' class='Attribute' titleExp='Atributo')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property></Properties>' attribute='AuditoriaOldValue' class='Attribute' titleExp='Valor Anterior')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property></Properties>' attribute='AuditoriaValue' class='Attribute' titleExp='Valor')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property></Properties>' attribute='AuditoriaMode' class='Attribute' titleExp='Operacion Realizada')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property></Properties>' attribute='AuditoriaUser' class='Attribute' titleExp='Usuario')
+- `item` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ColumnClass</Name><Value>WWColumn</Value></Property></Properties>' attribute='AuditoriaDateTime' class='Attribute' titleExp='del Evento')
+- `row`
+- `cell`
+- `ucw` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>ControlName</Name><Value>GridPaginationBar</Value></Property><Property><Name>Class</Name><Value>PaginationBar</Value></Property><Property><Name>ShowFirst</Name><Value>False</Value></Property><Property><Name>ShowPrevious</Name><Value>True</Value></Property><Property><Name>ShowNext</Name><Value>True</Value></Property><Property><Name>ShowLast</Name><Value>False</Value></Property><Property><Name>PagesToShow</Name><Value>5</Value></Property><Property><Name>PagingButtonsPosition</Name><Value>Right</Value></Property><Property><Name>PagingCaptionPosition</Name><Value>Left</Value></Property><Property><Name>EmptyGridClass</Name><Value>PaginationBarEmptyGrid</Value></Property><Property><Name>RowsPerPageSelector</Name><Value>True</Value></Property><Property><Name>RowsPerPageOptions</Name><Value>5:WWP_Rows5,10:WWP_Rows10,20:WWP_Rows20,50:WWP_Rows50</Value></Property><Property><Name>Previous</Name><Value>WWP_PagingPreviousCaption</Value></Property><Property><Name>Next</Name><Value>WWP_PagingNextCaption</Value></Property><Property><Name>Caption</Name><Value>WWP_PagingCaption</Value></Property><Property><Name>EmptyGridCaption</Name><Value>WWP_PagingEmptyGridCaption</Value></Property><Property><Name>RowsPerPageCaption</Name><Value>WWP_PagingRowsPerPage</Value></Property><Property><Name>CurrentPage</Name><Value>&amp;GridCurrentPage</Value></Property><Property><Name>PageCount</Name><Value>&amp;GridPageCount</Value></Property><Property><Name>AppliedFilters</Name><Value>&amp;GridAppliedFilters</Value></Property></Properties>' gxControlType='-822546690')
+- `row`
+- `cell`
+- `html` (controlName='Html_BottomAuxiliarControls' formId='2')
+- `actionGroups`
+- `actionGroup` (class='ActionGroupColorFilledActions' controlName='ActionGroup_Actions')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GXM_insert</Value></Property></Properties>' caption='GXM_insert' class='Button hidden-xs hidden-sm hidden-md hidden-lg' controlName='BtnInsert' onClickEvent="'DoInsert'")
+- `item`
+- `action` (caption='WWP_ExportData' class='ColumnsSelector' controlName='BtnAGExport')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>WWP_EditColumnsTooltip</Value></Property></Properties>' caption='WWP_EditColumnsCaption' class='hidden-xs' controlName='BtnEditColumns')
+- `Form` (id='2' type='html')
+- `BODY`
+- `gxDVelop.GXBootstrap.DDORegular` (Caption='WWP_ExportData' Cls='ColumnsSelector' ControlName='ddo_AGExport' DropDownOptionsData='&AGExportData' Icon='fas fa-download' IconType='FontIcon')
+- `gxTextBlock` (CaptionExpression='JSDynamicFilters' GxFormat='HTML' id='JSDynamicFilters')
+- `gxDVelop.GXBootstrap.DDOGridTitleSettingsM` (AllowMultipleSelection='|||||T||' Caption='' ColumnIds='2:AuditoriaTRN|4:AuditoriaPK|5:AuditoriaATTR|6:AuditoriaOldValue|7:AuditoriaValue|8:AuditoriaMode|9:AuditoriaUser|10:AuditoriaDateTime' ColumnsSortValues='1|2|3|4|5|6|7|8' ControlName='DDO_Grid' DataListGXProc='84a12160-f59b-4ad7-a683-ea4481ac23e9-Auditoria.AuditoriaWWGetFilterData' DataListProc='Auditoria.AuditoriaWWGetFilterData' DataListType='Dynamic|Dynamic|Dynamic|Dynamic|Dynamic|FixedValues|Dynamic|' DropDownOptionsTitleSettingsIcons='&DDO_TitleSettingsIcons' FilterIsRange='|||||||P' FilterType='Character|Character|Character|Character|Character||Character|Date' Fixable='T' IncludeDataList='T|T|T|T|T|T|T|' IncludeFilter='T|T|T|T|T||T|T' IncludeSortASC='T')
+- `gxInNewWindow` (ControlName='InNewWindow1')
+- `gxDVelop.GXBootstrap.DDOGridColumnsSelector` (Caption='WWP_EditColumnsCaption' Cls='ColumnsSelector hidden-xs' ControlName='DDO_GridColumnsSelector' DropDownOptionsData='&ColumnsSelector' DropDownOptionsTitleSettingsIcons='&DDO_TitleSettingsIcons' DropDownOptionsType='GridColumnsSelector' Icon='fas fa-cog' IconType='FontIcon' Tooltip='WWP_EditColumnsTooltip')
+- `gxWWP.GridEmpowerer` (ControlName='Grid_Empowerer' HasColumnsSelector='True' HasTitleSettings='True')
+- `DIV` (classref='Invisible' id='DDO_AuditoriaDateTimeAuxDates')
+- `gxAttribute` (AttID='&DDO_AuditoriaDateTimeAuxDateText')
+- `gxWWP.DateRangePicker` (ControlName='TFAuditoriaDateTime_RangePicker' DateRangePickerEndDate='&DDO_AuditoriaDateTimeAuxDateTo' DateRangePickerStartDate='&DDO_AuditoriaDateTimeAuxDate')

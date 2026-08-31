@@ -1,0 +1,48 @@
+{
+  "attributes": {
+    "parentGuid": "118acc8c-8dcd-4cd9-9fe0-81b1c7c28561",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2025-08-22T16:50:39.0000000Z",
+    "checksum": "39e8c6783250208e77dcc6dea241cb64",
+    "fullyQualifiedName": "Cliente.TipoCliente",
+    "moduleGuid": "118acc8c-8dcd-4cd9-9fe0-81b1c7c28561",
+    "guid": "b5deb469-fda5-40d8-94e4-041ab7a9e0aa",
+    "name": "TipoCliente",
+    "type": "00972a17-9975-449e-aab1-d26165d51393",
+    "description": "Tipo Cliente",
+    "parent": "Cliente",
+    "parentType": "c88fffcd-b6f8-0000-8fec-00b5497e2117"
+  },
+  "guid": "b5deb469-fda5-40d8-94e4-041ab7a9e0aa",
+  "object_kind": "domain",
+  "fully_qualified_name": "Cliente.TipoCliente",
+  "module": "Cliente",
+  "name": "TipoCliente",
+  "normalized_path": "objects/Cliente/TipoCliente",
+  "parts": [
+    {
+      "index": 1,
+      "type": "ad3ca970-19d0-44e1-a7b7-db05556e820c",
+      "file": "parts/001-ad3ca970-19d0-44e1-a7b7-db05556e820c.txt",
+      "kind": "help",
+      "part_kind": "help",
+      "projection_file": "help.md"
+    },
+    {
+      "index": 2,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/002-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "help": 1,
+      "object_defaults": 1
+    }
+  }
+}

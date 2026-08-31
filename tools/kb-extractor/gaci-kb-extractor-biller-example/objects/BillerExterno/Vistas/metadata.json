@@ -1,0 +1,28 @@
+{
+  "attributes": {
+    "parentGuid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-05-13T14:31:42.0000000Z",
+    "checksum": "31845b5237b4585f234177cc5e054a15",
+    "fullyQualifiedName": "BillerExterno.Vistas",
+    "moduleGuid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+    "guid": "30a467b6-ef76-4e43-8583-8bf490bf4bf0",
+    "name": "Vistas",
+    "type": "00000000-0000-0000-0000-000000000008",
+    "description": "Vistas",
+    "parent": "BillerExterno",
+    "parentType": "c88fffcd-b6f8-0000-8fec-00b5497e2117"
+  },
+  "guid": "30a467b6-ef76-4e43-8583-8bf490bf4bf0",
+  "object_kind": "folder",
+  "fully_qualified_name": "BillerExterno.Vistas",
+  "module": "BillerExterno",
+  "name": "Vistas",
+  "normalized_path": "objects/BillerExterno/Vistas",
+  "parts": [],
+  "semantic_counts": {
+    "parts": 0,
+    "parts_by_kind": {}
+  }
+}

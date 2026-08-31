@@ -1,0 +1,94 @@
+{
+  "schema_version": 2,
+  "canonical_schema_version": 1,
+  "share_safe": true,
+  "source": {
+    "source_input_path": "[REDACTED_INPUT]",
+    "kind": "xpz",
+    "sha256": "6eb21903f4cfd7e50e3add4820f904f39506d0bb3d4eef6f1e49bbace0b40bd9"
+  },
+  "source_metadata": {
+    "kb": "fdc1eb4b-008a-4ca2-aa3e-43da32a9389d",
+    "username": "[REDACTED]",
+    "UNCPath": "[REDACTED]"
+  },
+  "kb": {
+    "guid": "fdc1eb4b-008a-4ca2-aa3e-43da32a9389d"
+  },
+  "versions": [
+    {
+      "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+      "name": "Biller"
+    }
+  ],
+  "version": {
+    "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+    "name": "Biller"
+  },
+  "object_count": 47,
+  "dependency_count": 90,
+  "processed_objects": 47,
+  "skipped_objects": 0,
+  "semantic_counts": {
+    "objects_by_kind": {
+      "api": 1,
+      "data_provider": 1,
+      "data_selector": 2,
+      "domain": 7,
+      "folder": 2,
+      "index_definition": 1,
+      "module": 2,
+      "procedure": 8,
+      "sdt": 2,
+      "table": 3,
+      "table_view": 1,
+      "transaction": 4,
+      "unknown": 5,
+      "webpanel": 8
+    },
+    "parts_by_kind": {
+      "api_source": 1,
+      "auxiliary_source": 16,
+      "data_provider_source": 1,
+      "data_selector": 2,
+      "defaults": 4,
+      "events": 13,
+      "export_metadata": 2,
+      "form_layout": 12,
+      "help": 29,
+      "indexes": 4,
+      "key": 3,
+      "members": 1,
+      "module_metadata": 2,
+      "object_defaults": 36,
+      "platforms": 1,
+      "procedure_code": 8,
+      "report_layout": 8,
+      "rules": 21,
+      "sdt_structure": 2,
+      "transaction_structure": 4,
+      "unknown": 5,
+      "variables": 22
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "incremental": {
+    "absent_objects_retained": true,
+    "reconciliation": {
+      "mode": "partial",
+      "scope": "kb-version",
+      "complete_input": false,
+      "retired_objects": [],
+      "retired_count": 0
+    },
+    "reprocess_all": false
+  },
+  "outputs": {
+    "canonical_records": "canonical/records.jsonl",
+    "canonical_manifest": "canonical/manifest.json",
+    "graph_nodes": "graph/nodes.jsonl",
+    "graph_edges": "graph/edges.jsonl",
+    "state": "kb-state.json"
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "explicit_references": [],
+  "inferred_dependencies": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WWPContext"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:36aa1d4447e7ad72d35c",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPContext",
+      "unresolved_reason": "no object matches target name 'WWPContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridStateDynamicFilter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridStateDynamicFilter"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:6be93c3747274bd8a1e1",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPGridState.DynamicFilter",
+      "unresolved_reason": "no object matches target name 'WWPGridState.DynamicFilter'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridState\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridState"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:112f31d463dc45a35d2d",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPGridState",
+      "unresolved_reason": "no object matches target name 'WWPGridState'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridStateFilterValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridStateFilterValue"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:f906bdbaa61d9bb87d0b",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPGridState.FilterValue",
+      "unresolved_reason": "no object matches target name 'WWPGridState.FilterValue'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"ColumnsSelector\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelector</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "ColumnsSelector"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:51e3bd55c3c1630edb41",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPColumnsSelector",
+      "unresolved_reason": "no object matches target name 'WWPColumnsSelector'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"ColumnsSelectorAux\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelectorAux</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "ColumnsSelectorAux"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:9a6a176b3251730f5cc8",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPColumnsSelector",
+      "unresolved_reason": "no object matches target name 'WWPColumnsSelector'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"ColumnsSelector_Column\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelector_Column</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector.Column, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "ColumnsSelector_Column"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:46ee0df79d8c66d511b4",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPColumnsSelector.Column",
+      "unresolved_reason": "no object matches target name 'WWPColumnsSelector.Column'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "unresolved_references": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WWPContext"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:36aa1d4447e7ad72d35c",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPContext",
+      "unresolved_reason": "no object matches target name 'WWPContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridStateDynamicFilter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridStateDynamicFilter"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:6be93c3747274bd8a1e1",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPGridState.DynamicFilter",
+      "unresolved_reason": "no object matches target name 'WWPGridState.DynamicFilter'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridState\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridState"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:112f31d463dc45a35d2d",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPGridState",
+      "unresolved_reason": "no object matches target name 'WWPGridState'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridStateFilterValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridStateFilterValue"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:f906bdbaa61d9bb87d0b",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPGridState.FilterValue",
+      "unresolved_reason": "no object matches target name 'WWPGridState.FilterValue'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"ColumnsSelector\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelector</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "ColumnsSelector"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:51e3bd55c3c1630edb41",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPColumnsSelector",
+      "unresolved_reason": "no object matches target name 'WWPColumnsSelector'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"ColumnsSelectorAux\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelectorAux</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "ColumnsSelectorAux"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:9a6a176b3251730f5cc8",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPColumnsSelector",
+      "unresolved_reason": "no object matches target name 'WWPColumnsSelector'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"ColumnsSelector_Column\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelector_Column</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector.Column, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "ColumnsSelector_Column"
+      },
+      "from_object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "id": "dependency:46ee0df79d8c66d511b4",
+      "identity_occurrence": 0,
+      "object_hash": "b3173ccb9a545f847041ab178477aecdbca93ee5105bc1ae93018bb0039b864a",
+      "object_id": "object:8e79d696-d0be-440d-92fd-cef787f4b091",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[13]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:28f05c6cef5a5ffb195a",
+      "target_guid": null,
+      "target_name": "WWPColumnsSelector.Column",
+      "unresolved_reason": "no object matches target name 'WWPColumnsSelector.Column'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "references": []
+}

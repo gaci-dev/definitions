@@ -1,0 +1,96 @@
+{
+  "explicit_references": [],
+  "inferred_dependencies": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WizardStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WizardStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps.WizardStepsItem, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WizardStep"
+      },
+      "from_object_id": "object:c92eeec2-2659-4a98-a800-992ddf510233",
+      "id": "dependency:d28ae2f1960c2a9c110b",
+      "identity_occurrence": 0,
+      "object_hash": "1a83c97b8ffc0c1605ca249d0f57f6f22306b8323a6f77b95e1617da208b01c1",
+      "object_id": "object:c92eeec2-2659-4a98-a800-992ddf510233",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[16]/Part[5]#dependency#dependency#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:78667d837ef0da614ff5",
+      "target_guid": null,
+      "target_name": "WizardSteps.WizardStepsItem",
+      "unresolved_reason": "no object matches target name 'WizardSteps.WizardStepsItem'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WizardSteps\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WizardSteps</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WizardSteps"
+      },
+      "from_object_id": "object:c92eeec2-2659-4a98-a800-992ddf510233",
+      "id": "dependency:6365dbab57e5d00414ad",
+      "identity_occurrence": 0,
+      "object_hash": "1a83c97b8ffc0c1605ca249d0f57f6f22306b8323a6f77b95e1617da208b01c1",
+      "object_id": "object:c92eeec2-2659-4a98-a800-992ddf510233",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[16]/Part[5]#dependency#dependency#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:78667d837ef0da614ff5",
+      "target_guid": null,
+      "target_name": "WizardSteps",
+      "unresolved_reason": "no object matches target name 'WizardSteps'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "unresolved_references": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WizardStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WizardStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps.WizardStepsItem, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WizardStep"
+      },
+      "from_object_id": "object:c92eeec2-2659-4a98-a800-992ddf510233",
+      "id": "dependency:d28ae2f1960c2a9c110b",
+      "identity_occurrence": 0,
+      "object_hash": "1a83c97b8ffc0c1605ca249d0f57f6f22306b8323a6f77b95e1617da208b01c1",
+      "object_id": "object:c92eeec2-2659-4a98-a800-992ddf510233",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[16]/Part[5]#dependency#dependency#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:78667d837ef0da614ff5",
+      "target_guid": null,
+      "target_name": "WizardSteps.WizardStepsItem",
+      "unresolved_reason": "no object matches target name 'WizardSteps.WizardStepsItem'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WizardSteps\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WizardSteps</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WizardSteps, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WizardSteps"
+      },
+      "from_object_id": "object:c92eeec2-2659-4a98-a800-992ddf510233",
+      "id": "dependency:6365dbab57e5d00414ad",
+      "identity_occurrence": 0,
+      "object_hash": "1a83c97b8ffc0c1605ca249d0f57f6f22306b8323a6f77b95e1617da208b01c1",
+      "object_id": "object:c92eeec2-2659-4a98-a800-992ddf510233",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[16]/Part[5]#dependency#dependency#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:78667d837ef0da614ff5",
+      "target_guid": null,
+      "target_name": "WizardSteps",
+      "unresolved_reason": "no object matches target name 'WizardSteps'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "references": []
+}

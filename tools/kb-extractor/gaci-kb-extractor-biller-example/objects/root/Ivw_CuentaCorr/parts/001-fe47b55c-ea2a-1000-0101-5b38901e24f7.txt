@@ -1,0 +1,7 @@
+<Part type="fe47b55c-ea2a-1000-0101-5b38901e24f7">
+              <Members>
+                <Member Order="Ascending">vw_CC_Id</Member>
+              </Members>
+              <Properties />
+            </Part>
+            

@@ -1,0 +1,1148 @@
+{
+  "kind": "variables",
+  "part_attributes": {
+    "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47"
+  },
+  "properties": {
+    "Name": [
+      "IsAuthorized",
+      "WWPContext",
+      "HTTPRequest",
+      "TrnContext",
+      "TrnContextAtt",
+      "GridState",
+      "GridStateFilterValue",
+      "OrderedBy",
+      "OrderedDsc",
+      "OrderedByAux",
+      "FilterFullText",
+      "ExcelFilename",
+      "ErrorMessage",
+      "ColumnsSelectorXML",
+      "UserCustomValue",
+      "ColumnsSelector",
+      "ColumnsSelectorAux",
+      "Session",
+      "ManageFiltersData",
+      "ManageFiltersXml",
+      "ManageFiltersExecutionStep",
+      "TFAuditoriaTRN",
+      "TFAuditoriaTRN_Sel",
+      "TFAuditoriaPK",
+      "TFAuditoriaPK_Sel",
+      "TFAuditoriaATTR",
+      "TFAuditoriaATTR_Sel",
+      "TFAuditoriaOldValue",
+      "TFAuditoriaOldValue_Sel",
+      "TFAuditoriaValue",
+      "TFAuditoriaValue_Sel",
+      "TFAuditoriaMode_SelsJson",
+      "TFAuditoriaMode_Sels",
+      "TFAuditoriaUser",
+      "TFAuditoriaUser_Sel",
+      "TFAuditoriaDateTime",
+      "TFAuditoriaDateTime_To",
+      "DDO_AuditoriaDateTimeAuxDate",
+      "DDO_AuditoriaDateTimeAuxDateTo",
+      "DDO_AuditoriaDateTimeAuxDateText",
+      "DDO_TitleSettingsIcons",
+      "PageToGo",
+      "GridCurrentPage",
+      "GridPageCount",
+      "GridAppliedFilters",
+      "GridActions",
+      "AGExportData",
+      "AGExportDataItem",
+      "AuditoriaTRNWithTags",
+      "GridStateDynamicFilter",
+      "DynamicFiltersSelector1",
+      "DynamicFiltersOperator1",
+      "AuditoriaTRN1",
+      "DynamicFiltersEnabled2",
+      "DynamicFiltersSelector2",
+      "DynamicFiltersOperator2",
+      "AuditoriaTRN2",
+      "DynamicFiltersEnabled3",
+      "DynamicFiltersSelector3",
+      "DynamicFiltersOperator3",
+      "AuditoriaTRN3",
+      "DynamicFiltersRemoving",
+      "DynamicFiltersIgnoreFirst"
+    ],
+    "ATTCUSTOMTYPE": [
+      "bas:Boolean",
+      "sdt:WWPContext, WWPBaseObjects",
+      "ext:HttpRequest",
+      "sdt:WWPTransactionContext, WorkWithPlus_CommonObjects",
+      "sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects",
+      "sdt:WWPGridState, WorkWithPlus_Web",
+      "sdt:WWPGridState.FilterValue, WorkWithPlus_Web",
+      "bas:Boolean",
+      "bas:VarChar",
+      "bas:LongVarChar",
+      "bas:LongVarChar",
+      "sdt:WWPColumnsSelector, WorkWithPlus_Web",
+      "sdt:WWPColumnsSelector, WorkWithPlus_Web",
+      "ext:WebSession",
+      "sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web",
+      "bas:LongVarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:LongVarChar",
+      "bas:Date",
+      "bas:Date",
+      "bas:VarChar",
+      "sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web",
+      "bas:VarChar",
+      "sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web",
+      "sdt:DVB_SDTDropDownOptionsData.Item, WorkWithPlus_Web",
+      "bas:VarChar",
+      "sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web",
+      "bas:VarChar",
+      "bas:Boolean",
+      "bas:VarChar",
+      "bas:Boolean",
+      "bas:VarChar",
+      "bas:Boolean",
+      "bas:Boolean"
+    ],
+    "idBasedOn": [
+      "Domain:WWPFullTextFilter, WorkWithPlus_Web",
+      "Domain:Url, GeneXus",
+      "Attribute:AuditoriaTRN",
+      "Attribute:AuditoriaTRN",
+      "Attribute:AuditoriaATTR",
+      "Attribute:AuditoriaATTR",
+      "Attribute:AuditoriaMode",
+      "Attribute:AuditoriaUser",
+      "Attribute:AuditoriaUser",
+      "Attribute:AuditoriaDateTime",
+      "Attribute:AuditoriaDateTime",
+      "Attribute:AuditoriaTRN",
+      "Attribute:AuditoriaTRN",
+      "Attribute:AuditoriaTRN"
+    ],
+    "Length": [
+      "512",
+      "1",
+      "200",
+      "200",
+      "200",
+      "200",
+      "200",
+      "200",
+      "6",
+      "10",
+      "10",
+      "100",
+      "200",
+      "200",
+      "200"
+    ],
+    "AttMaxLen": [
+      "512",
+      "1",
+      "200",
+      "200",
+      "200",
+      "200",
+      "200",
+      "200",
+      "6",
+      "10",
+      "10",
+      "100",
+      "200",
+      "200",
+      "200"
+    ],
+    "AddEmptyItem": [
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True"
+    ],
+    "AttCollection": "True",
+    "ControlType": [
+      "Edit",
+      "Combo Box",
+      "Combo Box",
+      "Combo Box",
+      "Combo Box",
+      "Combo Box",
+      "Combo Box",
+      "Combo Box"
+    ],
+    "ControlValues": [
+      "Transaccion:AUDITORIATRN",
+      "WWP_FilterLike:0,WWP_FilterContains:1",
+      "Transaccion:AUDITORIATRN",
+      "WWP_FilterLike:0,WWP_FilterContains:1",
+      "Transaccion:AUDITORIATRN",
+      "WWP_FilterLike:0,WWP_FilterContains:1"
+    ],
+    "IsDefault": "False"
+  },
+  "variables": [
+    {
+      "name": "IsAuthorized",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "IsAuthorized",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "IsAuthorized"
+      },
+      "raw": "<Variable Name=\"IsAuthorized\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>IsAuthorized</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "WWPContext",
+      "type": "sdt:WWPContext, WWPBaseObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WWPContext",
+        "ATTCUSTOMTYPE": "sdt:WWPContext, WWPBaseObjects"
+      },
+      "attributes": {
+        "Name": "WWPContext"
+      },
+      "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPContext"
+    },
+    {
+      "name": "HTTPRequest",
+      "type": "ext:HttpRequest",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "HTTPRequest",
+        "ATTCUSTOMTYPE": "ext:HttpRequest"
+      },
+      "attributes": {
+        "Name": "HTTPRequest"
+      },
+      "raw": "<Variable Name=\"HTTPRequest\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>HTTPRequest</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:HttpRequest</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TrnContext",
+      "type": "sdt:WWPTransactionContext, WorkWithPlus_CommonObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TrnContext",
+        "ATTCUSTOMTYPE": "sdt:WWPTransactionContext, WorkWithPlus_CommonObjects"
+      },
+      "attributes": {
+        "Name": "TrnContext"
+      },
+      "raw": "<Variable Name=\"TrnContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPTransactionContext"
+    },
+    {
+      "name": "TrnContextAtt",
+      "type": "sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TrnContextAtt",
+        "ATTCUSTOMTYPE": "sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects"
+      },
+      "attributes": {
+        "Name": "TrnContextAtt"
+      },
+      "raw": "<Variable Name=\"TrnContextAtt\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContextAtt</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPTransactionContext.Attribute"
+    },
+    {
+      "name": "GridState",
+      "type": "sdt:WWPGridState, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridState",
+        "ATTCUSTOMTYPE": "sdt:WWPGridState, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "GridState"
+      },
+      "raw": "<Variable Name=\"GridState\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPGridState"
+    },
+    {
+      "name": "GridStateFilterValue",
+      "type": "sdt:WWPGridState.FilterValue, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridStateFilterValue",
+        "ATTCUSTOMTYPE": "sdt:WWPGridState.FilterValue, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "GridStateFilterValue"
+      },
+      "raw": "<Variable Name=\"GridStateFilterValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPGridState.FilterValue"
+    },
+    {
+      "name": "OrderedBy",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "OrderedBy"
+      },
+      "attributes": {
+        "Name": "OrderedBy"
+      },
+      "raw": "<Variable Name=\"OrderedBy\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedBy</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "OrderedDsc",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "OrderedDsc",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "OrderedDsc"
+      },
+      "raw": "<Variable Name=\"OrderedDsc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedDsc</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "OrderedByAux",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "OrderedByAux"
+      },
+      "attributes": {
+        "Name": "OrderedByAux"
+      },
+      "raw": "<Variable Name=\"OrderedByAux\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedByAux</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "FilterFullText",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "FilterFullText",
+        "idBasedOn": "Domain:WWPFullTextFilter, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "FilterFullText"
+      },
+      "raw": "<Variable Name=\"FilterFullText\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterFullText</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:WWPFullTextFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ExcelFilename",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ExcelFilename",
+        "idBasedOn": "Domain:Url, GeneXus"
+      },
+      "attributes": {
+        "Name": "ExcelFilename"
+      },
+      "raw": "<Variable Name=\"ExcelFilename\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ExcelFilename</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:Url, GeneXus</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ErrorMessage",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ErrorMessage",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "512",
+        "AttMaxLen": "512"
+      },
+      "attributes": {
+        "Name": "ErrorMessage"
+      },
+      "raw": "<Variable Name=\"ErrorMessage\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ErrorMessage</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>512</Value></Property><Property><Name>AttMaxLen</Name><Value>512</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ColumnsSelectorXML",
+      "type": "bas:LongVarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ColumnsSelectorXML",
+        "ATTCUSTOMTYPE": "bas:LongVarChar"
+      },
+      "attributes": {
+        "Name": "ColumnsSelectorXML"
+      },
+      "raw": "<Variable Name=\"ColumnsSelectorXML\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelectorXML</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "UserCustomValue",
+      "type": "bas:LongVarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "UserCustomValue",
+        "ATTCUSTOMTYPE": "bas:LongVarChar"
+      },
+      "attributes": {
+        "Name": "UserCustomValue"
+      },
+      "raw": "<Variable Name=\"UserCustomValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>UserCustomValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ColumnsSelector",
+      "type": "sdt:WWPColumnsSelector, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ColumnsSelector",
+        "ATTCUSTOMTYPE": "sdt:WWPColumnsSelector, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "ColumnsSelector"
+      },
+      "raw": "<Variable Name=\"ColumnsSelector\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelector</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPColumnsSelector"
+    },
+    {
+      "name": "ColumnsSelectorAux",
+      "type": "sdt:WWPColumnsSelector, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ColumnsSelectorAux",
+        "ATTCUSTOMTYPE": "sdt:WWPColumnsSelector, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "ColumnsSelectorAux"
+      },
+      "raw": "<Variable Name=\"ColumnsSelectorAux\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelectorAux</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPColumnsSelector"
+    },
+    {
+      "name": "Session",
+      "type": "ext:WebSession",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Session",
+        "ATTCUSTOMTYPE": "ext:WebSession"
+      },
+      "attributes": {
+        "Name": "Session"
+      },
+      "raw": "<Variable Name=\"Session\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Session</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ManageFiltersData",
+      "type": "sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ManageFiltersData",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "ManageFiltersData"
+      },
+      "raw": "<Variable Name=\"ManageFiltersData\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ManageFiltersData</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTDropDownOptionsData"
+    },
+    {
+      "name": "ManageFiltersXml",
+      "type": "bas:LongVarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ManageFiltersXml",
+        "ATTCUSTOMTYPE": "bas:LongVarChar"
+      },
+      "attributes": {
+        "Name": "ManageFiltersXml"
+      },
+      "raw": "<Variable Name=\"ManageFiltersXml\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ManageFiltersXml</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ManageFiltersExecutionStep",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ManageFiltersExecutionStep",
+        "Length": "1",
+        "AttMaxLen": "1"
+      },
+      "attributes": {
+        "Name": "ManageFiltersExecutionStep"
+      },
+      "raw": "<Variable Name=\"ManageFiltersExecutionStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ManageFiltersExecutionStep</Value></Property><Property><Name>Length</Name><Value>1</Value></Property><Property><Name>AttMaxLen</Name><Value>1</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaTRN",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaTRN",
+        "idBasedOn": "Attribute:AuditoriaTRN",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaTRN"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaTRN\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaTRN</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaTRN_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaTRN_Sel",
+        "idBasedOn": "Attribute:AuditoriaTRN",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaTRN_Sel"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaTRN_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaTRN_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaPK",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaPK",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaPK"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaPK\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaPK</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaPK_Sel",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaPK_Sel",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaPK_Sel"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaPK_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaPK_Sel</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaATTR",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaATTR",
+        "idBasedOn": "Attribute:AuditoriaATTR",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaATTR"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaATTR\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaATTR</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaATTR</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaATTR_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaATTR_Sel",
+        "idBasedOn": "Attribute:AuditoriaATTR",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaATTR_Sel"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaATTR_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaATTR_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaATTR</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaOldValue",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaOldValue",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaOldValue"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaOldValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaOldValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaOldValue_Sel",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaOldValue_Sel",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaOldValue_Sel"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaOldValue_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaOldValue_Sel</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaValue",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaValue",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaValue"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaValue_Sel",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaValue_Sel",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaValue_Sel"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaValue_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaValue_Sel</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaMode_SelsJson",
+      "type": "bas:LongVarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaMode_SelsJson",
+        "ATTCUSTOMTYPE": "bas:LongVarChar"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaMode_SelsJson"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaMode_SelsJson\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaMode_SelsJson</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaMode_Sels",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaMode_Sels",
+        "idBasedOn": "Attribute:AuditoriaMode",
+        "AttCollection": "True",
+        "ControlType": "Edit",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaMode_Sels"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaMode_Sels\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaMode_Sels</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaMode</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property><Property><Name>ControlType</Name><Value>Edit</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaUser",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaUser",
+        "idBasedOn": "Attribute:AuditoriaUser",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaUser"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaUser\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaUser</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaUser</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaUser_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaUser_Sel",
+        "idBasedOn": "Attribute:AuditoriaUser",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaUser_Sel"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaUser_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaUser_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaUser</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaDateTime",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaDateTime",
+        "idBasedOn": "Attribute:AuditoriaDateTime",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaDateTime"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaDateTime\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaDateTime</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaDateTime</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFAuditoriaDateTime_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFAuditoriaDateTime_To",
+        "idBasedOn": "Attribute:AuditoriaDateTime",
+        "AddEmptyItem": "True"
+      },
+      "attributes": {
+        "Name": "TFAuditoriaDateTime_To"
+      },
+      "raw": "<Variable Name=\"TFAuditoriaDateTime_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaDateTime_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaDateTime</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DDO_AuditoriaDateTimeAuxDate",
+      "type": "bas:Date",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DDO_AuditoriaDateTimeAuxDate",
+        "ATTCUSTOMTYPE": "bas:Date"
+      },
+      "attributes": {
+        "Name": "DDO_AuditoriaDateTimeAuxDate"
+      },
+      "raw": "<Variable Name=\"DDO_AuditoriaDateTimeAuxDate\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_AuditoriaDateTimeAuxDate</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DDO_AuditoriaDateTimeAuxDateTo",
+      "type": "bas:Date",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DDO_AuditoriaDateTimeAuxDateTo",
+        "ATTCUSTOMTYPE": "bas:Date"
+      },
+      "attributes": {
+        "Name": "DDO_AuditoriaDateTimeAuxDateTo"
+      },
+      "raw": "<Variable Name=\"DDO_AuditoriaDateTimeAuxDateTo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_AuditoriaDateTimeAuxDateTo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DDO_AuditoriaDateTimeAuxDateText",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DDO_AuditoriaDateTimeAuxDateText",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "DDO_AuditoriaDateTimeAuxDateText"
+      },
+      "raw": "<Variable Name=\"DDO_AuditoriaDateTimeAuxDateText\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_AuditoriaDateTimeAuxDateText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DDO_TitleSettingsIcons",
+      "type": "sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DDO_TitleSettingsIcons",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "DDO_TitleSettingsIcons"
+      },
+      "raw": "<Variable Name=\"DDO_TitleSettingsIcons\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_TitleSettingsIcons</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTDropDownOptionsTitleSettingsIcons"
+    },
+    {
+      "name": "PageToGo",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "PageToGo",
+        "Length": "6",
+        "AttMaxLen": "6"
+      },
+      "attributes": {
+        "Name": "PageToGo"
+      },
+      "raw": "<Variable Name=\"PageToGo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>PageToGo</Value></Property><Property><Name>Length</Name><Value>6</Value></Property><Property><Name>AttMaxLen</Name><Value>6</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GridCurrentPage",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridCurrentPage",
+        "Length": "10",
+        "AttMaxLen": "10"
+      },
+      "attributes": {
+        "Name": "GridCurrentPage"
+      },
+      "raw": "<Variable Name=\"GridCurrentPage\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridCurrentPage</Value></Property><Property><Name>Length</Name><Value>10</Value></Property><Property><Name>AttMaxLen</Name><Value>10</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GridPageCount",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridPageCount",
+        "Length": "10",
+        "AttMaxLen": "10"
+      },
+      "attributes": {
+        "Name": "GridPageCount"
+      },
+      "raw": "<Variable Name=\"GridPageCount\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridPageCount</Value></Property><Property><Name>Length</Name><Value>10</Value></Property><Property><Name>AttMaxLen</Name><Value>10</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GridAppliedFilters",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridAppliedFilters",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "GridAppliedFilters"
+      },
+      "raw": "<Variable Name=\"GridAppliedFilters\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridAppliedFilters</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GridActions",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridActions",
+        "ControlType": "Combo Box"
+      },
+      "attributes": {
+        "Name": "GridActions"
+      },
+      "raw": "<Variable Name=\"GridActions\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridActions</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "AGExportData",
+      "type": "sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AGExportData",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "AGExportData"
+      },
+      "raw": "<Variable Name=\"AGExportData\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AGExportData</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTDropDownOptionsData"
+    },
+    {
+      "name": "AGExportDataItem",
+      "type": "sdt:DVB_SDTDropDownOptionsData.Item, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AGExportDataItem",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTDropDownOptionsData.Item, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "AGExportDataItem"
+      },
+      "raw": "<Variable Name=\"AGExportDataItem\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AGExportDataItem</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsData.Item, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTDropDownOptionsData.Item"
+    },
+    {
+      "name": "AuditoriaTRNWithTags",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AuditoriaTRNWithTags",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "AuditoriaTRNWithTags"
+      },
+      "raw": "<Variable Name=\"AuditoriaTRNWithTags\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaTRNWithTags</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GridStateDynamicFilter",
+      "type": "sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridStateDynamicFilter",
+        "ATTCUSTOMTYPE": "sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "GridStateDynamicFilter"
+      },
+      "raw": "<Variable Name=\"GridStateDynamicFilter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPGridState.DynamicFilter"
+    },
+    {
+      "name": "DynamicFiltersSelector1",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersSelector1",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200",
+        "ControlType": "Combo Box",
+        "ControlValues": "Transaccion:AUDITORIATRN"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersSelector1"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersSelector1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector1</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Transaccion:AUDITORIATRN</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersOperator1",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersOperator1",
+        "ControlType": "Combo Box",
+        "ControlValues": "WWP_FilterLike:0,WWP_FilterContains:1"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersOperator1"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersOperator1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator1</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>WWP_FilterLike:0,WWP_FilterContains:1</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "AuditoriaTRN1",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AuditoriaTRN1",
+        "idBasedOn": "Attribute:AuditoriaTRN"
+      },
+      "attributes": {
+        "Name": "AuditoriaTRN1"
+      },
+      "raw": "<Variable Name=\"AuditoriaTRN1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN1</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersEnabled2",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersEnabled2",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersEnabled2"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersEnabled2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersSelector2",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersSelector2",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200",
+        "ControlType": "Combo Box",
+        "ControlValues": "Transaccion:AUDITORIATRN"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersSelector2"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersSelector2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Transaccion:AUDITORIATRN</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersOperator2",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersOperator2",
+        "ControlType": "Combo Box",
+        "ControlValues": "WWP_FilterLike:0,WWP_FilterContains:1"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersOperator2"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersOperator2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator2</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>WWP_FilterLike:0,WWP_FilterContains:1</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "AuditoriaTRN2",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AuditoriaTRN2",
+        "idBasedOn": "Attribute:AuditoriaTRN"
+      },
+      "attributes": {
+        "Name": "AuditoriaTRN2"
+      },
+      "raw": "<Variable Name=\"AuditoriaTRN2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN2</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersEnabled3",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersEnabled3",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersEnabled3"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersEnabled3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersSelector3",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersSelector3",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200",
+        "ControlType": "Combo Box",
+        "ControlValues": "Transaccion:AUDITORIATRN"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersSelector3"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersSelector3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Transaccion:AUDITORIATRN</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersOperator3",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersOperator3",
+        "ControlType": "Combo Box",
+        "ControlValues": "WWP_FilterLike:0,WWP_FilterContains:1"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersOperator3"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersOperator3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator3</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>WWP_FilterLike:0,WWP_FilterContains:1</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "AuditoriaTRN3",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AuditoriaTRN3",
+        "idBasedOn": "Attribute:AuditoriaTRN"
+      },
+      "attributes": {
+        "Name": "AuditoriaTRN3"
+      },
+      "raw": "<Variable Name=\"AuditoriaTRN3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN3</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersRemoving",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersRemoving",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersRemoving"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersRemoving\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersRemoving</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersIgnoreFirst",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersIgnoreFirst",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersIgnoreFirst"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersIgnoreFirst\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersIgnoreFirst</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    }
+  ],
+  "raw": "<Part type=\"e4c4ade7-53f0-4a56-bdfd-843735b66f47\">\n        <Variable Name=\"IsAuthorized\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>IsAuthorized</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"HTTPRequest\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>HTTPRequest</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:HttpRequest</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TrnContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TrnContextAtt\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContextAtt</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridState\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridStateFilterValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"OrderedBy\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedBy</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"OrderedDsc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedDsc</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"OrderedByAux\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedByAux</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"FilterFullText\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterFullText</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:WWPFullTextFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ExcelFilename\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ExcelFilename</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:Url, GeneXus</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ErrorMessage\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ErrorMessage</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>512</Value></Property><Property><Name>AttMaxLen</Name><Value>512</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ColumnsSelectorXML\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelectorXML</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"UserCustomValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>UserCustomValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ColumnsSelector\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelector</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ColumnsSelectorAux\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ColumnsSelectorAux</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Session\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Session</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ManageFiltersData\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ManageFiltersData</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ManageFiltersXml\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ManageFiltersXml</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ManageFiltersExecutionStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ManageFiltersExecutionStep</Value></Property><Property><Name>Length</Name><Value>1</Value></Property><Property><Name>AttMaxLen</Name><Value>1</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaTRN\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaTRN</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaTRN_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaTRN_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaPK\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaPK</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaPK_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaPK_Sel</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaATTR\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaATTR</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaATTR</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaATTR_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaATTR_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaATTR</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaOldValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaOldValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaOldValue_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaOldValue_Sel</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaValue_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaValue_Sel</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaMode_SelsJson\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaMode_SelsJson</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaMode_Sels\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaMode_Sels</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaMode</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property><Property><Name>ControlType</Name><Value>Edit</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaUser\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaUser</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaUser</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaUser_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaUser_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaUser</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaDateTime\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaDateTime</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaDateTime</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFAuditoriaDateTime_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFAuditoriaDateTime_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaDateTime</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DDO_AuditoriaDateTimeAuxDate\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_AuditoriaDateTimeAuxDate</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DDO_AuditoriaDateTimeAuxDateTo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_AuditoriaDateTimeAuxDateTo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DDO_AuditoriaDateTimeAuxDateText\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_AuditoriaDateTimeAuxDateText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DDO_TitleSettingsIcons\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_TitleSettingsIcons</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"PageToGo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>PageToGo</Value></Property><Property><Name>Length</Name><Value>6</Value></Property><Property><Name>AttMaxLen</Name><Value>6</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridCurrentPage\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridCurrentPage</Value></Property><Property><Name>Length</Name><Value>10</Value></Property><Property><Name>AttMaxLen</Name><Value>10</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridPageCount\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridPageCount</Value></Property><Property><Name>Length</Name><Value>10</Value></Property><Property><Name>AttMaxLen</Name><Value>10</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridAppliedFilters\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridAppliedFilters</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridActions\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridActions</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AGExportData\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AGExportData</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AGExportDataItem\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AGExportDataItem</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsData.Item, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AuditoriaTRNWithTags\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaTRNWithTags</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridStateDynamicFilter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersSelector1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector1</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Transaccion:AUDITORIATRN</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersOperator1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator1</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>WWP_FilterLike:0,WWP_FilterContains:1</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AuditoriaTRN1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN1</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersEnabled2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersSelector2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Transaccion:AUDITORIATRN</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersOperator2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator2</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>WWP_FilterLike:0,WWP_FilterContains:1</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AuditoriaTRN2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN2</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersEnabled3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersSelector3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Transaccion:AUDITORIATRN</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersOperator3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator3</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>WWP_FilterLike:0,WWP_FilterContains:1</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AuditoriaTRN3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN3</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersRemoving\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersRemoving</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersIgnoreFirst\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersIgnoreFirst</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      "
+}

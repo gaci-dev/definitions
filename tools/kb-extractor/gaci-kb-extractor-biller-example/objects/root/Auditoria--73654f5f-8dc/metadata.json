@@ -1,0 +1,46 @@
+{
+  "attributes": {
+    "parentGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2023-05-30T18:00:13.0000000Z",
+    "checksum": "5b815b63f16beb82fc8c706883f91d08",
+    "fullyQualifiedName": "Auditoria",
+    "moduleGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "guid": "73654f5f-8dc1-4463-9d5e-b33af8bb76d3",
+    "name": "Auditoria",
+    "type": "857ca50e-7905-0000-0007-c5d9ff2975ec",
+    "description": "Auditoria"
+  },
+  "guid": "73654f5f-8dc1-4463-9d5e-b33af8bb76d3",
+  "object_kind": "table",
+  "fully_qualified_name": "Auditoria",
+  "module": "root",
+  "name": "Auditoria",
+  "normalized_path": "objects/root/Auditoria--73654f5f-8dc",
+  "parts": [
+    {
+      "index": 1,
+      "type": "00000000-0000-0000-0002-000000000004",
+      "file": "parts/001-00000000-0000-0000-0002-000000000004.txt",
+      "kind": "key",
+      "part_kind": "key",
+      "projection_file": "key.json"
+    },
+    {
+      "index": 2,
+      "type": "a5c0e770-560d-0001-0001-7fe71c260de3",
+      "file": "parts/002-a5c0e770-560d-0001-0001-7fe71c260de3.txt",
+      "kind": "indexes",
+      "part_kind": "indexes",
+      "projection_file": "indexes.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "key": 1,
+      "indexes": 1
+    }
+  }
+}

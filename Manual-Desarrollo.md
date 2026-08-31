@@ -172,5 +172,6 @@ Para asegurar que el uso de asistentes de IA no degrade la calidad de nuestra ba
    - `gaci-ai-usage.md`: Para auditoría de código generado por IA y reglas éticas del uso de copilotos.
    - `gaci-product-discovery.md`: Para liderar entrevistas de producto y definir alcances (MVP) antes del desarrollo.
     - `gaci-gx-bridge.md`: Para analizar código de GeneXus y generar documentación técnica moderna para migraciones.
+    - `gaci-gxkb-navigation.md`: Para navegar salidas GXKB de `kb_extractor` y responder con evidencia sobre objetos, reglas, eventos y dependencias.
 2. **Revisión del Código Generado:** Queda terminantemente prohibido integrar código generado por IA sin haber realizado una lectura crítica línea por línea.
 3. **Aseguramiento proporcional al riesgo:** Todo código asistido por IA debe validarse según su nivel de riesgo y criticidad. Cuando corresponda, deben ejecutarse pruebas unitarias que demuestren el comportamiento esperado frente a casos borde y entradas inválidas; cuando no corresponda automatizarlas, se debe documentar la evidencia alternativa y la justificación, sin omitir la validación de esos casos.

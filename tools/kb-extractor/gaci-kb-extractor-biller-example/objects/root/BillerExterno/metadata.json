@@ -1,0 +1,55 @@
+{
+  "attributes": {
+    "parentGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-05-13T14:31:09.0000000Z",
+    "checksum": "aa9e24d941879543aab013eb8b3d4c70",
+    "fullyQualifiedName": "BillerExterno",
+    "moduleGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "guid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+    "name": "BillerExterno",
+    "type": "c88fffcd-b6f8-0000-8fec-00b5497e2117",
+    "description": "Biller Externo"
+  },
+  "guid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+  "object_kind": "module",
+  "fully_qualified_name": "BillerExterno",
+  "module": "root",
+  "name": "BillerExterno",
+  "normalized_path": "objects/root/BillerExterno",
+  "parts": [
+    {
+      "index": 1,
+      "type": "ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc",
+      "file": "parts/001-ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc.txt",
+      "kind": "export_metadata",
+      "part_kind": "export_metadata",
+      "projection_file": "export-metadata.json"
+    },
+    {
+      "index": 2,
+      "type": "a5e6a251-2df0-44d8-adab-1da237574326",
+      "file": "parts/002-a5e6a251-2df0-44d8-adab-1da237574326.txt",
+      "kind": "module_metadata",
+      "part_kind": "module_metadata",
+      "projection_file": "module-metadata.json"
+    },
+    {
+      "index": 3,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/003-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 3,
+    "parts_by_kind": {
+      "export_metadata": 1,
+      "module_metadata": 1,
+      "object_defaults": 1
+    }
+  }
+}

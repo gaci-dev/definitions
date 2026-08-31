@@ -1,0 +1,16 @@
+{
+  "kind": "key",
+  "part_attributes": {
+    "type": "00000000-0000-0000-0002-000000000004"
+  },
+  "properties": {},
+  "raw_xml": "<Part type=\"00000000-0000-0000-0002-000000000004\">\n        <Key>\n          <Item guid=\"1f6d0eae-0aaa-4acb-ac5b-da35f8324e5c\">AuditoriaGUID</Item>\n        </Key>\n        <Properties />\n      </Part>\n      ",
+  "keys": [
+    {
+      "tag": "Key",
+      "attributes": {},
+      "text": "AuditoriaGUID",
+      "raw_xml": "<Key>\n          <Item guid=\"1f6d0eae-0aaa-4acb-ac5b-da35f8324e5c\">AuditoriaGUID</Item>\n        </Key>\n        "
+    }
+  ]
+}

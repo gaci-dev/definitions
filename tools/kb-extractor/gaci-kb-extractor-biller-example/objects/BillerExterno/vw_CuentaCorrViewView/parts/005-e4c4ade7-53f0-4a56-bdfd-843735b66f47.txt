@@ -1,0 +1,32 @@
+<Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="IsAuthorized">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>IsAuthorized</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WWPContext">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TabCode">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TabCode</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:TabCode</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Exists">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Exists</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="vw_CC_Id">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>vw_CC_Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property></Properties>
+        </Variable>
+        <Variable Name="LoadAllTabs">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>LoadAllTabs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="SelectedTabCode">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>SelectedTabCode</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:TabCode</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

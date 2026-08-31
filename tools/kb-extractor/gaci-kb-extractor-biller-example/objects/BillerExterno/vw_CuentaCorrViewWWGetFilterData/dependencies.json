@@ -1,0 +1,184 @@
+{
+  "explicit_references": [],
+  "inferred_dependencies": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WWPContext"
+      },
+      "from_object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "id": "dependency:c5733b7ac1c190c0be32",
+      "identity_occurrence": 0,
+      "object_hash": "6e275d63e9d993a0357fa0596febcfbdbba18c7a53ca5c935184e5ebfe53b79a",
+      "object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[12]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:83452c39843b25d18c67",
+      "target_guid": null,
+      "target_name": "WWPContext",
+      "unresolved_reason": "no object matches target name 'WWPContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridState\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridState"
+      },
+      "from_object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "id": "dependency:a707ff246b712eac2b1d",
+      "identity_occurrence": 0,
+      "object_hash": "6e275d63e9d993a0357fa0596febcfbdbba18c7a53ca5c935184e5ebfe53b79a",
+      "object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[12]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:83452c39843b25d18c67",
+      "target_guid": null,
+      "target_name": "WWPGridState",
+      "unresolved_reason": "no object matches target name 'WWPGridState'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridStateFilterValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridStateFilterValue"
+      },
+      "from_object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "id": "dependency:e69676315bddfd1ace47",
+      "identity_occurrence": 0,
+      "object_hash": "6e275d63e9d993a0357fa0596febcfbdbba18c7a53ca5c935184e5ebfe53b79a",
+      "object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[12]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:83452c39843b25d18c67",
+      "target_guid": null,
+      "target_name": "WWPGridState.FilterValue",
+      "unresolved_reason": "no object matches target name 'WWPGridState.FilterValue'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridStateDynamicFilter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridStateDynamicFilter"
+      },
+      "from_object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "id": "dependency:9185d5a805c282b5c60c",
+      "identity_occurrence": 0,
+      "object_hash": "6e275d63e9d993a0357fa0596febcfbdbba18c7a53ca5c935184e5ebfe53b79a",
+      "object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[12]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:83452c39843b25d18c67",
+      "target_guid": null,
+      "target_name": "WWPGridState.DynamicFilter",
+      "unresolved_reason": "no object matches target name 'WWPGridState.DynamicFilter'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "unresolved_references": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WWPContext"
+      },
+      "from_object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "id": "dependency:c5733b7ac1c190c0be32",
+      "identity_occurrence": 0,
+      "object_hash": "6e275d63e9d993a0357fa0596febcfbdbba18c7a53ca5c935184e5ebfe53b79a",
+      "object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[12]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:83452c39843b25d18c67",
+      "target_guid": null,
+      "target_name": "WWPContext",
+      "unresolved_reason": "no object matches target name 'WWPContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridState\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridState"
+      },
+      "from_object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "id": "dependency:a707ff246b712eac2b1d",
+      "identity_occurrence": 0,
+      "object_hash": "6e275d63e9d993a0357fa0596febcfbdbba18c7a53ca5c935184e5ebfe53b79a",
+      "object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[12]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:83452c39843b25d18c67",
+      "target_guid": null,
+      "target_name": "WWPGridState",
+      "unresolved_reason": "no object matches target name 'WWPGridState'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridStateFilterValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridStateFilterValue"
+      },
+      "from_object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "id": "dependency:e69676315bddfd1ace47",
+      "identity_occurrence": 0,
+      "object_hash": "6e275d63e9d993a0357fa0596febcfbdbba18c7a53ca5c935184e5ebfe53b79a",
+      "object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[12]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:83452c39843b25d18c67",
+      "target_guid": null,
+      "target_name": "WWPGridState.FilterValue",
+      "unresolved_reason": "no object matches target name 'WWPGridState.FilterValue'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"GridStateDynamicFilter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "GridStateDynamicFilter"
+      },
+      "from_object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "id": "dependency:9185d5a805c282b5c60c",
+      "identity_occurrence": 0,
+      "object_hash": "6e275d63e9d993a0357fa0596febcfbdbba18c7a53ca5c935184e5ebfe53b79a",
+      "object_id": "object:b739ae4c-2ccc-4a51-a3af-abb0fd000b3d",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[12]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:83452c39843b25d18c67",
+      "target_guid": null,
+      "target_name": "WWPGridState.DynamicFilter",
+      "unresolved_reason": "no object matches target name 'WWPGridState.DynamicFilter'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "references": []
+}

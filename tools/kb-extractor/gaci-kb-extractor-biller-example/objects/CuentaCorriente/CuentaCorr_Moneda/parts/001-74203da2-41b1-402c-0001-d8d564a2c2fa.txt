@@ -1,0 +1,12 @@
+<Part type="74203da2-41b1-402c-0001-d8d564a2c2fa">
+        <Subtype guid="6f0e41dd-cf98-4c5f-99d0-516ef9d56026">
+          <Name>CuentaCorrMedioCobroMoneda</Name>
+          <Supertype guid="20c3a3e9-84ca-46b7-8188-c879504638c3">MonedaId</Supertype>
+        </Subtype>
+        <Subtype guid="748e8752-2c1c-494b-b099-465dfc917447">
+          <Name>CuentaCorrMedioCobroMonedaDescripcion</Name>
+          <Supertype guid="a28e4006-11e4-45f2-949e-f56c5e772292">MonedaDescripcion</Supertype>
+        </Subtype>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

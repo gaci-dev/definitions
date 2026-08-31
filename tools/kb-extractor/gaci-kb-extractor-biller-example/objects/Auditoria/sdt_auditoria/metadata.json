@@ -1,0 +1,48 @@
+{
+  "attributes": {
+    "parentGuid": "2bde67a1-40b1-408f-a949-af7a8b2cc662",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2023-04-13T17:53:59.0000000Z",
+    "checksum": "75e15fc31532f8ced714547d988829a0",
+    "fullyQualifiedName": "Auditoria.sdt_auditoria",
+    "moduleGuid": "2bde67a1-40b1-408f-a949-af7a8b2cc662",
+    "guid": "302a45e2-fe95-4cc1-88b4-a3c6556b61d7",
+    "name": "sdt_auditoria",
+    "type": "447527b5-9210-4523-898b-5dccb17be60a",
+    "description": "sdt_auditoria",
+    "parent": "Auditoria",
+    "parentType": "c88fffcd-b6f8-0000-8fec-00b5497e2117"
+  },
+  "guid": "302a45e2-fe95-4cc1-88b4-a3c6556b61d7",
+  "object_kind": "sdt",
+  "fully_qualified_name": "Auditoria.sdt_auditoria",
+  "module": "Auditoria",
+  "name": "sdt_auditoria",
+  "normalized_path": "objects/Auditoria/sdt_auditoria",
+  "parts": [
+    {
+      "index": 1,
+      "type": "5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a",
+      "file": "parts/001-5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a.txt",
+      "kind": "sdt_structure",
+      "part_kind": "sdt_structure",
+      "projection_file": "structure.json"
+    },
+    {
+      "index": 2,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/002-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "sdt_structure": 1,
+      "object_defaults": 1
+    }
+  }
+}

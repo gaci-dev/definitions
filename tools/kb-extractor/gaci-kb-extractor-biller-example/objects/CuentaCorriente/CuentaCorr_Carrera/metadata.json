@@ -1,0 +1,38 @@
+{
+  "attributes": {
+    "parentGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "user": "[REDACTED]",
+    "versionDate": "0001-01-01T00:00:00.0000000",
+    "lastUpdate": "2023-10-26T15:31:26.0000000Z",
+    "checksum": "4fa573c9851e0c7c3abed77d76c50ca5",
+    "fullyQualifiedName": "CuentaCorriente.CuentaCorr_Carrera",
+    "moduleGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "guid": "da519a37-eacf-463c-a86b-91aafa6b3c76",
+    "name": "CuentaCorr_Carrera",
+    "type": "87313f43-5eb2-41d7-9b8c-e8d9f5bf9588",
+    "description": "Cuenta Corriente Carrera",
+    "parent": "CuentaCorriente",
+    "parentType": "c88fffcd-b6f8-0000-8fec-00b5497e2117"
+  },
+  "guid": "da519a37-eacf-463c-a86b-91aafa6b3c76",
+  "object_kind": "unknown",
+  "fully_qualified_name": "CuentaCorriente.CuentaCorr_Carrera",
+  "module": "CuentaCorriente",
+  "name": "CuentaCorr_Carrera",
+  "normalized_path": "objects/CuentaCorriente/CuentaCorr_Carrera",
+  "parts": [
+    {
+      "index": 1,
+      "type": "74203da2-41b1-402c-0001-d8d564a2c2fa",
+      "file": "parts/001-74203da2-41b1-402c-0001-d8d564a2c2fa.txt",
+      "kind": null,
+      "part_kind": null
+    }
+  ],
+  "semantic_counts": {
+    "parts": 1,
+    "parts_by_kind": {
+      "unknown": 1
+    }
+  }
+}

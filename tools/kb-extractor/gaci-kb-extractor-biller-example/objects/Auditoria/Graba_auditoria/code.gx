@@ -1,0 +1,16 @@
+&sdt_auditoria.FromJson(&json) 
+
+new
+	
+	AuditoriaTRN = &sdt_auditoria.AuditoriaTRN
+	AuditoriaPK = &sdt_auditoria.AuditoriaPK
+	AuditoriaATTR = &sdt_auditoria.AuditoriaATTR
+	AuditoriaOldValue = &sdt_auditoria.AuditoriaOldValue
+	AuditoriaValue = &sdt_auditoria.AuditoriaValue
+	AuditoriaMode = &sdt_auditoria.AuditoriaMode
+	AuditoriaUser = &sdt_auditoria.AuditoriaUser
+	AuditoriaDateTime = &sdt_auditoria.AuditoriaDateTime
+	
+endnew
+ 
+ commit

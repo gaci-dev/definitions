@@ -1,0 +1,3038 @@
+{
+  "kind": "variables",
+  "part_attributes": {
+    "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47"
+  },
+  "properties": {
+    "Name": [
+      "IsAuthorized",
+      "WWPContext",
+      "OrderedBy",
+      "OrderedDsc",
+      "FilterFullText",
+      "DynamicFiltersSelector1",
+      "DynamicFiltersOperator1",
+      "vw_CC_Empresa1",
+      "Filtervw_CC_EmpresaDescription",
+      "vw_CC_Empresa",
+      "DynamicFiltersEnabled2",
+      "DynamicFiltersSelector2",
+      "DynamicFiltersOperator2",
+      "vw_CC_Empresa2",
+      "DynamicFiltersEnabled3",
+      "DynamicFiltersSelector3",
+      "DynamicFiltersOperator3",
+      "vw_CC_Empresa3",
+      "GridStateDynamicFilter",
+      "Session",
+      "GridStateXML",
+      "GridState",
+      "GridStateFilterValue",
+      "TFvw_CC_Id",
+      "TFvw_CC_Id_To",
+      "TFvw_CC_Empresa",
+      "TFvw_CC_Empresa_To",
+      "TFvw_CC_Cliente",
+      "TFvw_CC_Cliente_To",
+      "TFvw_CC_ClieNombre",
+      "TFvw_CC_ClieNombre_Sel",
+      "TFvw_CC_ClieNroDoc",
+      "TFvw_CC_ClieNroDoc_To",
+      "TFvw_CC_ClieCBU",
+      "TFvw_CC_ClieCBU_Sel",
+      "TFvw_CC_ClieEmail",
+      "TFvw_CC_ClieEmail_Sel",
+      "TFvw_CC_EstAdmId",
+      "TFvw_CC_EstAdmId_To",
+      "TFvw_CC_EstAdmDesc",
+      "TFvw_CC_EstAdmDesc_Sel",
+      "TFvw_CC_EstAcaId",
+      "TFvw_CC_EstAcaId_To",
+      "TFvw_CC_EstAcaDesc",
+      "TFvw_CC_EstAcaDesc_Sel",
+      "TFvw_CC_FacTipo",
+      "TFvw_CC_FacTipo_Sel",
+      "TFvw_CC_FacSerie",
+      "TFvw_CC_FacSerie_Sel",
+      "TFvw_CC_FacSuc",
+      "TFvw_CC_FacSuc_To",
+      "TFvw_CC_FacNro",
+      "TFvw_CC_FacNro_To",
+      "TFvw_CC_FacFecha",
+      "TFvw_CC_FacFecha_To",
+      "TFvw_CC_FacVto",
+      "TFvw_CC_FacVto_To",
+      "TFvw_CC_FacMoneda",
+      "TFvw_CC_FacMoneda_Sel",
+      "TFvw_CC_FacTotal",
+      "TFvw_CC_FacTotal_To",
+      "TFvw_CC_FacNroSAP",
+      "TFvw_CC_FacNroSAP_Sel",
+      "TFvw_CC_McCod",
+      "TFvw_CC_McCod_Sel",
+      "TFvw_CC_McNro",
+      "TFvw_CC_McNro_To",
+      "TFvw_CC_McMoneda",
+      "TFvw_CC_McMoneda_Sel",
+      "TFvw_CC_McTotal",
+      "TFvw_CC_McTotal_To",
+      "TFvw_CC_McFecha",
+      "TFvw_CC_McFecha_To",
+      "TFvw_CC_Id_To_Description",
+      "TFvw_CC_Empresa_To_Description",
+      "TFvw_CC_Cliente_To_Description",
+      "TFvw_CC_ClieNroDoc_To_Description",
+      "TFvw_CC_EstAdmId_To_Description",
+      "TFvw_CC_EstAcaId_To_Description",
+      "TFvw_CC_FacSuc_To_Description",
+      "TFvw_CC_FacNro_To_Description",
+      "TFvw_CC_FacFecha_To_Description",
+      "TFvw_CC_FacVto_To_Description",
+      "TFvw_CC_FacTotal_To_Description",
+      "TFvw_CC_McNro_To_Description",
+      "TFvw_CC_McTotal_To_Description",
+      "TFvw_CC_McFecha_To_Description",
+      "TempBoolean",
+      "AddressLine1",
+      "AddressLine2",
+      "AddressLine3",
+      "AppName",
+      "Attribute",
+      "DateInfo",
+      "Filter",
+      "Mail",
+      "PageInfo",
+      "Phone",
+      "Title",
+      "Website",
+      "CuentaCorrCarreraDescription",
+      "CuentaCorrCarrera",
+      "CuentaCorrCL_CarreraIdDescription",
+      "CuentaCorrCL_CarreraId",
+      "CuentaCorrMedioCobroCodDescription",
+      "CuentaCorrMedioCobroCod",
+      "CuentaCorrClienteTipoKey",
+      "FilterCuentaCorrClienteTipoValueDescription",
+      "CuentaCorrClienteTipo",
+      "CuentaCorrEstadoKey",
+      "FilterCuentaCorrEstadoValueDescription",
+      "CuentaCorrEstado",
+      "CuentaCorrFacturaFecha",
+      "CuentaCorrFacturaFecha_To",
+      "CuentaCorrFacturaFecha_To_Description",
+      "CuentaCorrFacturaVto",
+      "CuentaCorrFacturaVto_To",
+      "CuentaCorrFacturaVto_To_Description",
+      "TFvw_CC_McVto",
+      "TFvw_CC_McVto_To",
+      "TFvw_CC_AsigNro",
+      "TFvw_CC_AsigNro_To",
+      "TFvw_CC_AsigFecha",
+      "TFvw_CC_AsigFecha_To",
+      "TFvw_CC_DiasPago",
+      "TFvw_CC_DiasPago_To",
+      "TFvw_CC_IntTipo",
+      "TFvw_CC_IntTipo_Sel",
+      "TFvw_CC_IntNro",
+      "TFvw_CC_IntNro_To",
+      "TFvw_CC_Carrera",
+      "TFvw_CC_Carrera_To",
+      "TFvw_CC_CLCarreraId",
+      "TFvw_CC_CLCarreraId_Sel",
+      "TFvw_CC_CLObs",
+      "TFvw_CC_CLObs_Sel",
+      "TFvw_CC_MaterialId",
+      "TFvw_CC_MaterialId_Sel",
+      "TFvw_CC_CCostoId",
+      "TFvw_CC_CCostoId_To",
+      "TFvw_CC_CCostoDesc",
+      "TFvw_CC_CCostoDesc_Sel",
+      "TFvw_CC_FacDetPlanItem",
+      "TFvw_CC_FacDetPlanItem_To",
+      "TFvw_CC_FacDetPlanId",
+      "TFvw_CC_FacDetPlanId_To",
+      "TFvw_CC_FacDebAuto",
+      "TFvw_CC_FacDebAuto_Sel",
+      "TFvw_CC_Texto",
+      "TFvw_CC_Texto_Sel",
+      "TFvw_CC_Anulado",
+      "TFvw_CC_Anulado_Sel",
+      "TFvw_CC_ModalidadId",
+      "TFvw_CC_ModalidadId_Sel",
+      "TFvw_CC_Usuario",
+      "TFvw_CC_Usuario_Sel",
+      "TFvw_CC_FechaHoraAud",
+      "TFvw_CC_FechaHoraAud_To",
+      "TFvw_CC_McVto_To_Description",
+      "TFvw_CC_AsigNro_To_Description",
+      "TFvw_CC_AsigFecha_To_Description",
+      "TFvw_CC_DiasPago_To_Description",
+      "TFvw_CC_IntNro_To_Description",
+      "TFvw_CC_Carrera_To_Description",
+      "TFvw_CC_CCostoId_To_Description",
+      "TFvw_CC_FacDetPlanItem_To_Description",
+      "TFvw_CC_FacDetPlanId_To_Description",
+      "TFvw_CC_FechaHoraAud_To_Description",
+      "estadoAdmin",
+      "estadoAcademico",
+      "vw_CC_EstadoDescription",
+      "TFvw_CC_Estado_SelsJson",
+      "TFvw_CC_Estado_SelDscs",
+      "TFvw_CC_Estado_Sel",
+      "TFvw_CC_Estado_Sels",
+      "FilterTFvw_CC_Estado_SelValueDescription",
+      "i"
+    ],
+    "ATTCUSTOMTYPE": [
+      "bas:Boolean",
+      "sdt:WWPContext, WWPBaseObjects",
+      "bas:Boolean",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:Boolean",
+      "bas:VarChar",
+      "bas:Boolean",
+      "bas:VarChar",
+      "sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web",
+      "ext:WebSession",
+      "bas:LongVarChar",
+      "sdt:WWPGridState, WorkWithPlus_Web",
+      "sdt:WWPGridState.FilterValue, WorkWithPlus_Web",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:Boolean",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "bas:Character",
+      "bas:Character",
+      "bas:VarChar",
+      "bas:LongVarChar",
+      "bas:VarChar",
+      "bas:VarChar"
+    ],
+    "idBasedOn": [
+      "Domain:WWPFullTextFilter, WorkWithPlus_Web",
+      "Attribute:vw_CC_Empresa",
+      "Attribute:vw_CC_Empresa",
+      "Attribute:vw_CC_Empresa",
+      "Attribute:vw_CC_Empresa",
+      "Attribute:vw_CC_Id",
+      "Attribute:vw_CC_Id",
+      "Attribute:vw_CC_Empresa",
+      "Attribute:vw_CC_Empresa",
+      "Attribute:vw_CC_Cliente",
+      "Attribute:vw_CC_Cliente",
+      "Attribute:vw_CC_ClieNombre",
+      "Attribute:vw_CC_ClieNombre",
+      "Attribute:vw_CC_ClieNroDoc",
+      "Attribute:vw_CC_ClieNroDoc",
+      "Attribute:vw_CC_ClieCBU",
+      "Attribute:vw_CC_ClieCBU",
+      "Attribute:vw_CC_ClieEmail",
+      "Attribute:vw_CC_ClieEmail",
+      "Attribute:vw_CC_EstAdmId",
+      "Attribute:vw_CC_EstAdmId",
+      "Attribute:vw_CC_EstAdmDesc",
+      "Attribute:vw_CC_EstAdmDesc",
+      "Attribute:vw_CC_EstAcaId",
+      "Attribute:vw_CC_EstAcaId",
+      "Attribute:vw_CC_EstAcaDesc",
+      "Attribute:vw_CC_EstAcaDesc",
+      "Attribute:vw_CC_FacTipo",
+      "Attribute:vw_CC_FacTipo",
+      "Attribute:vw_CC_FacSerie",
+      "Attribute:vw_CC_FacSerie",
+      "Attribute:vw_CC_FacSuc",
+      "Attribute:vw_CC_FacSuc",
+      "Attribute:vw_CC_FacNro",
+      "Attribute:vw_CC_FacNro",
+      "Attribute:vw_CC_FacFecha",
+      "Attribute:vw_CC_FacFecha",
+      "Attribute:vw_CC_FacVto",
+      "Attribute:vw_CC_FacVto",
+      "Attribute:vw_CC_FacMoneda",
+      "Attribute:vw_CC_FacMoneda",
+      "Attribute:vw_CC_FacTotal",
+      "Attribute:vw_CC_FacTotal",
+      "Attribute:vw_CC_FacNroSAP",
+      "Attribute:vw_CC_FacNroSAP",
+      "Attribute:vw_CC_McCod",
+      "Attribute:vw_CC_McCod",
+      "Attribute:vw_CC_McNro",
+      "Attribute:vw_CC_McNro",
+      "Attribute:vw_CC_McMoneda",
+      "Attribute:vw_CC_McMoneda",
+      "Attribute:vw_CC_McTotal",
+      "Attribute:vw_CC_McTotal",
+      "Attribute:vw_CC_McFecha",
+      "Attribute:vw_CC_McFecha",
+      "Attribute:vw_CC_Carrera",
+      "Attribute:vw_CC_CLCarreraId",
+      "Attribute:vw_CC_McCod",
+      "Attribute:CuentaCorrClienteTipo",
+      "Attribute:CuentaCorrClienteTipo",
+      "Attribute:CuentaCorrEstado",
+      "Attribute:CuentaCorrEstado",
+      "Attribute:vw_CC_FacFecha",
+      "Attribute:vw_CC_FacFecha",
+      "Attribute:vw_CC_FacVto",
+      "Attribute:vw_CC_FacVto",
+      "Attribute:vw_CC_McVto",
+      "Attribute:vw_CC_McVto",
+      "Attribute:vw_CC_AsigNro",
+      "Attribute:vw_CC_AsigNro",
+      "Attribute:vw_CC_AsigFecha",
+      "Attribute:vw_CC_AsigFecha",
+      "Attribute:vw_CC_DiasPago",
+      "Attribute:vw_CC_DiasPago",
+      "Attribute:vw_CC_IntTipo",
+      "Attribute:vw_CC_IntTipo",
+      "Attribute:vw_CC_IntNro",
+      "Attribute:vw_CC_IntNro",
+      "Attribute:vw_CC_Carrera",
+      "Attribute:vw_CC_Carrera",
+      "Attribute:vw_CC_CLCarreraId",
+      "Attribute:vw_CC_CLCarreraId",
+      "Attribute:vw_CC_CLObs",
+      "Attribute:vw_CC_CLObs",
+      "Attribute:vw_CC_MaterialId",
+      "Attribute:vw_CC_MaterialId",
+      "Attribute:vw_CC_CCostoId",
+      "Attribute:vw_CC_CCostoId",
+      "Attribute:vw_CC_CCostoDesc",
+      "Attribute:vw_CC_CCostoDesc",
+      "Attribute:vw_CC_FacDetPlanItem",
+      "Attribute:vw_CC_FacDetPlanItem",
+      "Attribute:vw_CC_FacDetPlanId",
+      "Attribute:vw_CC_FacDetPlanId",
+      "Attribute:vw_CC_FacDebAuto",
+      "Attribute:vw_CC_FacDebAuto",
+      "Attribute:vw_CC_Texto",
+      "Attribute:vw_CC_Texto",
+      "Attribute:vw_CC_Anulado",
+      "Attribute:vw_CC_Anulado",
+      "Attribute:vw_CC_ModalidadId",
+      "Attribute:vw_CC_ModalidadId",
+      "Attribute:vw_CC_Usuario",
+      "Attribute:vw_CC_Usuario",
+      "Attribute:vw_CC_FechaHoraAud",
+      "Attribute:vw_CC_FechaHoraAud",
+      "Attribute:vw_CC_Estado",
+      "Attribute:vw_CC_Estado"
+    ],
+    "Length": [
+      "200",
+      "200",
+      "200",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "200",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "60",
+      "60",
+      "100",
+      "100",
+      "10"
+    ],
+    "AttMaxLen": [
+      "200",
+      "200",
+      "200",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "200",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "60",
+      "60",
+      "100",
+      "100",
+      "10"
+    ],
+    "AttCollection": [
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True"
+    ],
+    "IsDefault": "False"
+  },
+  "variables": [
+    {
+      "name": "IsAuthorized",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "IsAuthorized",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "IsAuthorized"
+      },
+      "raw": "<Variable Name=\"IsAuthorized\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>IsAuthorized</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "WWPContext",
+      "type": "sdt:WWPContext, WWPBaseObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WWPContext",
+        "ATTCUSTOMTYPE": "sdt:WWPContext, WWPBaseObjects"
+      },
+      "attributes": {
+        "Name": "WWPContext"
+      },
+      "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPContext"
+    },
+    {
+      "name": "OrderedBy",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "OrderedBy"
+      },
+      "attributes": {
+        "Name": "OrderedBy"
+      },
+      "raw": "<Variable Name=\"OrderedBy\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedBy</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "OrderedDsc",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "OrderedDsc",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "OrderedDsc"
+      },
+      "raw": "<Variable Name=\"OrderedDsc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedDsc</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "FilterFullText",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "FilterFullText",
+        "idBasedOn": "Domain:WWPFullTextFilter, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "FilterFullText"
+      },
+      "raw": "<Variable Name=\"FilterFullText\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterFullText</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:WWPFullTextFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersSelector1",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersSelector1",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersSelector1"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersSelector1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector1</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersOperator1",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersOperator1"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersOperator1"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersOperator1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator1</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "vw_CC_Empresa1",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "vw_CC_Empresa1",
+        "idBasedOn": "Attribute:vw_CC_Empresa"
+      },
+      "attributes": {
+        "Name": "vw_CC_Empresa1"
+      },
+      "raw": "<Variable Name=\"vw_CC_Empresa1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa1</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Filtervw_CC_EmpresaDescription",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Filtervw_CC_EmpresaDescription",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "Filtervw_CC_EmpresaDescription"
+      },
+      "raw": "<Variable Name=\"Filtervw_CC_EmpresaDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Filtervw_CC_EmpresaDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "vw_CC_Empresa",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "vw_CC_Empresa",
+        "idBasedOn": "Attribute:vw_CC_Empresa"
+      },
+      "attributes": {
+        "Name": "vw_CC_Empresa"
+      },
+      "raw": "<Variable Name=\"vw_CC_Empresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersEnabled2",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersEnabled2",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersEnabled2"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersEnabled2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersSelector2",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersSelector2",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersSelector2"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersSelector2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersOperator2",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersOperator2"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersOperator2"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersOperator2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator2</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "vw_CC_Empresa2",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "vw_CC_Empresa2",
+        "idBasedOn": "Attribute:vw_CC_Empresa"
+      },
+      "attributes": {
+        "Name": "vw_CC_Empresa2"
+      },
+      "raw": "<Variable Name=\"vw_CC_Empresa2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa2</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersEnabled3",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersEnabled3",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersEnabled3"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersEnabled3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersSelector3",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersSelector3",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersSelector3"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersSelector3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DynamicFiltersOperator3",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DynamicFiltersOperator3"
+      },
+      "attributes": {
+        "Name": "DynamicFiltersOperator3"
+      },
+      "raw": "<Variable Name=\"DynamicFiltersOperator3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator3</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "vw_CC_Empresa3",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "vw_CC_Empresa3",
+        "idBasedOn": "Attribute:vw_CC_Empresa"
+      },
+      "attributes": {
+        "Name": "vw_CC_Empresa3"
+      },
+      "raw": "<Variable Name=\"vw_CC_Empresa3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa3</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GridStateDynamicFilter",
+      "type": "sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridStateDynamicFilter",
+        "ATTCUSTOMTYPE": "sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "GridStateDynamicFilter"
+      },
+      "raw": "<Variable Name=\"GridStateDynamicFilter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPGridState.DynamicFilter"
+    },
+    {
+      "name": "Session",
+      "type": "ext:WebSession",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Session",
+        "ATTCUSTOMTYPE": "ext:WebSession"
+      },
+      "attributes": {
+        "Name": "Session"
+      },
+      "raw": "<Variable Name=\"Session\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Session</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GridStateXML",
+      "type": "bas:LongVarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridStateXML",
+        "ATTCUSTOMTYPE": "bas:LongVarChar"
+      },
+      "attributes": {
+        "Name": "GridStateXML"
+      },
+      "raw": "<Variable Name=\"GridStateXML\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateXML</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GridState",
+      "type": "sdt:WWPGridState, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridState",
+        "ATTCUSTOMTYPE": "sdt:WWPGridState, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "GridState"
+      },
+      "raw": "<Variable Name=\"GridState\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPGridState"
+    },
+    {
+      "name": "GridStateFilterValue",
+      "type": "sdt:WWPGridState.FilterValue, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GridStateFilterValue",
+        "ATTCUSTOMTYPE": "sdt:WWPGridState.FilterValue, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "GridStateFilterValue"
+      },
+      "raw": "<Variable Name=\"GridStateFilterValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPGridState.FilterValue"
+    },
+    {
+      "name": "TFvw_CC_Id",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Id",
+        "idBasedOn": "Attribute:vw_CC_Id"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Id"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Id\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Id_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Id_To",
+        "idBasedOn": "Attribute:vw_CC_Id"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Id_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Id_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Id_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Empresa",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Empresa",
+        "idBasedOn": "Attribute:vw_CC_Empresa"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Empresa"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Empresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Empresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Empresa_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Empresa_To",
+        "idBasedOn": "Attribute:vw_CC_Empresa"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Empresa_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Empresa_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Empresa_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Cliente",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Cliente",
+        "idBasedOn": "Attribute:vw_CC_Cliente"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Cliente"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Cliente\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Cliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Cliente</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Cliente_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Cliente_To",
+        "idBasedOn": "Attribute:vw_CC_Cliente"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Cliente_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Cliente_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Cliente_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Cliente</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ClieNombre",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ClieNombre",
+        "idBasedOn": "Attribute:vw_CC_ClieNombre"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ClieNombre"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ClieNombre\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNombre</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNombre</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ClieNombre_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ClieNombre_Sel",
+        "idBasedOn": "Attribute:vw_CC_ClieNombre"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ClieNombre_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ClieNombre_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNombre_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNombre</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ClieNroDoc",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ClieNroDoc",
+        "idBasedOn": "Attribute:vw_CC_ClieNroDoc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ClieNroDoc"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ClieNroDoc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNroDoc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNroDoc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ClieNroDoc_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ClieNroDoc_To",
+        "idBasedOn": "Attribute:vw_CC_ClieNroDoc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ClieNroDoc_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ClieNroDoc_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNroDoc_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNroDoc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ClieCBU",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ClieCBU",
+        "idBasedOn": "Attribute:vw_CC_ClieCBU"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ClieCBU"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ClieCBU\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieCBU</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieCBU</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ClieCBU_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ClieCBU_Sel",
+        "idBasedOn": "Attribute:vw_CC_ClieCBU"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ClieCBU_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ClieCBU_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieCBU_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieCBU</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ClieEmail",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ClieEmail",
+        "idBasedOn": "Attribute:vw_CC_ClieEmail"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ClieEmail"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ClieEmail\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieEmail</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieEmail</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ClieEmail_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ClieEmail_Sel",
+        "idBasedOn": "Attribute:vw_CC_ClieEmail"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ClieEmail_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ClieEmail_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieEmail_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieEmail</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAdmId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAdmId",
+        "idBasedOn": "Attribute:vw_CC_EstAdmId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAdmId"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAdmId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAdmId_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAdmId_To",
+        "idBasedOn": "Attribute:vw_CC_EstAdmId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAdmId_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAdmId_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAdmDesc",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAdmDesc",
+        "idBasedOn": "Attribute:vw_CC_EstAdmDesc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAdmDesc"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAdmDesc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmDesc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAdmDesc_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAdmDesc_Sel",
+        "idBasedOn": "Attribute:vw_CC_EstAdmDesc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAdmDesc_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAdmDesc_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmDesc_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmDesc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAcaId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAcaId",
+        "idBasedOn": "Attribute:vw_CC_EstAcaId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAcaId"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAcaId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAcaId_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAcaId_To",
+        "idBasedOn": "Attribute:vw_CC_EstAcaId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAcaId_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAcaId_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAcaDesc",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAcaDesc",
+        "idBasedOn": "Attribute:vw_CC_EstAcaDesc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAcaDesc"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAcaDesc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaDesc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAcaDesc_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAcaDesc_Sel",
+        "idBasedOn": "Attribute:vw_CC_EstAcaDesc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAcaDesc_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAcaDesc_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaDesc_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaDesc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacTipo",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacTipo",
+        "idBasedOn": "Attribute:vw_CC_FacTipo"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacTipo"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacTipo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTipo</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacTipo_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacTipo_Sel",
+        "idBasedOn": "Attribute:vw_CC_FacTipo"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacTipo_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacTipo_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTipo_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTipo</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacSerie",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacSerie",
+        "idBasedOn": "Attribute:vw_CC_FacSerie"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacSerie"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacSerie\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSerie</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSerie</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacSerie_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacSerie_Sel",
+        "idBasedOn": "Attribute:vw_CC_FacSerie"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacSerie_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacSerie_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSerie_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSerie</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacSuc",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacSuc",
+        "idBasedOn": "Attribute:vw_CC_FacSuc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacSuc"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacSuc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSuc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSuc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacSuc_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacSuc_To",
+        "idBasedOn": "Attribute:vw_CC_FacSuc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacSuc_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacSuc_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSuc_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSuc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacNro",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacNro",
+        "idBasedOn": "Attribute:vw_CC_FacNro"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacNro"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacNro\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNro</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacNro_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacNro_To",
+        "idBasedOn": "Attribute:vw_CC_FacNro"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacNro_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacNro_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNro</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacFecha",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacFecha",
+        "idBasedOn": "Attribute:vw_CC_FacFecha"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacFecha"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacFecha\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacFecha_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacFecha_To",
+        "idBasedOn": "Attribute:vw_CC_FacFecha"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacFecha_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacFecha_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacVto",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacVto",
+        "idBasedOn": "Attribute:vw_CC_FacVto"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacVto"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacVto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacVto_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacVto_To",
+        "idBasedOn": "Attribute:vw_CC_FacVto"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacVto_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacVto_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacVto_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacMoneda",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacMoneda",
+        "idBasedOn": "Attribute:vw_CC_FacMoneda"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacMoneda"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacMoneda\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacMoneda</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacMoneda_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacMoneda_Sel",
+        "idBasedOn": "Attribute:vw_CC_FacMoneda"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacMoneda_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacMoneda_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacMoneda_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacMoneda</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacTotal",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacTotal",
+        "idBasedOn": "Attribute:vw_CC_FacTotal"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacTotal"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacTotal\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTotal</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTotal</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacTotal_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacTotal_To",
+        "idBasedOn": "Attribute:vw_CC_FacTotal"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacTotal_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacTotal_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTotal_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTotal</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacNroSAP",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacNroSAP",
+        "idBasedOn": "Attribute:vw_CC_FacNroSAP"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacNroSAP"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacNroSAP\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNroSAP</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNroSAP</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacNroSAP_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacNroSAP_Sel",
+        "idBasedOn": "Attribute:vw_CC_FacNroSAP"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacNroSAP_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacNroSAP_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNroSAP_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNroSAP</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McCod",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McCod",
+        "idBasedOn": "Attribute:vw_CC_McCod"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McCod"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McCod\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McCod</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McCod_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McCod_Sel",
+        "idBasedOn": "Attribute:vw_CC_McCod"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McCod_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McCod_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McCod_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McNro",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McNro",
+        "idBasedOn": "Attribute:vw_CC_McNro"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McNro"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McNro\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McNro</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McNro_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McNro_To",
+        "idBasedOn": "Attribute:vw_CC_McNro"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McNro_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McNro_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McNro</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McMoneda",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McMoneda",
+        "idBasedOn": "Attribute:vw_CC_McMoneda"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McMoneda"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McMoneda\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McMoneda</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McMoneda_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McMoneda_Sel",
+        "idBasedOn": "Attribute:vw_CC_McMoneda"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McMoneda_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McMoneda_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McMoneda_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McMoneda</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McTotal",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McTotal",
+        "idBasedOn": "Attribute:vw_CC_McTotal"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McTotal"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McTotal\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McTotal</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McTotal</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McTotal_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McTotal_To",
+        "idBasedOn": "Attribute:vw_CC_McTotal"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McTotal_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McTotal_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McTotal_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McTotal</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McFecha",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McFecha",
+        "idBasedOn": "Attribute:vw_CC_McFecha"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McFecha"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McFecha\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McFecha</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McFecha_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McFecha_To",
+        "idBasedOn": "Attribute:vw_CC_McFecha"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McFecha_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McFecha_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McFecha</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Id_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Id_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Id_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Id_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Id_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Empresa_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Empresa_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Empresa_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Empresa_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Empresa_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Cliente_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Cliente_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Cliente_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Cliente_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Cliente_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ClieNroDoc_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ClieNroDoc_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ClieNroDoc_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ClieNroDoc_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNroDoc_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAdmId_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAdmId_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAdmId_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAdmId_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmId_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_EstAcaId_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_EstAcaId_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_EstAcaId_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_EstAcaId_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaId_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacSuc_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacSuc_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacSuc_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacSuc_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSuc_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacNro_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacNro_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacNro_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacNro_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNro_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacFecha_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacFecha_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacFecha_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacFecha_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacFecha_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacVto_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacVto_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacVto_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacVto_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacVto_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacTotal_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacTotal_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacTotal_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacTotal_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTotal_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McNro_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McNro_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McNro_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McNro_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McNro_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McTotal_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McTotal_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McTotal_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McTotal_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McTotal_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McFecha_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McFecha_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McFecha_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McFecha_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McFecha_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TempBoolean",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TempBoolean",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "TempBoolean"
+      },
+      "raw": "<Variable Name=\"TempBoolean\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TempBoolean</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "AddressLine1",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AddressLine1",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "AddressLine1"
+      },
+      "raw": "<Variable Name=\"AddressLine1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AddressLine1</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "AddressLine2",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AddressLine2",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "AddressLine2"
+      },
+      "raw": "<Variable Name=\"AddressLine2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AddressLine2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "AddressLine3",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AddressLine3",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "AddressLine3"
+      },
+      "raw": "<Variable Name=\"AddressLine3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AddressLine3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "AppName",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "AppName",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "AppName"
+      },
+      "raw": "<Variable Name=\"AppName\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AppName</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Attribute",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Attribute",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "Attribute"
+      },
+      "raw": "<Variable Name=\"Attribute\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Attribute</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DateInfo",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DateInfo",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "DateInfo"
+      },
+      "raw": "<Variable Name=\"DateInfo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DateInfo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Filter",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Filter",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "Filter"
+      },
+      "raw": "<Variable Name=\"Filter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Filter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Mail",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Mail",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "Mail"
+      },
+      "raw": "<Variable Name=\"Mail\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Mail</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "PageInfo",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "PageInfo",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "PageInfo"
+      },
+      "raw": "<Variable Name=\"PageInfo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>PageInfo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Phone",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Phone",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "Phone"
+      },
+      "raw": "<Variable Name=\"Phone\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Phone</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Title",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Title",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200"
+      },
+      "attributes": {
+        "Name": "Title"
+      },
+      "raw": "<Variable Name=\"Title\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Title</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Website",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Website",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "Website"
+      },
+      "raw": "<Variable Name=\"Website\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Website</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrCarreraDescription",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrCarreraDescription",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "CuentaCorrCarreraDescription"
+      },
+      "raw": "<Variable Name=\"CuentaCorrCarreraDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCarreraDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrCarrera",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrCarrera",
+        "idBasedOn": "Attribute:vw_CC_Carrera",
+        "AttCollection": "True"
+      },
+      "attributes": {
+        "Name": "CuentaCorrCarrera"
+      },
+      "raw": "<Variable Name=\"CuentaCorrCarrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrCL_CarreraIdDescription",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrCL_CarreraIdDescription",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "CuentaCorrCL_CarreraIdDescription"
+      },
+      "raw": "<Variable Name=\"CuentaCorrCL_CarreraIdDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCL_CarreraIdDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrCL_CarreraId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrCL_CarreraId",
+        "idBasedOn": "Attribute:vw_CC_CLCarreraId",
+        "AttCollection": "True"
+      },
+      "attributes": {
+        "Name": "CuentaCorrCL_CarreraId"
+      },
+      "raw": "<Variable Name=\"CuentaCorrCL_CarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCL_CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrMedioCobroCodDescription",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrMedioCobroCodDescription",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "CuentaCorrMedioCobroCodDescription"
+      },
+      "raw": "<Variable Name=\"CuentaCorrMedioCobroCodDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCodDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrMedioCobroCod",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrMedioCobroCod",
+        "idBasedOn": "Attribute:vw_CC_McCod",
+        "AttCollection": "True"
+      },
+      "attributes": {
+        "Name": "CuentaCorrMedioCobroCod"
+      },
+      "raw": "<Variable Name=\"CuentaCorrMedioCobroCod\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCod</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrClienteTipoKey",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrClienteTipoKey",
+        "idBasedOn": "Attribute:CuentaCorrClienteTipo"
+      },
+      "attributes": {
+        "Name": "CuentaCorrClienteTipoKey"
+      },
+      "raw": "<Variable Name=\"CuentaCorrClienteTipoKey\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrClienteTipoKey</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrClienteTipo</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "FilterCuentaCorrClienteTipoValueDescription",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "FilterCuentaCorrClienteTipoValueDescription",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "FilterCuentaCorrClienteTipoValueDescription"
+      },
+      "raw": "<Variable Name=\"FilterCuentaCorrClienteTipoValueDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterCuentaCorrClienteTipoValueDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrClienteTipo",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrClienteTipo",
+        "idBasedOn": "Attribute:CuentaCorrClienteTipo",
+        "AttCollection": "True"
+      },
+      "attributes": {
+        "Name": "CuentaCorrClienteTipo"
+      },
+      "raw": "<Variable Name=\"CuentaCorrClienteTipo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrClienteTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrClienteTipo</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrEstadoKey",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrEstadoKey",
+        "idBasedOn": "Attribute:CuentaCorrEstado"
+      },
+      "attributes": {
+        "Name": "CuentaCorrEstadoKey"
+      },
+      "raw": "<Variable Name=\"CuentaCorrEstadoKey\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrEstadoKey</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEstado</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "FilterCuentaCorrEstadoValueDescription",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "FilterCuentaCorrEstadoValueDescription",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "FilterCuentaCorrEstadoValueDescription"
+      },
+      "raw": "<Variable Name=\"FilterCuentaCorrEstadoValueDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterCuentaCorrEstadoValueDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrEstado",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrEstado",
+        "idBasedOn": "Attribute:CuentaCorrEstado",
+        "AttCollection": "True"
+      },
+      "attributes": {
+        "Name": "CuentaCorrEstado"
+      },
+      "raw": "<Variable Name=\"CuentaCorrEstado\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrEstado</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEstado</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrFacturaFecha",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrFacturaFecha",
+        "idBasedOn": "Attribute:vw_CC_FacFecha"
+      },
+      "attributes": {
+        "Name": "CuentaCorrFacturaFecha"
+      },
+      "raw": "<Variable Name=\"CuentaCorrFacturaFecha\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrFacturaFecha_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrFacturaFecha_To",
+        "idBasedOn": "Attribute:vw_CC_FacFecha"
+      },
+      "attributes": {
+        "Name": "CuentaCorrFacturaFecha_To"
+      },
+      "raw": "<Variable Name=\"CuentaCorrFacturaFecha_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrFacturaFecha_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrFacturaFecha_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "CuentaCorrFacturaFecha_To_Description"
+      },
+      "raw": "<Variable Name=\"CuentaCorrFacturaFecha_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaFecha_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrFacturaVto",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrFacturaVto",
+        "idBasedOn": "Attribute:vw_CC_FacVto"
+      },
+      "attributes": {
+        "Name": "CuentaCorrFacturaVto"
+      },
+      "raw": "<Variable Name=\"CuentaCorrFacturaVto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrFacturaVto_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrFacturaVto_To",
+        "idBasedOn": "Attribute:vw_CC_FacVto"
+      },
+      "attributes": {
+        "Name": "CuentaCorrFacturaVto_To"
+      },
+      "raw": "<Variable Name=\"CuentaCorrFacturaVto_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaVto_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrFacturaVto_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrFacturaVto_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "CuentaCorrFacturaVto_To_Description"
+      },
+      "raw": "<Variable Name=\"CuentaCorrFacturaVto_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaVto_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McVto",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McVto",
+        "idBasedOn": "Attribute:vw_CC_McVto"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McVto"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McVto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McVto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McVto_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McVto_To",
+        "idBasedOn": "Attribute:vw_CC_McVto"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McVto_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McVto_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McVto_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McVto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_AsigNro",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_AsigNro",
+        "idBasedOn": "Attribute:vw_CC_AsigNro"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_AsigNro"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_AsigNro\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigNro</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_AsigNro_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_AsigNro_To",
+        "idBasedOn": "Attribute:vw_CC_AsigNro"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_AsigNro_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_AsigNro_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigNro</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_AsigFecha",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_AsigFecha",
+        "idBasedOn": "Attribute:vw_CC_AsigFecha"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_AsigFecha"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_AsigFecha\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigFecha</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_AsigFecha_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_AsigFecha_To",
+        "idBasedOn": "Attribute:vw_CC_AsigFecha"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_AsigFecha_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_AsigFecha_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigFecha</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_DiasPago",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_DiasPago",
+        "idBasedOn": "Attribute:vw_CC_DiasPago"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_DiasPago"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_DiasPago\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_DiasPago</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_DiasPago</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_DiasPago_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_DiasPago_To",
+        "idBasedOn": "Attribute:vw_CC_DiasPago"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_DiasPago_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_DiasPago_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_DiasPago_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_DiasPago</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_IntTipo",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_IntTipo",
+        "idBasedOn": "Attribute:vw_CC_IntTipo"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_IntTipo"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_IntTipo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntTipo</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_IntTipo_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_IntTipo_Sel",
+        "idBasedOn": "Attribute:vw_CC_IntTipo"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_IntTipo_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_IntTipo_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntTipo_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntTipo</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_IntNro",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_IntNro",
+        "idBasedOn": "Attribute:vw_CC_IntNro"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_IntNro"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_IntNro\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntNro</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_IntNro_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_IntNro_To",
+        "idBasedOn": "Attribute:vw_CC_IntNro"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_IntNro_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_IntNro_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntNro</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Carrera",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Carrera",
+        "idBasedOn": "Attribute:vw_CC_Carrera"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Carrera"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Carrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Carrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Carrera_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Carrera_To",
+        "idBasedOn": "Attribute:vw_CC_Carrera"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Carrera_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Carrera_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Carrera_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_CLCarreraId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_CLCarreraId",
+        "idBasedOn": "Attribute:vw_CC_CLCarreraId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_CLCarreraId"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_CLCarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLCarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_CLCarreraId_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_CLCarreraId_Sel",
+        "idBasedOn": "Attribute:vw_CC_CLCarreraId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_CLCarreraId_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_CLCarreraId_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLCarreraId_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_CLObs",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_CLObs",
+        "idBasedOn": "Attribute:vw_CC_CLObs"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_CLObs"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_CLObs\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLObs</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLObs</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_CLObs_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_CLObs_Sel",
+        "idBasedOn": "Attribute:vw_CC_CLObs"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_CLObs_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_CLObs_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLObs_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLObs</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_MaterialId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_MaterialId",
+        "idBasedOn": "Attribute:vw_CC_MaterialId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_MaterialId"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_MaterialId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_MaterialId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_MaterialId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_MaterialId_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_MaterialId_Sel",
+        "idBasedOn": "Attribute:vw_CC_MaterialId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_MaterialId_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_MaterialId_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_MaterialId_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_MaterialId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_CCostoId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_CCostoId",
+        "idBasedOn": "Attribute:vw_CC_CCostoId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_CCostoId"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_CCostoId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_CCostoId_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_CCostoId_To",
+        "idBasedOn": "Attribute:vw_CC_CCostoId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_CCostoId_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_CCostoId_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_CCostoDesc",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_CCostoDesc",
+        "idBasedOn": "Attribute:vw_CC_CCostoDesc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_CCostoDesc"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_CCostoDesc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoDesc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_CCostoDesc_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_CCostoDesc_Sel",
+        "idBasedOn": "Attribute:vw_CC_CCostoDesc"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_CCostoDesc_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_CCostoDesc_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoDesc_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoDesc</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacDetPlanItem",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacDetPlanItem",
+        "idBasedOn": "Attribute:vw_CC_FacDetPlanItem"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacDetPlanItem"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacDetPlanItem\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanItem</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanItem</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacDetPlanItem_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacDetPlanItem_To",
+        "idBasedOn": "Attribute:vw_CC_FacDetPlanItem"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacDetPlanItem_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacDetPlanItem_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanItem_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanItem</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacDetPlanId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacDetPlanId",
+        "idBasedOn": "Attribute:vw_CC_FacDetPlanId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacDetPlanId"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacDetPlanId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacDetPlanId_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacDetPlanId_To",
+        "idBasedOn": "Attribute:vw_CC_FacDetPlanId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacDetPlanId_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacDetPlanId_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacDebAuto",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacDebAuto",
+        "idBasedOn": "Attribute:vw_CC_FacDebAuto"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacDebAuto"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacDebAuto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDebAuto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDebAuto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacDebAuto_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacDebAuto_Sel",
+        "idBasedOn": "Attribute:vw_CC_FacDebAuto"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacDebAuto_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacDebAuto_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDebAuto_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDebAuto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Texto",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Texto",
+        "idBasedOn": "Attribute:vw_CC_Texto"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Texto"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Texto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Texto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Texto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Texto_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Texto_Sel",
+        "idBasedOn": "Attribute:vw_CC_Texto"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Texto_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Texto_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Texto_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Texto</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Anulado",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Anulado",
+        "idBasedOn": "Attribute:vw_CC_Anulado"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Anulado"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Anulado\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Anulado</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Anulado</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Anulado_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Anulado_Sel",
+        "idBasedOn": "Attribute:vw_CC_Anulado"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Anulado_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Anulado_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Anulado_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Anulado</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ModalidadId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ModalidadId",
+        "idBasedOn": "Attribute:vw_CC_ModalidadId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ModalidadId"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ModalidadId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ModalidadId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ModalidadId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_ModalidadId_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_ModalidadId_Sel",
+        "idBasedOn": "Attribute:vw_CC_ModalidadId"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_ModalidadId_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_ModalidadId_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ModalidadId_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ModalidadId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Usuario",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Usuario",
+        "idBasedOn": "Attribute:vw_CC_Usuario"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Usuario"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Usuario\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Usuario</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Usuario</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Usuario_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Usuario_Sel",
+        "idBasedOn": "Attribute:vw_CC_Usuario"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Usuario_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Usuario_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Usuario_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Usuario</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FechaHoraAud",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FechaHoraAud",
+        "idBasedOn": "Attribute:vw_CC_FechaHoraAud"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FechaHoraAud"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FechaHoraAud\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FechaHoraAud</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FechaHoraAud</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FechaHoraAud_To",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FechaHoraAud_To",
+        "idBasedOn": "Attribute:vw_CC_FechaHoraAud"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FechaHoraAud_To"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FechaHoraAud_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FechaHoraAud_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FechaHoraAud</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_McVto_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_McVto_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_McVto_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_McVto_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McVto_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_AsigNro_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_AsigNro_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_AsigNro_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_AsigNro_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigNro_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_AsigFecha_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_AsigFecha_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_AsigFecha_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_AsigFecha_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigFecha_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_DiasPago_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_DiasPago_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_DiasPago_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_DiasPago_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_DiasPago_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_IntNro_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_IntNro_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_IntNro_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_IntNro_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntNro_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Carrera_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Carrera_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Carrera_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Carrera_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Carrera_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_CCostoId_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_CCostoId_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_CCostoId_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_CCostoId_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoId_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacDetPlanItem_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacDetPlanItem_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacDetPlanItem_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacDetPlanItem_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanItem_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FacDetPlanId_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FacDetPlanId_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FacDetPlanId_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FacDetPlanId_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanId_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_FechaHoraAud_To_Description",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_FechaHoraAud_To_Description",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_FechaHoraAud_To_Description"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_FechaHoraAud_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FechaHoraAud_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "estadoAdmin",
+      "type": "bas:Character",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "estadoAdmin",
+        "ATTCUSTOMTYPE": "bas:Character",
+        "Length": "60",
+        "AttMaxLen": "60"
+      },
+      "attributes": {
+        "Name": "estadoAdmin"
+      },
+      "raw": "<Variable Name=\"estadoAdmin\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>estadoAdmin</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>60</Value></Property><Property><Name>AttMaxLen</Name><Value>60</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "estadoAcademico",
+      "type": "bas:Character",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "estadoAcademico",
+        "ATTCUSTOMTYPE": "bas:Character",
+        "Length": "60",
+        "AttMaxLen": "60"
+      },
+      "attributes": {
+        "Name": "estadoAcademico"
+      },
+      "raw": "<Variable Name=\"estadoAcademico\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>estadoAcademico</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>60</Value></Property><Property><Name>AttMaxLen</Name><Value>60</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "vw_CC_EstadoDescription",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "vw_CC_EstadoDescription",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "vw_CC_EstadoDescription"
+      },
+      "raw": "<Variable Name=\"vw_CC_EstadoDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_EstadoDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Estado_SelsJson",
+      "type": "bas:LongVarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Estado_SelsJson",
+        "ATTCUSTOMTYPE": "bas:LongVarChar"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Estado_SelsJson"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Estado_SelsJson\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_SelsJson</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Estado_SelDscs",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Estado_SelDscs",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Estado_SelDscs"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Estado_SelDscs\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_SelDscs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Estado_Sel",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Estado_Sel",
+        "idBasedOn": "Attribute:vw_CC_Estado"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Estado_Sel"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Estado_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Estado</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TFvw_CC_Estado_Sels",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TFvw_CC_Estado_Sels",
+        "idBasedOn": "Attribute:vw_CC_Estado",
+        "AttCollection": "True"
+      },
+      "attributes": {
+        "Name": "TFvw_CC_Estado_Sels"
+      },
+      "raw": "<Variable Name=\"TFvw_CC_Estado_Sels\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_Sels</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Estado</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "FilterTFvw_CC_Estado_SelValueDescription",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "FilterTFvw_CC_Estado_SelValueDescription",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "100",
+        "AttMaxLen": "100"
+      },
+      "attributes": {
+        "Name": "FilterTFvw_CC_Estado_SelValueDescription"
+      },
+      "raw": "<Variable Name=\"FilterTFvw_CC_Estado_SelValueDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterTFvw_CC_Estado_SelValueDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "i",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "i",
+        "Length": "10",
+        "AttMaxLen": "10"
+      },
+      "attributes": {
+        "Name": "i"
+      },
+      "raw": "<Variable Name=\"i\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>i</Value></Property><Property><Name>Length</Name><Value>10</Value></Property><Property><Name>AttMaxLen</Name><Value>10</Value></Property></Properties>\n        </Variable>\n        "
+    }
+  ],
+  "raw": "<Part type=\"e4c4ade7-53f0-4a56-bdfd-843735b66f47\">\n        <Variable Name=\"IsAuthorized\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>IsAuthorized</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"OrderedBy\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedBy</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"OrderedDsc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>OrderedDsc</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"FilterFullText\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterFullText</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:WWPFullTextFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersSelector1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector1</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersOperator1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator1</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"vw_CC_Empresa1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa1</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Filtervw_CC_EmpresaDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Filtervw_CC_EmpresaDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"vw_CC_Empresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersEnabled2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersSelector2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersOperator2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator2</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"vw_CC_Empresa2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa2</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersEnabled3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersSelector3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DynamicFiltersOperator3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator3</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"vw_CC_Empresa3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa3</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridStateDynamicFilter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Session\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Session</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridStateXML\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateXML</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridState\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GridStateFilterValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Id\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Id_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Id_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Empresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Empresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Empresa_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Empresa_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Cliente\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Cliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Cliente</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Cliente_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Cliente_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Cliente</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ClieNombre\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNombre</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNombre</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ClieNombre_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNombre_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNombre</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ClieNroDoc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNroDoc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNroDoc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ClieNroDoc_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNroDoc_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNroDoc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ClieCBU\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieCBU</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieCBU</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ClieCBU_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieCBU_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieCBU</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ClieEmail\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieEmail</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieEmail</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ClieEmail_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieEmail_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieEmail</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAdmId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAdmId_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAdmDesc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmDesc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAdmDesc_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmDesc_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmDesc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAcaId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAcaId_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAcaDesc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaDesc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAcaDesc_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaDesc_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaDesc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacTipo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTipo</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacTipo_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTipo_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTipo</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacSerie\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSerie</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSerie</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacSerie_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSerie_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSerie</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacSuc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSuc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSuc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacSuc_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSuc_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSuc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacNro\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNro</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacNro_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNro</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacFecha\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacFecha_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacVto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacVto_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacVto_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacMoneda\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacMoneda</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacMoneda_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacMoneda_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacMoneda</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacTotal\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTotal</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTotal</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacTotal_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTotal_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTotal</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacNroSAP\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNroSAP</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNroSAP</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacNroSAP_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNroSAP_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNroSAP</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McCod\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McCod</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McCod_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McCod_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McNro\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McNro</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McNro_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McNro</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McMoneda\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McMoneda</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McMoneda_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McMoneda_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McMoneda</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McTotal\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McTotal</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McTotal</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McTotal_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McTotal_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McTotal</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McFecha\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McFecha</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McFecha_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McFecha</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Id_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Id_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Empresa_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Empresa_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Cliente_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Cliente_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ClieNroDoc_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNroDoc_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAdmId_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmId_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_EstAcaId_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaId_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacSuc_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSuc_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacNro_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNro_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacFecha_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacFecha_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacVto_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacVto_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacTotal_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTotal_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McNro_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McNro_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McTotal_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McTotal_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McFecha_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McFecha_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TempBoolean\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TempBoolean</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AddressLine1\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AddressLine1</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AddressLine2\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AddressLine2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AddressLine3\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AddressLine3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"AppName\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>AppName</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Attribute\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Attribute</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DateInfo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DateInfo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Filter\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Filter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Mail\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Mail</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"PageInfo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>PageInfo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Phone\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Phone</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Title\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Title</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Website\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Website</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrCarreraDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCarreraDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrCarrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrCL_CarreraIdDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCL_CarreraIdDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrCL_CarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCL_CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrMedioCobroCodDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCodDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrMedioCobroCod\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCod</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrClienteTipoKey\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrClienteTipoKey</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrClienteTipo</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"FilterCuentaCorrClienteTipoValueDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterCuentaCorrClienteTipoValueDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrClienteTipo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrClienteTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrClienteTipo</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrEstadoKey\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrEstadoKey</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEstado</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"FilterCuentaCorrEstadoValueDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterCuentaCorrEstadoValueDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrEstado\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrEstado</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEstado</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrFacturaFecha\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrFacturaFecha_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrFacturaFecha_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaFecha_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrFacturaVto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrFacturaVto_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaVto_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrFacturaVto_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaVto_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McVto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McVto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McVto_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McVto_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McVto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_AsigNro\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigNro</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_AsigNro_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigNro</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_AsigFecha\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigFecha</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_AsigFecha_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigFecha</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_DiasPago\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_DiasPago</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_DiasPago</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_DiasPago_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_DiasPago_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_DiasPago</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_IntTipo\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntTipo</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_IntTipo_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntTipo_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntTipo</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_IntNro\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntNro</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_IntNro_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntNro</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Carrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Carrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Carrera_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Carrera_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_CLCarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLCarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_CLCarreraId_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLCarreraId_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_CLObs\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLObs</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLObs</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_CLObs_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLObs_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLObs</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_MaterialId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_MaterialId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_MaterialId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_MaterialId_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_MaterialId_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_MaterialId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_CCostoId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_CCostoId_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_CCostoDesc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoDesc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_CCostoDesc_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoDesc_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoDesc</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacDetPlanItem\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanItem</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanItem</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacDetPlanItem_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanItem_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanItem</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacDetPlanId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacDetPlanId_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacDebAuto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDebAuto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDebAuto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacDebAuto_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDebAuto_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDebAuto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Texto\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Texto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Texto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Texto_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Texto_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Texto</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Anulado\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Anulado</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Anulado</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Anulado_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Anulado_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Anulado</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ModalidadId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ModalidadId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ModalidadId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_ModalidadId_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ModalidadId_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ModalidadId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Usuario\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Usuario</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Usuario</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Usuario_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Usuario_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Usuario</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FechaHoraAud\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FechaHoraAud</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FechaHoraAud</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FechaHoraAud_To\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FechaHoraAud_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FechaHoraAud</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_McVto_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McVto_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_AsigNro_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigNro_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_AsigFecha_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigFecha_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_DiasPago_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_DiasPago_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_IntNro_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntNro_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Carrera_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Carrera_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_CCostoId_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoId_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacDetPlanItem_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanItem_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FacDetPlanId_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanId_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_FechaHoraAud_To_Description\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FechaHoraAud_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"estadoAdmin\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>estadoAdmin</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>60</Value></Property><Property><Name>AttMaxLen</Name><Value>60</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"estadoAcademico\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>estadoAcademico</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>60</Value></Property><Property><Name>AttMaxLen</Name><Value>60</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"vw_CC_EstadoDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>vw_CC_EstadoDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Estado_SelsJson\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_SelsJson</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Estado_SelDscs\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_SelDscs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Estado_Sel\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Estado</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TFvw_CC_Estado_Sels\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_Sels</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Estado</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"FilterTFvw_CC_Estado_SelValueDescription\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>FilterTFvw_CC_Estado_SelValueDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"i\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>i</Value></Property><Property><Name>Length</Name><Value>10</Value></Property><Property><Name>AttMaxLen</Name><Value>10</Value></Property></Properties>\n        </Variable>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      "
+}

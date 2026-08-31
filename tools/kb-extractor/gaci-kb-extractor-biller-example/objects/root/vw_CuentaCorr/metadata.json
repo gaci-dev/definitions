@@ -1,0 +1,46 @@
+{
+  "attributes": {
+    "parentGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-05-20T18:05:05.0000000Z",
+    "checksum": "36d34aef3143add9c09f915123504732",
+    "fullyQualifiedName": "vw_CuentaCorr",
+    "moduleGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+    "guid": "8fe2acb8-3bec-4aa7-bb14-428afcaaf780",
+    "name": "vw_CuentaCorr",
+    "type": "857ca50e-7905-0000-0007-c5d9ff2975ec",
+    "description": "vw_Cuenta Corr"
+  },
+  "guid": "8fe2acb8-3bec-4aa7-bb14-428afcaaf780",
+  "object_kind": "table",
+  "fully_qualified_name": "vw_CuentaCorr",
+  "module": "root",
+  "name": "vw_CuentaCorr",
+  "normalized_path": "objects/root/vw_CuentaCorr",
+  "parts": [
+    {
+      "index": 1,
+      "type": "00000000-0000-0000-0002-000000000004",
+      "file": "parts/001-00000000-0000-0000-0002-000000000004.txt",
+      "kind": "key",
+      "part_kind": "key",
+      "projection_file": "key.json"
+    },
+    {
+      "index": 2,
+      "type": "a5c0e770-560d-0001-0001-7fe71c260de3",
+      "file": "parts/002-a5c0e770-560d-0001-0001-7fe71c260de3.txt",
+      "kind": "indexes",
+      "part_kind": "indexes",
+      "projection_file": "indexes.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "key": 1,
+      "indexes": 1
+    }
+  }
+}

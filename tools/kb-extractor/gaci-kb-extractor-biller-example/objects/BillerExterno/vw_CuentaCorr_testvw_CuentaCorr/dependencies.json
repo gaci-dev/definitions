@@ -1,0 +1,140 @@
+{
+  "explicit_references": [],
+  "inferred_dependencies": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WWPContext"
+      },
+      "from_object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "id": "dependency:d236c7b02482a7d20187",
+      "identity_occurrence": 0,
+      "object_hash": "32a69c97c3afff8e1b49b4fc461bf70f7444ad8cb24d3aa12ccb30b62759df9a",
+      "object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[19]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:5a074bfb30efa6dd6bcd",
+      "target_guid": null,
+      "target_name": "WWPContext",
+      "unresolved_reason": "no object matches target name 'WWPContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"TrnContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "TrnContext"
+      },
+      "from_object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "id": "dependency:e9d569092705062159cb",
+      "identity_occurrence": 0,
+      "object_hash": "32a69c97c3afff8e1b49b4fc461bf70f7444ad8cb24d3aa12ccb30b62759df9a",
+      "object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[19]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:5a074bfb30efa6dd6bcd",
+      "target_guid": null,
+      "target_name": "WWPTransactionContext",
+      "unresolved_reason": "no object matches target name 'WWPTransactionContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"TrnContextAtt\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContextAtt</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "TrnContextAtt"
+      },
+      "from_object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "id": "dependency:964e8acbde6a8620af00",
+      "identity_occurrence": 0,
+      "object_hash": "32a69c97c3afff8e1b49b4fc461bf70f7444ad8cb24d3aa12ccb30b62759df9a",
+      "object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[19]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:5a074bfb30efa6dd6bcd",
+      "target_guid": null,
+      "target_name": "WWPTransactionContext.Attribute",
+      "unresolved_reason": "no object matches target name 'WWPTransactionContext.Attribute'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "unresolved_references": [
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "WWPContext"
+      },
+      "from_object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "id": "dependency:d236c7b02482a7d20187",
+      "identity_occurrence": 0,
+      "object_hash": "32a69c97c3afff8e1b49b4fc461bf70f7444ad8cb24d3aa12ccb30b62759df9a",
+      "object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[19]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:5a074bfb30efa6dd6bcd",
+      "target_guid": null,
+      "target_name": "WWPContext",
+      "unresolved_reason": "no object matches target name 'WWPContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"TrnContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "TrnContext"
+      },
+      "from_object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "id": "dependency:e9d569092705062159cb",
+      "identity_occurrence": 0,
+      "object_hash": "32a69c97c3afff8e1b49b4fc461bf70f7444ad8cb24d3aa12ccb30b62759df9a",
+      "object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[19]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:5a074bfb30efa6dd6bcd",
+      "target_guid": null,
+      "target_name": "WWPTransactionContext",
+      "unresolved_reason": "no object matches target name 'WWPTransactionContext'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    },
+    {
+      "evidence": {
+        "raw": "<Variable Name=\"TrnContextAtt\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContextAtt</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        ",
+        "variable": "TrnContextAtt"
+      },
+      "from_object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "id": "dependency:964e8acbde6a8620af00",
+      "identity_occurrence": 0,
+      "object_hash": "32a69c97c3afff8e1b49b4fc461bf70f7444ad8cb24d3aa12ccb30b62759df9a",
+      "object_id": "object:06255d75-6a22-4b43-bcc0-0cae23032bfc",
+      "part_type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "record_type": "dependency",
+      "relation": "uses_sdt",
+      "resolved": false,
+      "schema_version": 1,
+      "source_location": "ExportFile[1]/Objects[1]/Object[19]/Part[5]#dependency#dependency#dependency#dependency",
+      "source_part": "parts/part:5a074bfb30efa6dd6bcd",
+      "target_guid": null,
+      "target_name": "WWPTransactionContext.Attribute",
+      "unresolved_reason": "no object matches target name 'WWPTransactionContext.Attribute'",
+      "version_guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d"
+    }
+  ],
+  "references": []
+}

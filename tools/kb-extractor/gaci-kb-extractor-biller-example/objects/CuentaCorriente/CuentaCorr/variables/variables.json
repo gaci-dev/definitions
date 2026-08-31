@@ -1,0 +1,704 @@
+{
+  "kind": "variables",
+  "part_attributes": {
+    "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47"
+  },
+  "properties": {
+    "Name": [
+      "CarreraId",
+      "CL_carreraId",
+      "ClienteId",
+      "Combo_DataJson",
+      "ComboCuentaCorrCarrera",
+      "ComboCuentaCorrCL_CarreraId",
+      "ComboCuentaCorrCliente",
+      "ComboCuentaCorrEmpresa",
+      "ComboCuentaCorrMedioCobroId",
+      "ComboCuentaCorrMedioCobroMoneda",
+      "ComboSelectedText",
+      "ComboSelectedValue",
+      "Cond_CuentaCorrCarrera",
+      "CuentaCorrCarrera_Data",
+      "CuentaCorrCL_CarreraId_Data",
+      "CuentaCorrCliente_Data",
+      "CuentaCorrEmpresa_Data",
+      "CuentaCorrId",
+      "CuentaCorrMedioCobroId_Data",
+      "CuentaCorrMedioCobroMoneda_Data",
+      "CurrentStep",
+      "DDO_TitleSettingsIcons",
+      "EmpresaId",
+      "GoingBack",
+      "Insert_CuentaCorrCarrera",
+      "Insert_CuentaCorrCL_CarreraId",
+      "Insert_CuentaCorrCliente",
+      "Insert_CuentaCorrEmpresa",
+      "Insert_CuentaCorrMedioCobroId",
+      "Insert_CuentaCorrMedioCobroMoneda",
+      "Insert_CuentaCorrModalidadId",
+      "MedioCobroId",
+      "MonedaId",
+      "PreviousStep",
+      "TrnContext",
+      "TrnContextAtt",
+      "WebSession",
+      "WWPContext",
+      "EstadoAcademicodesc",
+      "EstadoAdminDescrip",
+      "clientenroDoc"
+    ],
+    "idBasedOn": [
+      "Attribute:CarreraId",
+      "Attribute:CL_carreraId",
+      "Attribute:ClienteId",
+      "Attribute:CuentaCorrCarrera",
+      "Attribute:CuentaCorrCL_CarreraId",
+      "Attribute:CuentaCorrCliente",
+      "Attribute:CuentaCorrEmpresa",
+      "Attribute:CuentaCorrMedioCobroId",
+      "Attribute:CuentaCorrMedioCobroMoneda",
+      "Attribute:CuentaCorrCarrera",
+      "Attribute:CuentaCorrId",
+      "Attribute:EmpresaId",
+      "Attribute:CuentaCorrCarrera",
+      "Attribute:CuentaCorrCL_CarreraId",
+      "Attribute:CuentaCorrCliente",
+      "Attribute:CuentaCorrEmpresa",
+      "Attribute:CuentaCorrMedioCobroId",
+      "Attribute:CuentaCorrMedioCobroMoneda",
+      "Attribute:CuentaCorrModalidadId",
+      "Attribute:MedioCobroId",
+      "Attribute:MonedaId",
+      "Attribute:EstadoAcademicoDescrip",
+      "Attribute:EstadoAdminDescrip",
+      "Attribute:ClienteNroDoc"
+    ],
+    "ATTCUSTOMTYPE": [
+      "bas:LongVarChar",
+      "bas:VarChar",
+      "bas:VarChar",
+      "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "bas:VarChar",
+      "sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web",
+      "bas:Boolean",
+      "bas:VarChar",
+      "sdt:WWPTransactionContext, WorkWithPlus_CommonObjects",
+      "sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects",
+      "ext:WebSession",
+      "sdt:WWPContext, WWPBaseObjects"
+    ],
+    "Length": [
+      "200",
+      "200"
+    ],
+    "AttMaxLen": [
+      "200",
+      "200"
+    ],
+    "Description": [
+      "Estado Academico Descripcion",
+      "Estado Admin Descripcion",
+      "Nro. Documento"
+    ],
+    "IsDefault": "False"
+  },
+  "variables": [
+    {
+      "name": "CarreraId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CarreraId",
+        "idBasedOn": "Attribute:CarreraId"
+      },
+      "attributes": {
+        "Name": "CarreraId"
+      },
+      "raw": "<Variable Name=\"CarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CarreraId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CL_carreraId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CL_carreraId",
+        "idBasedOn": "Attribute:CL_carreraId"
+      },
+      "attributes": {
+        "Name": "CL_carreraId"
+      },
+      "raw": "<Variable Name=\"CL_carreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CL_carreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CL_carreraId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ClienteId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ClienteId",
+        "idBasedOn": "Attribute:ClienteId"
+      },
+      "attributes": {
+        "Name": "ClienteId"
+      },
+      "raw": "<Variable Name=\"ClienteId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ClienteId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Combo_DataJson",
+      "type": "bas:LongVarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Combo_DataJson",
+        "ATTCUSTOMTYPE": "bas:LongVarChar"
+      },
+      "attributes": {
+        "Name": "Combo_DataJson"
+      },
+      "raw": "<Variable Name=\"Combo_DataJson\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Combo_DataJson</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ComboCuentaCorrCarrera",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ComboCuentaCorrCarrera",
+        "idBasedOn": "Attribute:CuentaCorrCarrera"
+      },
+      "attributes": {
+        "Name": "ComboCuentaCorrCarrera"
+      },
+      "raw": "<Variable Name=\"ComboCuentaCorrCarrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCarrera</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ComboCuentaCorrCL_CarreraId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ComboCuentaCorrCL_CarreraId",
+        "idBasedOn": "Attribute:CuentaCorrCL_CarreraId"
+      },
+      "attributes": {
+        "Name": "ComboCuentaCorrCL_CarreraId"
+      },
+      "raw": "<Variable Name=\"ComboCuentaCorrCL_CarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrCL_CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCL_CarreraId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ComboCuentaCorrCliente",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ComboCuentaCorrCliente",
+        "idBasedOn": "Attribute:CuentaCorrCliente"
+      },
+      "attributes": {
+        "Name": "ComboCuentaCorrCliente"
+      },
+      "raw": "<Variable Name=\"ComboCuentaCorrCliente\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrCliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCliente</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ComboCuentaCorrEmpresa",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ComboCuentaCorrEmpresa",
+        "idBasedOn": "Attribute:CuentaCorrEmpresa"
+      },
+      "attributes": {
+        "Name": "ComboCuentaCorrEmpresa"
+      },
+      "raw": "<Variable Name=\"ComboCuentaCorrEmpresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrEmpresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEmpresa</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ComboCuentaCorrMedioCobroId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ComboCuentaCorrMedioCobroId",
+        "idBasedOn": "Attribute:CuentaCorrMedioCobroId"
+      },
+      "attributes": {
+        "Name": "ComboCuentaCorrMedioCobroId"
+      },
+      "raw": "<Variable Name=\"ComboCuentaCorrMedioCobroId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrMedioCobroId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ComboCuentaCorrMedioCobroMoneda",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ComboCuentaCorrMedioCobroMoneda",
+        "idBasedOn": "Attribute:CuentaCorrMedioCobroMoneda"
+      },
+      "attributes": {
+        "Name": "ComboCuentaCorrMedioCobroMoneda"
+      },
+      "raw": "<Variable Name=\"ComboCuentaCorrMedioCobroMoneda\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrMedioCobroMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroMoneda</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ComboSelectedText",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ComboSelectedText",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200"
+      },
+      "attributes": {
+        "Name": "ComboSelectedText"
+      },
+      "raw": "<Variable Name=\"ComboSelectedText\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboSelectedText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "ComboSelectedValue",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "ComboSelectedValue",
+        "ATTCUSTOMTYPE": "bas:VarChar",
+        "Length": "200",
+        "AttMaxLen": "200"
+      },
+      "attributes": {
+        "Name": "ComboSelectedValue"
+      },
+      "raw": "<Variable Name=\"ComboSelectedValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboSelectedValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Cond_CuentaCorrCarrera",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Cond_CuentaCorrCarrera",
+        "idBasedOn": "Attribute:CuentaCorrCarrera"
+      },
+      "attributes": {
+        "Name": "Cond_CuentaCorrCarrera"
+      },
+      "raw": "<Variable Name=\"Cond_CuentaCorrCarrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Cond_CuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCarrera</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrCarrera_Data",
+      "type": "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrCarrera_Data",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTComboData, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "CuentaCorrCarrera_Data"
+      },
+      "raw": "<Variable Name=\"CuentaCorrCarrera_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCarrera_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTComboData"
+    },
+    {
+      "name": "CuentaCorrCL_CarreraId_Data",
+      "type": "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrCL_CarreraId_Data",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTComboData, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "CuentaCorrCL_CarreraId_Data"
+      },
+      "raw": "<Variable Name=\"CuentaCorrCL_CarreraId_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCL_CarreraId_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTComboData"
+    },
+    {
+      "name": "CuentaCorrCliente_Data",
+      "type": "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrCliente_Data",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTComboData, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "CuentaCorrCliente_Data"
+      },
+      "raw": "<Variable Name=\"CuentaCorrCliente_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCliente_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTComboData"
+    },
+    {
+      "name": "CuentaCorrEmpresa_Data",
+      "type": "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrEmpresa_Data",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTComboData, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "CuentaCorrEmpresa_Data"
+      },
+      "raw": "<Variable Name=\"CuentaCorrEmpresa_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrEmpresa_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTComboData"
+    },
+    {
+      "name": "CuentaCorrId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrId",
+        "idBasedOn": "Attribute:CuentaCorrId"
+      },
+      "attributes": {
+        "Name": "CuentaCorrId"
+      },
+      "raw": "<Variable Name=\"CuentaCorrId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "CuentaCorrMedioCobroId_Data",
+      "type": "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrMedioCobroId_Data",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTComboData, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "CuentaCorrMedioCobroId_Data"
+      },
+      "raw": "<Variable Name=\"CuentaCorrMedioCobroId_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroId_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTComboData"
+    },
+    {
+      "name": "CuentaCorrMedioCobroMoneda_Data",
+      "type": "sdt:DVB_SDTComboData, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorrMedioCobroMoneda_Data",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTComboData, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "CuentaCorrMedioCobroMoneda_Data"
+      },
+      "raw": "<Variable Name=\"CuentaCorrMedioCobroMoneda_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroMoneda_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTComboData"
+    },
+    {
+      "name": "CurrentStep",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CurrentStep",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "CurrentStep"
+      },
+      "raw": "<Variable Name=\"CurrentStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CurrentStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "DDO_TitleSettingsIcons",
+      "type": "sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "DDO_TitleSettingsIcons",
+        "ATTCUSTOMTYPE": "sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web"
+      },
+      "attributes": {
+        "Name": "DDO_TitleSettingsIcons"
+      },
+      "raw": "<Variable Name=\"DDO_TitleSettingsIcons\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_TitleSettingsIcons</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "DVB_SDTDropDownOptionsTitleSettingsIcons"
+    },
+    {
+      "name": "EmpresaId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "EmpresaId",
+        "idBasedOn": "Attribute:EmpresaId"
+      },
+      "attributes": {
+        "Name": "EmpresaId"
+      },
+      "raw": "<Variable Name=\"EmpresaId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>EmpresaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:EmpresaId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "GoingBack",
+      "type": "bas:Boolean",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "GoingBack",
+        "ATTCUSTOMTYPE": "bas:Boolean"
+      },
+      "attributes": {
+        "Name": "GoingBack"
+      },
+      "raw": "<Variable Name=\"GoingBack\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GoingBack</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Insert_CuentaCorrCarrera",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Insert_CuentaCorrCarrera",
+        "idBasedOn": "Attribute:CuentaCorrCarrera"
+      },
+      "attributes": {
+        "Name": "Insert_CuentaCorrCarrera"
+      },
+      "raw": "<Variable Name=\"Insert_CuentaCorrCarrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCarrera</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Insert_CuentaCorrCL_CarreraId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Insert_CuentaCorrCL_CarreraId",
+        "idBasedOn": "Attribute:CuentaCorrCL_CarreraId"
+      },
+      "attributes": {
+        "Name": "Insert_CuentaCorrCL_CarreraId"
+      },
+      "raw": "<Variable Name=\"Insert_CuentaCorrCL_CarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrCL_CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCL_CarreraId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Insert_CuentaCorrCliente",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Insert_CuentaCorrCliente",
+        "idBasedOn": "Attribute:CuentaCorrCliente"
+      },
+      "attributes": {
+        "Name": "Insert_CuentaCorrCliente"
+      },
+      "raw": "<Variable Name=\"Insert_CuentaCorrCliente\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrCliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCliente</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Insert_CuentaCorrEmpresa",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Insert_CuentaCorrEmpresa",
+        "idBasedOn": "Attribute:CuentaCorrEmpresa"
+      },
+      "attributes": {
+        "Name": "Insert_CuentaCorrEmpresa"
+      },
+      "raw": "<Variable Name=\"Insert_CuentaCorrEmpresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrEmpresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEmpresa</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Insert_CuentaCorrMedioCobroId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Insert_CuentaCorrMedioCobroId",
+        "idBasedOn": "Attribute:CuentaCorrMedioCobroId"
+      },
+      "attributes": {
+        "Name": "Insert_CuentaCorrMedioCobroId"
+      },
+      "raw": "<Variable Name=\"Insert_CuentaCorrMedioCobroId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrMedioCobroId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Insert_CuentaCorrMedioCobroMoneda",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Insert_CuentaCorrMedioCobroMoneda",
+        "idBasedOn": "Attribute:CuentaCorrMedioCobroMoneda"
+      },
+      "attributes": {
+        "Name": "Insert_CuentaCorrMedioCobroMoneda"
+      },
+      "raw": "<Variable Name=\"Insert_CuentaCorrMedioCobroMoneda\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrMedioCobroMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroMoneda</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "Insert_CuentaCorrModalidadId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "Insert_CuentaCorrModalidadId",
+        "idBasedOn": "Attribute:CuentaCorrModalidadId"
+      },
+      "attributes": {
+        "Name": "Insert_CuentaCorrModalidadId"
+      },
+      "raw": "<Variable Name=\"Insert_CuentaCorrModalidadId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrModalidadId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrModalidadId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "MedioCobroId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "MedioCobroId",
+        "idBasedOn": "Attribute:MedioCobroId"
+      },
+      "attributes": {
+        "Name": "MedioCobroId"
+      },
+      "raw": "<Variable Name=\"MedioCobroId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>MedioCobroId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:MedioCobroId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "MonedaId",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "MonedaId",
+        "idBasedOn": "Attribute:MonedaId"
+      },
+      "attributes": {
+        "Name": "MonedaId"
+      },
+      "raw": "<Variable Name=\"MonedaId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>MonedaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:MonedaId</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "PreviousStep",
+      "type": "bas:VarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "PreviousStep",
+        "ATTCUSTOMTYPE": "bas:VarChar"
+      },
+      "attributes": {
+        "Name": "PreviousStep"
+      },
+      "raw": "<Variable Name=\"PreviousStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>PreviousStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "TrnContext",
+      "type": "sdt:WWPTransactionContext, WorkWithPlus_CommonObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TrnContext",
+        "ATTCUSTOMTYPE": "sdt:WWPTransactionContext, WorkWithPlus_CommonObjects"
+      },
+      "attributes": {
+        "Name": "TrnContext"
+      },
+      "raw": "<Variable Name=\"TrnContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPTransactionContext"
+    },
+    {
+      "name": "TrnContextAtt",
+      "type": "sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "TrnContextAtt",
+        "ATTCUSTOMTYPE": "sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects"
+      },
+      "attributes": {
+        "Name": "TrnContextAtt"
+      },
+      "raw": "<Variable Name=\"TrnContextAtt\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContextAtt</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPTransactionContext.Attribute"
+    },
+    {
+      "name": "WebSession",
+      "type": "ext:WebSession",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WebSession",
+        "ATTCUSTOMTYPE": "ext:WebSession"
+      },
+      "attributes": {
+        "Name": "WebSession"
+      },
+      "raw": "<Variable Name=\"WebSession\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "WWPContext",
+      "type": "sdt:WWPContext, WWPBaseObjects",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "WWPContext",
+        "ATTCUSTOMTYPE": "sdt:WWPContext, WWPBaseObjects"
+      },
+      "attributes": {
+        "Name": "WWPContext"
+      },
+      "raw": "<Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "WWPContext"
+    },
+    {
+      "name": "EstadoAcademicodesc",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "EstadoAcademicodesc",
+        "Description": "Estado Academico Descripcion",
+        "idBasedOn": "Attribute:EstadoAcademicoDescrip"
+      },
+      "attributes": {
+        "Name": "EstadoAcademicodesc"
+      },
+      "raw": "<Variable Name=\"EstadoAcademicodesc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>EstadoAcademicodesc</Value></Property><Property><Name>Description</Name><Value>Estado Academico Descripcion</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:EstadoAcademicoDescrip</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "EstadoAdminDescrip",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "EstadoAdminDescrip",
+        "Description": "Estado Admin Descripcion",
+        "idBasedOn": "Attribute:EstadoAdminDescrip"
+      },
+      "attributes": {
+        "Name": "EstadoAdminDescrip"
+      },
+      "raw": "<Variable Name=\"EstadoAdminDescrip\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>EstadoAdminDescrip</Value></Property><Property><Name>Description</Name><Value>Estado Admin Descripcion</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:EstadoAdminDescrip</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "clientenroDoc",
+      "type": null,
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "clientenroDoc",
+        "Description": "Nro. Documento",
+        "idBasedOn": "Attribute:ClienteNroDoc"
+      },
+      "attributes": {
+        "Name": "clientenroDoc"
+      },
+      "raw": "<Variable Name=\"clientenroDoc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>clientenroDoc</Value></Property><Property><Name>Description</Name><Value>Nro. Documento</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteNroDoc</Value></Property></Properties>\n        </Variable>\n        "
+    }
+  ],
+  "raw": "<Part type=\"e4c4ade7-53f0-4a56-bdfd-843735b66f47\">\n        <Variable Name=\"CarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CarreraId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CL_carreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CL_carreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CL_carreraId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ClienteId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ClienteId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Combo_DataJson\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Combo_DataJson</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ComboCuentaCorrCarrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCarrera</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ComboCuentaCorrCL_CarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrCL_CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCL_CarreraId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ComboCuentaCorrCliente\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrCliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCliente</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ComboCuentaCorrEmpresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrEmpresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEmpresa</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ComboCuentaCorrMedioCobroId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrMedioCobroId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ComboCuentaCorrMedioCobroMoneda\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrMedioCobroMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroMoneda</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ComboSelectedText\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboSelectedText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"ComboSelectedValue\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>ComboSelectedValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Cond_CuentaCorrCarrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Cond_CuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCarrera</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrCarrera_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCarrera_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrCL_CarreraId_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCL_CarreraId_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrCliente_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrCliente_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrEmpresa_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrEmpresa_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrMedioCobroId_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroId_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CuentaCorrMedioCobroMoneda_Data\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroMoneda_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"CurrentStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CurrentStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"DDO_TitleSettingsIcons\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>DDO_TitleSettingsIcons</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"EmpresaId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>EmpresaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:EmpresaId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"GoingBack\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>GoingBack</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Insert_CuentaCorrCarrera\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCarrera</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Insert_CuentaCorrCL_CarreraId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrCL_CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCL_CarreraId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Insert_CuentaCorrCliente\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrCliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCliente</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Insert_CuentaCorrEmpresa\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrEmpresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEmpresa</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Insert_CuentaCorrMedioCobroId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrMedioCobroId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Insert_CuentaCorrMedioCobroMoneda\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrMedioCobroMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroMoneda</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"Insert_CuentaCorrModalidadId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrModalidadId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrModalidadId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"MedioCobroId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>MedioCobroId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:MedioCobroId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"MonedaId\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>MonedaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:MonedaId</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"PreviousStep\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>PreviousStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TrnContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"TrnContextAtt\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>TrnContextAtt</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WebSession\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"WWPContext\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"EstadoAcademicodesc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>EstadoAcademicodesc</Value></Property><Property><Name>Description</Name><Value>Estado Academico Descripcion</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:EstadoAcademicoDescrip</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"EstadoAdminDescrip\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>EstadoAdminDescrip</Value></Property><Property><Name>Description</Name><Value>Estado Admin Descripcion</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:EstadoAdminDescrip</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"clientenroDoc\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>clientenroDoc</Value></Property><Property><Name>Description</Name><Value>Nro. Documento</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteNroDoc</Value></Property></Properties>\n        </Variable>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      "
+}

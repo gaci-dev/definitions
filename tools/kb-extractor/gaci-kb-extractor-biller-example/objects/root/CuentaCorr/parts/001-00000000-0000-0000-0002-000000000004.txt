@@ -1,0 +1,7 @@
+<Part type="00000000-0000-0000-0002-000000000004">
+        <Key>
+          <Item guid="122309b9-35d7-4ec6-ba41-bd73294d1c5e">CuentaCorrId</Item>
+        </Key>
+        <Properties />
+      </Part>
+      

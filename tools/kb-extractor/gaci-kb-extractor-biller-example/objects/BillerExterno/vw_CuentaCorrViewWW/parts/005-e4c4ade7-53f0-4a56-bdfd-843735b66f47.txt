@@ -1,0 +1,716 @@
+<Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="IsAuthorized">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>IsAuthorized</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WWPContext">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="HTTPRequest">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>HTTPRequest</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:HttpRequest</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TrnContext">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TrnContextAtt">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TrnContextAtt</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridState">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridStateFilterValue">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridStateDynamicFilter">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="OrderedBy">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>OrderedBy</Value></Property></Properties>
+        </Variable>
+        <Variable Name="OrderedDsc">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>OrderedDsc</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="OrderedByAux">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>OrderedByAux</Value></Property></Properties>
+        </Variable>
+        <Variable Name="FilterFullText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>FilterFullText</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:WWPFullTextFilter, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersSelector1">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector1</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Empresa:VW_CC_EMPRESA</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersOperator1">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator1</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>&lt;:0,=:1,&gt;:2</Value></Property></Properties>
+        </Variable>
+        <Variable Name="vw_CC_Empresa1">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa1</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersEnabled2">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersSelector2">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Empresa:VW_CC_EMPRESA</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersOperator2">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator2</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>&lt;:0,=:1,&gt;:2</Value></Property></Properties>
+        </Variable>
+        <Variable Name="vw_CC_Empresa2">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa2</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersEnabled3">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersSelector3">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Empresa:VW_CC_EMPRESA</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersOperator3">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator3</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>&lt;:0,=:1,&gt;:2</Value></Property></Properties>
+        </Variable>
+        <Variable Name="vw_CC_Empresa3">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>vw_CC_Empresa3</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersRemoving">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersRemoving</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersIgnoreFirst">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersIgnoreFirst</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ExcelFilename">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ExcelFilename</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:Url, GeneXus</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ErrorMessage">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ErrorMessage</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>512</Value></Property><Property><Name>AttMaxLen</Name><Value>512</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ColumnsSelectorXML">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ColumnsSelectorXML</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="UserCustomValue">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>UserCustomValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ColumnsSelector">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ColumnsSelector</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ColumnsSelectorAux">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ColumnsSelectorAux</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPColumnsSelector, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Session">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Session</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ManageFiltersData">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ManageFiltersData</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ManageFiltersXml">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ManageFiltersXml</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ManageFiltersExecutionStep">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ManageFiltersExecutionStep</Value></Property><Property><Name>Length</Name><Value>1</Value></Property><Property><Name>AttMaxLen</Name><Value>1</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Id">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Id</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Id_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Id_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Id</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Empresa">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Empresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Empresa_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Empresa_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Empresa</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Cliente">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Cliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Cliente</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Cliente_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Cliente_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Cliente</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ClieNombre">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNombre</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNombre</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ClieNombre_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNombre_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNombre</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ClieNroDoc">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNroDoc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNroDoc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ClieNroDoc_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieNroDoc_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieNroDoc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ClieCBU">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieCBU</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieCBU</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ClieCBU_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieCBU_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieCBU</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ClieEmail">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieEmail</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieEmail</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ClieEmail_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ClieEmail_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ClieEmail</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_EstAdmId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_EstAdmId_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_EstAdmDesc">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmDesc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_EstAdmDesc_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAdmDesc_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAdmDesc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_EstAcaId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_EstAcaId_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_EstAcaDesc">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaDesc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_EstAcaDesc_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_EstAcaDesc_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_EstAcaDesc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacTipo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTipo</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacTipo_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTipo_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTipo</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacSerie">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSerie</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSerie</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacSerie_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSerie_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSerie</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacSuc">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSuc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSuc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacSuc_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacSuc_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacSuc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacNro">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNro</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacNro_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNro</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacFecha">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacFecha_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_FacFechaAuxDate">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_FacFechaAuxDate</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_FacFechaAuxDateTo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_FacFechaAuxDateTo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_FacFechaAuxDateText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_FacFechaAuxDateText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacVto">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacVto_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacVto_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_FacVtoAuxDate">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_FacVtoAuxDate</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_FacVtoAuxDateTo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_FacVtoAuxDateTo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_FacVtoAuxDateText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_FacVtoAuxDateText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacMoneda">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacMoneda</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacMoneda_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacMoneda_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacMoneda</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacTotal">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTotal</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTotal</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacTotal_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacTotal_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacTotal</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacNroSAP">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNroSAP</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNroSAP</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacNroSAP_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacNroSAP_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacNroSAP</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McCod">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McCod</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McCod_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McCod_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McNro">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McNro</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McNro_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McNro</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McMoneda">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McMoneda</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McMoneda_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McMoneda_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McMoneda</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McTotal">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McTotal</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McTotal</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McTotal_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McTotal_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McTotal</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McFecha">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McFecha</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McFecha_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McFecha</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_McFechaAuxDate">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_McFechaAuxDate</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_McFechaAuxDateTo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_McFechaAuxDateTo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_McFechaAuxDateText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_McFechaAuxDateText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_TitleSettingsIcons">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_TitleSettingsIcons</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="PageToGo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>PageToGo</Value></Property><Property><Name>Length</Name><Value>6</Value></Property><Property><Name>AttMaxLen</Name><Value>6</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridCurrentPage">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridCurrentPage</Value></Property><Property><Name>Length</Name><Value>10</Value></Property><Property><Name>AttMaxLen</Name><Value>10</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridPageCount">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridPageCount</Value></Property><Property><Name>Length</Name><Value>10</Value></Property><Property><Name>AttMaxLen</Name><Value>10</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridAppliedFilters">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridAppliedFilters</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AGExportData">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AGExportData</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AGExportDataItem">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AGExportDataItem</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsData.Item, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrCarrera">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrCL_CarreraId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrCL_CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrMedioCobroCod">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCod</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McCod</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrClienteTipo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrClienteTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrClienteTipo</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrEstado">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrEstado</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEstado</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrFacturaFecha">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrFacturaFecha_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacFecha</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrFacturaVto">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrFacturaVto_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaVto_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacVto</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ClienteId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ClienteId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ClienteNombre">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ClienteNombre</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteNombre</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McVto">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McVto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McVto</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_McVto_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_McVto_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_McVto</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_McVtoAuxDate">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_McVtoAuxDate</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_McVtoAuxDateTo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_McVtoAuxDateTo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_McVtoAuxDateText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_McVtoAuxDateText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_AsigNro">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigNro</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_AsigNro_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigNro</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_AsigFecha">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigFecha</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigFecha</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_AsigFecha_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_AsigFecha_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_AsigFecha</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_AsigFechaAuxDate">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_AsigFechaAuxDate</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_AsigFechaAuxDateTo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_AsigFechaAuxDateTo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_AsigFechaAuxDateText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_AsigFechaAuxDateText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_DiasPago">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_DiasPago</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_DiasPago</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_DiasPago_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_DiasPago_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_DiasPago</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_IntTipo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntTipo</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntTipo</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_IntTipo_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntTipo_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntTipo</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_IntNro">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntNro</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntNro</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_IntNro_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_IntNro_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_IntNro</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Carrera">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Carrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Carrera_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Carrera_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Carrera</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_CLCarreraId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLCarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_CLCarreraId_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLCarreraId_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLCarreraId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_CLObs">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLObs</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLObs</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_CLObs_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CLObs_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CLObs</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_MaterialId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_MaterialId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_MaterialId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_MaterialId_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_MaterialId_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_MaterialId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_CCostoId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_CCostoId_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_CCostoDesc">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoDesc</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoDesc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_CCostoDesc_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_CCostoDesc_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_CCostoDesc</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacDetPlanItem">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanItem</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanItem</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacDetPlanItem_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanItem_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanItem</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacDetPlanId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacDetPlanId_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDetPlanId_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDetPlanId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacDebAuto">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDebAuto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDebAuto</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FacDebAuto_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FacDebAuto_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FacDebAuto</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Texto">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Texto</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Texto</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Texto_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Texto_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Texto</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Anulado">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Anulado</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Anulado</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Anulado_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Anulado_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Anulado</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ModalidadId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ModalidadId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ModalidadId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_ModalidadId_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_ModalidadId_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_ModalidadId</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Usuario">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Usuario</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Usuario</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Usuario_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Usuario_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Usuario</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FechaHoraAud">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FechaHoraAud</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FechaHoraAud</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_FechaHoraAud_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_FechaHoraAud_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_FechaHoraAud</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_FechaHoraAudAuxDate">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_FechaHoraAudAuxDate</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_FechaHoraAudAuxDateTo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_FechaHoraAudAuxDateTo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Date</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_vw_CC_FechaHoraAudAuxDateText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_vw_CC_FechaHoraAudAuxDateText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrCarrera_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrCarrera_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Combo_DataItem">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Combo_DataItem</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData.Item, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrCL_CarreraId_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrCL_CarreraId_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ComboTitles">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ComboTitles</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrMedioCobroCod_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCod_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrClienteTipo_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrClienteTipo_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrEstado_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrEstado_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrFacturaFecha_RangeText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaFecha_RangeText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrFacturaVto_RangeText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrFacturaVto_RangeText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="estadoAdmin">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>estadoAdmin</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>60</Value></Property><Property><Name>AttMaxLen</Name><Value>60</Value></Property></Properties>
+        </Variable>
+        <Variable Name="estadoAcademico">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>estadoAcademico</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Character</Value></Property><Property><Name>Length</Name><Value>60</Value></Property><Property><Name>AttMaxLen</Name><Value>60</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Estado_SelsJson">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_SelsJson</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFvw_CC_Estado_Sels">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFvw_CC_Estado_Sels</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:vw_CC_Estado</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property><Property><Name>AddEmptyItem</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AuxText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AuxText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="vw_CC_EstadoWithTags">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>vw_CC_EstadoWithTags</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="LoadGridData">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>LoadGridData</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFCuentaCorrCliente">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFCuentaCorrCliente</Value></Property><Property><Name>Description</Name><Value>Cuenta Corr Cliente</Value></Property><Property><Name>idIsAutoDefinedVariable</Name><Value>True</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCliente</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

@@ -1,0 +1,71 @@
+{
+  "kind": "platforms",
+  "part_attributes": {
+    "type": "19abc6ff-2cd2-1000-0006-6d172bc2333b"
+  },
+  "properties": {
+    "NAME": "vw_CuentaCorr",
+    "SCHEMA": "biller",
+    "IsDefault": "False"
+  },
+  "raw_xml": "<Part type=\"19abc6ff-2cd2-1000-0006-6d172bc2333b\">\n        <Platforms>\n          <DataViewStructurePlatform Dbms=\"12\">\n            <PlatformProperties>\n              <Properties><Property><Name>NAME</Name><Value>vw_CuentaCorr</Value></Property><Property><Name>SCHEMA</Name><Value>biller</Value></Property></Properties>\n            </PlatformProperties>\n          </DataViewStructurePlatform>\n        </Platforms>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      ",
+  "properties_nodes": [
+    {
+      "tag": "Property",
+      "attributes": {},
+      "text": "NAMEvw_CuentaCorr",
+      "raw_xml": "<Property><Name>NAME</Name><Value>vw_CuentaCorr</Value></Property>",
+      "properties": {
+        "NAME": "vw_CuentaCorr"
+      },
+      "name": "NAME",
+      "value": "vw_CuentaCorr"
+    },
+    {
+      "tag": "Property",
+      "attributes": {},
+      "text": "SCHEMAbiller",
+      "raw_xml": "<Property><Name>SCHEMA</Name><Value>biller</Value></Property>",
+      "properties": {
+        "SCHEMA": "biller"
+      },
+      "name": "SCHEMA",
+      "value": "biller"
+    },
+    {
+      "tag": "Property",
+      "attributes": {},
+      "text": "IsDefaultFalse",
+      "raw_xml": "<Property><Name>IsDefault</Name><Value>False</Value></Property>",
+      "properties": {
+        "IsDefault": "False"
+      },
+      "name": "IsDefault",
+      "value": "False"
+    }
+  ],
+  "platform_properties": [
+    {
+      "tag": "PlatformProperties",
+      "attributes": {},
+      "text": "NAMEvw_CuentaCorrSCHEMAbiller",
+      "raw_xml": "<PlatformProperties>\n              <Properties><Property><Name>NAME</Name><Value>vw_CuentaCorr</Value></Property><Property><Name>SCHEMA</Name><Value>biller</Value></Property></Properties>\n            </PlatformProperties>\n          ",
+      "properties": {
+        "NAME": "vw_CuentaCorr",
+        "SCHEMA": "biller"
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "tag": "Platforms",
+      "attributes": {},
+      "text": "NAMEvw_CuentaCorrSCHEMAbiller",
+      "raw_xml": "<Platforms>\n          <DataViewStructurePlatform Dbms=\"12\">\n            <PlatformProperties>\n              <Properties><Property><Name>NAME</Name><Value>vw_CuentaCorr</Value></Property><Property><Name>SCHEMA</Name><Value>biller</Value></Property></Properties>\n            </PlatformProperties>\n          </DataViewStructurePlatform>\n        </Platforms>\n        ",
+      "properties": {
+        "NAME": "vw_CuentaCorr",
+        "SCHEMA": "biller"
+      }
+    }
+  ]
+}

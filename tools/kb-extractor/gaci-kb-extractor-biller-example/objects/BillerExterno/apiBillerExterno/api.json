@@ -1,0 +1,23 @@
+{
+  "kind": "api_source",
+  "part_attributes": {
+    "type": "9f577ec2-27f4-4cf4-8ad5-f3f50c9d69b5"
+  },
+  "properties": {
+    "IsDefault": "False"
+  },
+  "raw_xml": "<Part type=\"9f577ec2-27f4-4cf4-8ad5-f3f50c9d69b5\">\n        <Source>billerExterno\n{\n\t[RestMethod(GET)]\n\tGetCuentaCorriente(out:&amp;CuentaCorr_vista) \n\t=&gt; BillerExterno.get_vw_cuentacorr(&amp;CuentaCorr_vista);\n}</Source>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      ",
+  "properties_nodes": [
+    {
+      "tag": "Property",
+      "attributes": {},
+      "text": "IsDefaultFalse",
+      "raw_xml": "<Property><Name>IsDefault</Name><Value>False</Value></Property>",
+      "properties": {
+        "IsDefault": "False"
+      },
+      "name": "IsDefault",
+      "value": "False"
+    }
+  ]
+}

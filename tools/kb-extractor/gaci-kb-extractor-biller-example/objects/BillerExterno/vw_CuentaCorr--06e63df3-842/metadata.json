@@ -1,0 +1,102 @@
+{
+  "attributes": {
+    "parentGuid": "30a467b6-ef76-4e43-8583-8bf490bf4bf0",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-05-20T18:09:57.0000000Z",
+    "checksum": "b6aae7fdb4581a1eab7631c37736a0f1",
+    "fullyQualifiedName": "BillerExterno.vw_CuentaCorr",
+    "moduleGuid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+    "guid": "06e63df3-842b-4008-af8d-6ee4880d1c56",
+    "name": "vw_CuentaCorr",
+    "type": "1db606f2-af09-4cf9-a3b5-b481519d28f6",
+    "description": "vw_Cuenta Corr",
+    "parent": "BillerExterno.Vistas",
+    "parentType": "00000000-0000-0000-0000-000000000008"
+  },
+  "guid": "06e63df3-842b-4008-af8d-6ee4880d1c56",
+  "object_kind": "transaction",
+  "fully_qualified_name": "BillerExterno.vw_CuentaCorr",
+  "module": "BillerExterno",
+  "name": "vw_CuentaCorr",
+  "normalized_path": "objects/BillerExterno/vw_CuentaCorr--06e63df3-842",
+  "parts": [
+    {
+      "index": 1,
+      "type": "264be5fb-1b28-4b25-a598-6ca900dd059f",
+      "file": "parts/001-264be5fb-1b28-4b25-a598-6ca900dd059f.txt",
+      "kind": "transaction_structure",
+      "part_kind": "transaction_structure",
+      "projection_file": "structure.json"
+    },
+    {
+      "index": 2,
+      "type": "d24a58ad-57ba-41b7-9e6e-eaca3543c778",
+      "file": "parts/002-d24a58ad-57ba-41b7-9e6e-eaca3543c778.txt",
+      "kind": "form_layout",
+      "part_kind": "form_layout",
+      "projection_file": "form.gx"
+    },
+    {
+      "index": 3,
+      "type": "4c28dfb9-f83b-46f0-9cf3-f7e090b525d5",
+      "file": "parts/003-4c28dfb9-f83b-46f0-9cf3-f7e090b525d5.txt",
+      "kind": "defaults",
+      "part_kind": "defaults",
+      "projection_file": "defaults.json"
+    },
+    {
+      "index": 4,
+      "type": "9b0a32a3-de6d-4be1-a4dd-1b85d3741534",
+      "file": "parts/004-9b0a32a3-de6d-4be1-a4dd-1b85d3741534.txt",
+      "kind": "rules",
+      "part_kind": "rules",
+      "projection_file": "rules.gx"
+    },
+    {
+      "index": 5,
+      "type": "c44bd5ff-f918-415b-98e6-aca44fed84fa",
+      "file": "parts/005-c44bd5ff-f918-415b-98e6-aca44fed84fa.txt",
+      "kind": "events",
+      "part_kind": "events",
+      "projection_file": "events.gx"
+    },
+    {
+      "index": 6,
+      "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "file": "parts/006-e4c4ade7-53f0-4a56-bdfd-843735b66f47.txt",
+      "kind": "variables",
+      "part_kind": "variables",
+      "projection_file": "variables/variables.json"
+    },
+    {
+      "index": 7,
+      "type": "ad3ca970-19d0-44e1-a7b7-db05556e820c",
+      "file": "parts/007-ad3ca970-19d0-44e1-a7b7-db05556e820c.txt",
+      "kind": "help",
+      "part_kind": "help",
+      "projection_file": "help.md"
+    },
+    {
+      "index": 8,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/008-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 8,
+    "parts_by_kind": {
+      "transaction_structure": 1,
+      "form_layout": 1,
+      "defaults": 1,
+      "rules": 1,
+      "events": 1,
+      "variables": 1,
+      "help": 1,
+      "object_defaults": 1
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<Part type="74203da2-41b1-402c-0001-d8d564a2c2fa">
+        <Subtype guid="974b2f1b-e970-4415-b16b-93b0a109d672">
+          <Name>CuentaCorrCliente</Name>
+          <Supertype guid="c5186435-fc63-4bf6-a1c7-e451039dcb40">ClienteId</Supertype>
+        </Subtype>
+        <Subtype guid="108c8559-1cb7-40ff-b681-f520df82bbed">
+          <Name>CuentaCorrClienteNombre</Name>
+          <Supertype guid="305cf546-0000-47ab-a302-b33d85acede3">ClienteNombre</Supertype>
+        </Subtype>
+        <Subtype guid="5c37e071-c688-4773-bcfd-9733ecf7ef7a">
+          <Name>CuentaCorrClienteTipo</Name>
+          <Supertype guid="a2284b72-aa31-4f8b-9e90-31131c3bfd5b">ClienteTipoCliente</Supertype>
+        </Subtype>
+        <Subtype guid="bf62b02b-6a03-45f8-9212-243f4e05b6fc">
+          <Name>CuentaCorrClienteNroDoc</Name>
+          <Supertype guid="a633731f-bb3f-4047-82d6-741b7c1d3717">ClienteNroDoc</Supertype>
+        </Subtype>
+        <Subtype guid="8d573bb7-c10b-4da1-86dc-c68d063c195f">
+          <Name>CuentaCorrClienteEmail</Name>
+          <Supertype guid="502c81c4-7908-4f0b-bc61-b9332801e3a4">ClienteEmail</Supertype>
+        </Subtype>
+        <Subtype guid="de335be9-1341-46b1-947b-c4134932d2f9">
+          <Name>CuentaCorrCBU</Name>
+          <Supertype guid="eedd93d4-bb03-44d7-852d-a7f2cf3502c0">ClienteCBU</Supertype>
+        </Subtype>
+        <Subtype guid="e72c7df5-6dd8-4322-8d81-6252b939cfd8">
+          <Name>CuentaCorrPaisId</Name>
+          <Supertype guid="14e6909c-e297-4e6a-a005-0ec1a06a87b7">ClientePaisId</Supertype>
+        </Subtype>
+        <Subtype guid="dbd3ef24-3c27-4f56-9b67-0772a3b20aec">
+          <Name>CuentaCorrPaisTxt</Name>
+          <Supertype guid="d919a083-268d-416e-9a3d-2a6a5455176f">ClientePaisTxt</Supertype>
+        </Subtype>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

@@ -1,0 +1,458 @@
+{
+  "kind": "table",
+  "object": {
+    "guid": "c402b8ab-c05a-4acf-a298-c5f47e9ad0cb",
+    "name": "CuentaCorr",
+    "fully_qualified_name": "CuentaCorr",
+    "attributes": {
+      "parentGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+      "user": "[REDACTED]",
+      "versionDate": "0001-01-01T00:00:00.0000000",
+      "lastUpdate": "2026-07-30T14:11:24.0000000Z",
+      "checksum": "9d93ded1ef74e3c8fa89cfd0d89ef1d0",
+      "fullyQualifiedName": "CuentaCorr",
+      "moduleGuid": "afa47377-41d5-4ae8-9755-6f53150aa361",
+      "guid": "c402b8ab-c05a-4acf-a298-c5f47e9ad0cb",
+      "name": "CuentaCorr",
+      "type": "857ca50e-7905-0000-0007-c5d9ff2975ec",
+      "description": ""
+    }
+  },
+  "parts": [
+    {
+      "index": 1,
+      "part_kind": "key",
+      "type": "00000000-0000-0000-0002-000000000004",
+      "file": null,
+      "semantic": {
+        "kind": "key",
+        "part_attributes": {
+          "type": "00000000-0000-0000-0002-000000000004"
+        },
+        "properties": {},
+        "raw_xml": "<Part type=\"00000000-0000-0000-0002-000000000004\">\n        <Key>\n          <Item guid=\"122309b9-35d7-4ec6-ba41-bd73294d1c5e\">CuentaCorrId</Item>\n        </Key>\n        <Properties />\n      </Part>\n      ",
+        "keys": [
+          {
+            "tag": "Key",
+            "attributes": {},
+            "text": "CuentaCorrId",
+            "raw_xml": "<Key>\n          <Item guid=\"122309b9-35d7-4ec6-ba41-bd73294d1c5e\">CuentaCorrId</Item>\n        </Key>\n        "
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "part_kind": "indexes",
+      "type": "a5c0e770-560d-0001-0001-7fe71c260de3",
+      "file": "indexes.json",
+      "semantic": {
+        "kind": "indexes",
+        "part_attributes": {
+          "type": "a5c0e770-560d-0001-0001-7fe71c260de3"
+        },
+        "properties": {
+          "Name": [
+            "ICuentaCorr",
+            "ICuentaCorr3",
+            "ICuentaCorr2",
+            "ICuentaCorr4",
+            "ICuentaCorr5",
+            "ICuentaCorr1",
+            "UCuentaCorrEstadoAsc",
+            "UCuentaCorrEstadoDsc",
+            "UCuentaCorrFacturaFechaAsc",
+            "UCuentaCorrFacturaFechaDsc",
+            "UCuentaCorrFacturaTipoAsc",
+            "UCuentaCorrFacturaTipoDsc",
+            "CuentaCorrMedioCobroCodAsc",
+            "CuentaCorrMedioCobroCodDsc",
+            "CuentaCorrIndice",
+            "I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo",
+            "I_CuentaCorr_FechaVto_Id",
+            "I_CuentaCorr_FacturaFecha_Id",
+            "UCuentaCorr_Tipo_Serie_Sucursal_Numero",
+            "I_Cliente_Tipo_Estado"
+          ]
+        },
+        "raw_xml": "<Part type=\"a5c0e770-560d-0001-0001-7fe71c260de3\">\n        <Indexes>\n          <TableIndex>\n            <Index Type=\"Unique\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2024-11-07T08:12:49.0000000Z\" checksum=\"a84c4ab07b47965fda7367e216e3ef58\" fullyQualifiedName=\"ICuentaCorr\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"44a47802-6c0d-4dcb-b48d-04e5ddf2de53\" name=\"ICuentaCorr\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"d46f0838747d5617d2f4a8eee203420c\" fullyQualifiedName=\"ICuentaCorr3\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"48fcf3fd-0605-458d-bf96-452b64346a44\" name=\"ICuentaCorr3\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr3\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr3</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2024-11-07T08:12:49.0000000Z\" checksum=\"c90fe6835ab36b9c12fbf22a29fda2ec\" fullyQualifiedName=\"ICuentaCorr2\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"c2ae0a2c-8382-4822-af1f-ead2589dff5d\" name=\"ICuentaCorr2\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr2\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrEmpresa</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr2</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"abf531e1ca03e2dcfe5aad61eb7b7b36\" fullyQualifiedName=\"ICuentaCorr4\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"1d3689b1-16df-4539-91f6-02771073bb8a\" name=\"ICuentaCorr4\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr4\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCarrera</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCL_CarreraId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr4</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2024-11-07T08:12:49.0000000Z\" checksum=\"ba8cb9ad0d2fb3f5b901a87ab36a9ad6\" fullyQualifiedName=\"ICuentaCorr5\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"1287614e-89f0-4897-be8d-c08f490845d5\" name=\"ICuentaCorr5\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr5\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrMedioCobroMoneda</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr5</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"db6f1066cffc0fe4cbd28c2cf55a81f2\" fullyQualifiedName=\"ICuentaCorr1\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"fec9d29d-5d92-4115-a030-1d0e196fe28e\" name=\"ICuentaCorr1\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr1\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrModalidadId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr1</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"137aad179eebd6ac45b1611c760cce8e\" fullyQualifiedName=\"UCuentaCorrEstadoAsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"c80486a0-b52d-40b3-9fc4-406a363370c0\" name=\"UCuentaCorrEstadoAsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Estado Asc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrEstado</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrEstadoAsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"b9f24c496b529aa990b7385dd2e18ea4\" fullyQualifiedName=\"UCuentaCorrEstadoDsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"e8416acf-011d-4e69-a1b6-a356096197ee\" name=\"UCuentaCorrEstadoDsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Estado Dsc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Descending\">CuentaCorrEstado</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrEstadoDsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"92ac165b5e6d626d1a87662cc89549b5\" fullyQualifiedName=\"UCuentaCorrFacturaFechaAsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"c7f5ab77-4569-426b-a447-7d335ac732ca\" name=\"UCuentaCorrFacturaFechaAsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Factura Fecha Asc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaFecha</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrFacturaFechaAsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"d1bf7d6775ba86c56942e7ae32c4785a\" fullyQualifiedName=\"UCuentaCorrFacturaFechaDsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"795343fc-a79e-437e-98f9-82e0f50da3e5\" name=\"UCuentaCorrFacturaFechaDsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Factura Fecha Dsc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Descending\">CuentaCorrFacturaFecha</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrFacturaFechaDsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"f78ff9473fe581b8a60a0805bb4c87df\" fullyQualifiedName=\"UCuentaCorrFacturaTipoAsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"d10d2215-5b24-4d15-9ff8-9cd0067283e9\" name=\"UCuentaCorrFacturaTipoAsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Factura Tipo Asc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrFacturaTipoAsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"3edf54172ba20ce10df31132c8f3ab84\" fullyQualifiedName=\"UCuentaCorrFacturaTipoDsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"b55f3d6c-9d41-4df8-84f7-778b30d15bdd\" name=\"UCuentaCorrFacturaTipoDsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Factura Tipo Dsc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Descending\">CuentaCorrFacturaTipo</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrFacturaTipoDsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"d4195df6d30f3898b968f7e9d507b5da\" fullyQualifiedName=\"CuentaCorrMedioCobroCodAsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"e9982d89-a525-427a-98bf-8782bed124b2\" name=\"CuentaCorrMedioCobroCodAsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"Cuenta Corr Medio Cobro Cod Asc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrMedioCobroCod</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCodAsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"8924b49c859d0732ef1a941261a4e080\" fullyQualifiedName=\"CuentaCorrMedioCobroCodDsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"5fddbd38-a827-450d-a38e-40d8b64095ca\" name=\"CuentaCorrMedioCobroCodDsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"Cuenta Corr Medio Cobro Cod Dsc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Descending\">CuentaCorrMedioCobroCod</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCodDsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"2365243d5b3653839f5878c09383d58f\" fullyQualifiedName=\"CuentaCorrIndice\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"1e93719a-0bae-4ade-ab36-65cefe05c34f\" name=\"CuentaCorrIndice\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"Cuenta Corr Indice\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCarrera</Member>\n                  <Member Order=\"Ascending\">CuentaCorrModalidadId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCL_CarreraId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                  <Member Order=\"Ascending\">CuentaCorrInternoNumero</Member>\n                  <Member Order=\"Descending\">CuentaCorrFacturaVto</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>CuentaCorrIndice</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"d847b42810c009559d5bfd0d983d1beb\" fullyQualifiedName=\"I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"c5ec30ed-d116-4c78-ab79-d3a845eba107\" name=\"I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"I_Cuenta Corr_Cliente_Carrera_CLCarrera_Modalidad_Tipo\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCarrera</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCL_CarreraId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrModalidadId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"552eb9d7c5e46a32a428a24626ff58bb\" fullyQualifiedName=\"I_CuentaCorr_FechaVto_Id\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"e7b66452-3af1-4dc3-a577-11099646a045\" name=\"I_CuentaCorr_FechaVto_Id\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"I_Cuenta Corr_Fecha Vto_Id\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaVto</Member>\n                  <Member Order=\"Ascending\">CuentaCorrId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>I_CuentaCorr_FechaVto_Id</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"454ba0dc6bc5b1dd79bda38bd334e1b2\" fullyQualifiedName=\"I_CuentaCorr_FacturaFecha_Id\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"5a288b26-bb19-402a-bd0e-4a546c1738fe\" name=\"I_CuentaCorr_FacturaFecha_Id\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"I_Cuenta Corr_Factura Fecha_Id\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaFecha</Member>\n                  <Member Order=\"Ascending\">CuentaCorrId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>I_CuentaCorr_FacturaFecha_Id</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"b0db7e26238dedc394225bb5d096dc63\" fullyQualifiedName=\"UCuentaCorr_Tipo_Serie_Sucursal_Numero\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"30ad5890-051c-488d-a989-e225e668c2ff\" name=\"UCuentaCorr_Tipo_Serie_Sucursal_Numero\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr_Tipo_Serie_Sucursal_Numero\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaSerie</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaSucursal</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaNumero</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorr_Tipo_Serie_Sucursal_Numero</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"499a452347d7398878fba22cdb885740\" fullyQualifiedName=\"I_Cliente_Tipo_Estado\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"b367908e-f728-4a62-8b77-b9ac7c1058e6\" name=\"I_Cliente_Tipo_Estado\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"I_Cliente_Tipo_Estado\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                  <Member Order=\"Ascending\">CuentaCorrEstado</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>I_Cliente_Tipo_Estado</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n        </Indexes>\n        <Properties />\n      </Part>\n      ",
+        "properties_nodes": [
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameICuentaCorr",
+            "raw_xml": "<Property><Name>Name</Name><Value>ICuentaCorr</Value></Property>",
+            "properties": {
+              "Name": "ICuentaCorr"
+            },
+            "name": "Name",
+            "value": "ICuentaCorr"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameICuentaCorr3",
+            "raw_xml": "<Property><Name>Name</Name><Value>ICuentaCorr3</Value></Property>",
+            "properties": {
+              "Name": "ICuentaCorr3"
+            },
+            "name": "Name",
+            "value": "ICuentaCorr3"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameICuentaCorr2",
+            "raw_xml": "<Property><Name>Name</Name><Value>ICuentaCorr2</Value></Property>",
+            "properties": {
+              "Name": "ICuentaCorr2"
+            },
+            "name": "Name",
+            "value": "ICuentaCorr2"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameICuentaCorr4",
+            "raw_xml": "<Property><Name>Name</Name><Value>ICuentaCorr4</Value></Property>",
+            "properties": {
+              "Name": "ICuentaCorr4"
+            },
+            "name": "Name",
+            "value": "ICuentaCorr4"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameICuentaCorr5",
+            "raw_xml": "<Property><Name>Name</Name><Value>ICuentaCorr5</Value></Property>",
+            "properties": {
+              "Name": "ICuentaCorr5"
+            },
+            "name": "Name",
+            "value": "ICuentaCorr5"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameICuentaCorr1",
+            "raw_xml": "<Property><Name>Name</Name><Value>ICuentaCorr1</Value></Property>",
+            "properties": {
+              "Name": "ICuentaCorr1"
+            },
+            "name": "Name",
+            "value": "ICuentaCorr1"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameUCuentaCorrEstadoAsc",
+            "raw_xml": "<Property><Name>Name</Name><Value>UCuentaCorrEstadoAsc</Value></Property>",
+            "properties": {
+              "Name": "UCuentaCorrEstadoAsc"
+            },
+            "name": "Name",
+            "value": "UCuentaCorrEstadoAsc"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameUCuentaCorrEstadoDsc",
+            "raw_xml": "<Property><Name>Name</Name><Value>UCuentaCorrEstadoDsc</Value></Property>",
+            "properties": {
+              "Name": "UCuentaCorrEstadoDsc"
+            },
+            "name": "Name",
+            "value": "UCuentaCorrEstadoDsc"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameUCuentaCorrFacturaFechaAsc",
+            "raw_xml": "<Property><Name>Name</Name><Value>UCuentaCorrFacturaFechaAsc</Value></Property>",
+            "properties": {
+              "Name": "UCuentaCorrFacturaFechaAsc"
+            },
+            "name": "Name",
+            "value": "UCuentaCorrFacturaFechaAsc"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameUCuentaCorrFacturaFechaDsc",
+            "raw_xml": "<Property><Name>Name</Name><Value>UCuentaCorrFacturaFechaDsc</Value></Property>",
+            "properties": {
+              "Name": "UCuentaCorrFacturaFechaDsc"
+            },
+            "name": "Name",
+            "value": "UCuentaCorrFacturaFechaDsc"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameUCuentaCorrFacturaTipoAsc",
+            "raw_xml": "<Property><Name>Name</Name><Value>UCuentaCorrFacturaTipoAsc</Value></Property>",
+            "properties": {
+              "Name": "UCuentaCorrFacturaTipoAsc"
+            },
+            "name": "Name",
+            "value": "UCuentaCorrFacturaTipoAsc"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameUCuentaCorrFacturaTipoDsc",
+            "raw_xml": "<Property><Name>Name</Name><Value>UCuentaCorrFacturaTipoDsc</Value></Property>",
+            "properties": {
+              "Name": "UCuentaCorrFacturaTipoDsc"
+            },
+            "name": "Name",
+            "value": "UCuentaCorrFacturaTipoDsc"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameCuentaCorrMedioCobroCodAsc",
+            "raw_xml": "<Property><Name>Name</Name><Value>CuentaCorrMedioCobroCodAsc</Value></Property>",
+            "properties": {
+              "Name": "CuentaCorrMedioCobroCodAsc"
+            },
+            "name": "Name",
+            "value": "CuentaCorrMedioCobroCodAsc"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameCuentaCorrMedioCobroCodDsc",
+            "raw_xml": "<Property><Name>Name</Name><Value>CuentaCorrMedioCobroCodDsc</Value></Property>",
+            "properties": {
+              "Name": "CuentaCorrMedioCobroCodDsc"
+            },
+            "name": "Name",
+            "value": "CuentaCorrMedioCobroCodDsc"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameCuentaCorrIndice",
+            "raw_xml": "<Property><Name>Name</Name><Value>CuentaCorrIndice</Value></Property>",
+            "properties": {
+              "Name": "CuentaCorrIndice"
+            },
+            "name": "Name",
+            "value": "CuentaCorrIndice"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameI_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo",
+            "raw_xml": "<Property><Name>Name</Name><Value>I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo</Value></Property>",
+            "properties": {
+              "Name": "I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo"
+            },
+            "name": "Name",
+            "value": "I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameI_CuentaCorr_FechaVto_Id",
+            "raw_xml": "<Property><Name>Name</Name><Value>I_CuentaCorr_FechaVto_Id</Value></Property>",
+            "properties": {
+              "Name": "I_CuentaCorr_FechaVto_Id"
+            },
+            "name": "Name",
+            "value": "I_CuentaCorr_FechaVto_Id"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameI_CuentaCorr_FacturaFecha_Id",
+            "raw_xml": "<Property><Name>Name</Name><Value>I_CuentaCorr_FacturaFecha_Id</Value></Property>",
+            "properties": {
+              "Name": "I_CuentaCorr_FacturaFecha_Id"
+            },
+            "name": "Name",
+            "value": "I_CuentaCorr_FacturaFecha_Id"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameUCuentaCorr_Tipo_Serie_Sucursal_Numero",
+            "raw_xml": "<Property><Name>Name</Name><Value>UCuentaCorr_Tipo_Serie_Sucursal_Numero</Value></Property>",
+            "properties": {
+              "Name": "UCuentaCorr_Tipo_Serie_Sucursal_Numero"
+            },
+            "name": "Name",
+            "value": "UCuentaCorr_Tipo_Serie_Sucursal_Numero"
+          },
+          {
+            "tag": "Property",
+            "attributes": {},
+            "text": "NameI_Cliente_Tipo_Estado",
+            "raw_xml": "<Property><Name>Name</Name><Value>I_Cliente_Tipo_Estado</Value></Property>",
+            "properties": {
+              "Name": "I_Cliente_Tipo_Estado"
+            },
+            "name": "Name",
+            "value": "I_Cliente_Tipo_Estado"
+          }
+        ],
+        "members": [
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrId",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrId</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrCliente",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrEmpresa",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrEmpresa</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrCarrera\n                  CuentaCorrCL_CarreraId",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrCarrera</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCL_CarreraId</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrMedioCobroMoneda",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrMedioCobroMoneda</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrModalidadId",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrModalidadId</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrEstado",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrEstado</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrEstado",
+            "raw_xml": "<Members>\n                  <Member Order=\"Descending\">CuentaCorrEstado</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrFacturaFecha",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaFecha</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrFacturaFecha",
+            "raw_xml": "<Members>\n                  <Member Order=\"Descending\">CuentaCorrFacturaFecha</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrFacturaTipo",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrFacturaTipo",
+            "raw_xml": "<Members>\n                  <Member Order=\"Descending\">CuentaCorrFacturaTipo</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrMedioCobroCod",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrMedioCobroCod</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrMedioCobroCod",
+            "raw_xml": "<Members>\n                  <Member Order=\"Descending\">CuentaCorrMedioCobroCod</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrCliente\n                  CuentaCorrCarrera\n                  CuentaCorrModalidadId\n                  CuentaCorrCL_CarreraId\n                  CuentaCorrFacturaTipo\n                  CuentaCorrInternoNumero\n                  CuentaCorrFacturaVto",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCarrera</Member>\n                  <Member Order=\"Ascending\">CuentaCorrModalidadId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCL_CarreraId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                  <Member Order=\"Ascending\">CuentaCorrInternoNumero</Member>\n                  <Member Order=\"Descending\">CuentaCorrFacturaVto</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrCliente\n                  CuentaCorrCarrera\n                  CuentaCorrCL_CarreraId\n                  CuentaCorrModalidadId\n                  CuentaCorrFacturaTipo",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCarrera</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCL_CarreraId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrModalidadId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrFacturaVto\n                  CuentaCorrId",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaVto</Member>\n                  <Member Order=\"Ascending\">CuentaCorrId</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrFacturaFecha\n                  CuentaCorrId",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaFecha</Member>\n                  <Member Order=\"Ascending\">CuentaCorrId</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrFacturaTipo\n                  CuentaCorrFacturaSerie\n                  CuentaCorrFacturaSucursal\n                  CuentaCorrFacturaNumero",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaSerie</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaSucursal</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaNumero</Member>\n                </Members>\n                "
+          },
+          {
+            "tag": "Members",
+            "attributes": {},
+            "text": "CuentaCorrCliente\n                  CuentaCorrFacturaTipo\n                  CuentaCorrEstado",
+            "raw_xml": "<Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                  <Member Order=\"Ascending\">CuentaCorrEstado</Member>\n                </Members>\n                "
+          }
+        ],
+        "indexes": [
+          {
+            "tag": "Indexes",
+            "attributes": {},
+            "text": "CuentaCorrId\n                \n                \n              \n              NameICuentaCorr\n            \n          \n          \n            \n              \n                \n                  CuentaCorrCliente\n                \n                \n              \n              NameICuentaCorr3\n            \n          \n          \n            \n              \n                \n                  CuentaCorrEmpresa\n                \n                \n              \n              NameICuentaCorr2\n            \n          \n          \n            \n              \n                \n                  CuentaCorrCarrera\n                  CuentaCorrCL_CarreraId\n                \n                \n              \n              NameICuentaCorr4\n            \n          \n          \n            \n              \n                \n                  CuentaCorrMedioCobroMoneda\n                \n                \n              \n              NameICuentaCorr5\n            \n          \n          \n            \n              \n                \n                  CuentaCorrModalidadId\n                \n                \n              \n              NameICuentaCorr1\n            \n          \n          \n            \n              \n                \n                  CuentaCorrEstado\n                \n                \n              \n              NameUCuentaCorrEstadoAsc\n            \n          \n          \n            \n              \n                \n                  CuentaCorrEstado\n                \n                \n              \n              NameUCuentaCorrEstadoDsc\n            \n          \n          \n            \n              \n                \n                  CuentaCorrFacturaFecha\n                \n                \n              \n              NameUCuentaCorrFacturaFechaAsc\n            \n          \n          \n            \n              \n                \n                  CuentaCorrFacturaFecha\n                \n                \n              \n              NameUCuentaCorrFacturaFechaDsc\n            \n          \n          \n            \n              \n                \n                  CuentaCorrFacturaTipo\n                \n                \n              \n              NameUCuentaCorrFacturaTipoAsc\n            \n          \n          \n            \n              \n                \n                  CuentaCorrFacturaTipo\n                \n                \n              \n              NameUCuentaCorrFacturaTipoDsc\n            \n          \n          \n            \n              \n                \n                  CuentaCorrMedioCobroCod\n                \n                \n              \n              NameCuentaCorrMedioCobroCodAsc\n            \n          \n          \n            \n              \n                \n                  CuentaCorrMedioCobroCod\n                \n                \n              \n              NameCuentaCorrMedioCobroCodDsc\n            \n          \n          \n            \n              \n                \n                  CuentaCorrCliente\n                  CuentaCorrCarrera\n                  CuentaCorrModalidadId\n                  CuentaCorrCL_CarreraId\n                  CuentaCorrFacturaTipo\n                  CuentaCorrInternoNumero\n                  CuentaCorrFacturaVto\n                \n                \n              \n              NameCuentaCorrIndice\n            \n          \n          \n            \n              \n                \n                  CuentaCorrCliente\n                  CuentaCorrCarrera\n                  CuentaCorrCL_CarreraId\n                  CuentaCorrModalidadId\n                  CuentaCorrFacturaTipo\n                \n                \n              \n              NameI_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo\n            \n          \n          \n            \n              \n                \n                  CuentaCorrFacturaVto\n                  CuentaCorrId\n                \n                \n              \n              NameI_CuentaCorr_FechaVto_Id\n            \n          \n          \n            \n              \n                \n                  CuentaCorrFacturaFecha\n                  CuentaCorrId\n                \n                \n              \n              NameI_CuentaCorr_FacturaFecha_Id\n            \n          \n          \n            \n              \n                \n                  CuentaCorrFacturaTipo\n                  CuentaCorrFacturaSerie\n                  CuentaCorrFacturaSucursal\n                  CuentaCorrFacturaNumero\n                \n                \n              \n              NameUCuentaCorr_Tipo_Serie_Sucursal_Numero\n            \n          \n          \n            \n              \n                \n                  CuentaCorrCliente\n                  CuentaCorrFacturaTipo\n                  CuentaCorrEstado\n                \n                \n              \n              NameI_Cliente_Tipo_Estado",
+            "raw_xml": "<Indexes>\n          <TableIndex>\n            <Index Type=\"Unique\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2024-11-07T08:12:49.0000000Z\" checksum=\"a84c4ab07b47965fda7367e216e3ef58\" fullyQualifiedName=\"ICuentaCorr\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"44a47802-6c0d-4dcb-b48d-04e5ddf2de53\" name=\"ICuentaCorr\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"d46f0838747d5617d2f4a8eee203420c\" fullyQualifiedName=\"ICuentaCorr3\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"48fcf3fd-0605-458d-bf96-452b64346a44\" name=\"ICuentaCorr3\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr3\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr3</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2024-11-07T08:12:49.0000000Z\" checksum=\"c90fe6835ab36b9c12fbf22a29fda2ec\" fullyQualifiedName=\"ICuentaCorr2\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"c2ae0a2c-8382-4822-af1f-ead2589dff5d\" name=\"ICuentaCorr2\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr2\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrEmpresa</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr2</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"abf531e1ca03e2dcfe5aad61eb7b7b36\" fullyQualifiedName=\"ICuentaCorr4\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"1d3689b1-16df-4539-91f6-02771073bb8a\" name=\"ICuentaCorr4\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr4\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCarrera</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCL_CarreraId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr4</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2024-11-07T08:12:49.0000000Z\" checksum=\"ba8cb9ad0d2fb3f5b901a87ab36a9ad6\" fullyQualifiedName=\"ICuentaCorr5\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"1287614e-89f0-4897-be8d-c08f490845d5\" name=\"ICuentaCorr5\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr5\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrMedioCobroMoneda</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr5</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"Automatic\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"db6f1066cffc0fe4cbd28c2cf55a81f2\" fullyQualifiedName=\"ICuentaCorr1\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"fec9d29d-5d92-4115-a030-1d0e196fe28e\" name=\"ICuentaCorr1\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"ICuenta Corr1\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrModalidadId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>ICuentaCorr1</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"137aad179eebd6ac45b1611c760cce8e\" fullyQualifiedName=\"UCuentaCorrEstadoAsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"c80486a0-b52d-40b3-9fc4-406a363370c0\" name=\"UCuentaCorrEstadoAsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Estado Asc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrEstado</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrEstadoAsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"b9f24c496b529aa990b7385dd2e18ea4\" fullyQualifiedName=\"UCuentaCorrEstadoDsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"e8416acf-011d-4e69-a1b6-a356096197ee\" name=\"UCuentaCorrEstadoDsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Estado Dsc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Descending\">CuentaCorrEstado</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrEstadoDsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"92ac165b5e6d626d1a87662cc89549b5\" fullyQualifiedName=\"UCuentaCorrFacturaFechaAsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"c7f5ab77-4569-426b-a447-7d335ac732ca\" name=\"UCuentaCorrFacturaFechaAsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Factura Fecha Asc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaFecha</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrFacturaFechaAsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"d1bf7d6775ba86c56942e7ae32c4785a\" fullyQualifiedName=\"UCuentaCorrFacturaFechaDsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"795343fc-a79e-437e-98f9-82e0f50da3e5\" name=\"UCuentaCorrFacturaFechaDsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Factura Fecha Dsc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Descending\">CuentaCorrFacturaFecha</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrFacturaFechaDsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"f78ff9473fe581b8a60a0805bb4c87df\" fullyQualifiedName=\"UCuentaCorrFacturaTipoAsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"d10d2215-5b24-4d15-9ff8-9cd0067283e9\" name=\"UCuentaCorrFacturaTipoAsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Factura Tipo Asc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrFacturaTipoAsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"3edf54172ba20ce10df31132c8f3ab84\" fullyQualifiedName=\"UCuentaCorrFacturaTipoDsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"b55f3d6c-9d41-4df8-84f7-778b30d15bdd\" name=\"UCuentaCorrFacturaTipoDsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr Factura Tipo Dsc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Descending\">CuentaCorrFacturaTipo</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorrFacturaTipoDsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"d4195df6d30f3898b968f7e9d507b5da\" fullyQualifiedName=\"CuentaCorrMedioCobroCodAsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"e9982d89-a525-427a-98bf-8782bed124b2\" name=\"CuentaCorrMedioCobroCodAsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"Cuenta Corr Medio Cobro Cod Asc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrMedioCobroCod</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCodAsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"8924b49c859d0732ef1a941261a4e080\" fullyQualifiedName=\"CuentaCorrMedioCobroCodDsc\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"5fddbd38-a827-450d-a38e-40d8b64095ca\" name=\"CuentaCorrMedioCobroCodDsc\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"Cuenta Corr Medio Cobro Cod Dsc\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Descending\">CuentaCorrMedioCobroCod</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroCodDsc</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"2365243d5b3653839f5878c09383d58f\" fullyQualifiedName=\"CuentaCorrIndice\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"1e93719a-0bae-4ade-ab36-65cefe05c34f\" name=\"CuentaCorrIndice\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"Cuenta Corr Indice\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCarrera</Member>\n                  <Member Order=\"Ascending\">CuentaCorrModalidadId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCL_CarreraId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                  <Member Order=\"Ascending\">CuentaCorrInternoNumero</Member>\n                  <Member Order=\"Descending\">CuentaCorrFacturaVto</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>CuentaCorrIndice</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"d847b42810c009559d5bfd0d983d1beb\" fullyQualifiedName=\"I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"c5ec30ed-d116-4c78-ab79-d3a845eba107\" name=\"I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"I_Cuenta Corr_Cliente_Carrera_CLCarrera_Modalidad_Tipo\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCarrera</Member>\n                  <Member Order=\"Ascending\">CuentaCorrCL_CarreraId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrModalidadId</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"552eb9d7c5e46a32a428a24626ff58bb\" fullyQualifiedName=\"I_CuentaCorr_FechaVto_Id\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"e7b66452-3af1-4dc3-a577-11099646a045\" name=\"I_CuentaCorr_FechaVto_Id\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"I_Cuenta Corr_Fecha Vto_Id\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaVto</Member>\n                  <Member Order=\"Ascending\">CuentaCorrId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>I_CuentaCorr_FechaVto_Id</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"454ba0dc6bc5b1dd79bda38bd334e1b2\" fullyQualifiedName=\"I_CuentaCorr_FacturaFecha_Id\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"5a288b26-bb19-402a-bd0e-4a546c1738fe\" name=\"I_CuentaCorr_FacturaFecha_Id\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"I_Cuenta Corr_Factura Fecha_Id\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaFecha</Member>\n                  <Member Order=\"Ascending\">CuentaCorrId</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>I_CuentaCorr_FacturaFecha_Id</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"b0db7e26238dedc394225bb5d096dc63\" fullyQualifiedName=\"UCuentaCorr_Tipo_Serie_Sucursal_Numero\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"30ad5890-051c-488d-a989-e225e668c2ff\" name=\"UCuentaCorr_Tipo_Serie_Sucursal_Numero\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"UCuenta Corr_Tipo_Serie_Sucursal_Numero\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaSerie</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaSucursal</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaNumero</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>UCuentaCorr_Tipo_Serie_Sucursal_Numero</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n          <TableIndex>\n            <Index Type=\"Duplicate\" Source=\"User\" parentGuid=\"00000000-0000-0000-0000-000000000000\" user=\"[REDACTED]\" versionDate=\"0001-01-01T00:00:00.0000000\" lastUpdate=\"2026-07-30T14:11:24.0000000Z\" checksum=\"499a452347d7398878fba22cdb885740\" fullyQualifiedName=\"I_Cliente_Tipo_Estado\" moduleGuid=\"00000000-0000-0000-0000-000000000000\" guid=\"b367908e-f728-4a62-8b77-b9ac7c1058e6\" name=\"I_Cliente_Tipo_Estado\" type=\"9e750647-3679-0000-0100-2529de263960\" description=\"I_Cliente_Tipo_Estado\">\n              <Part type=\"62cfa789-c127-0001-0100-77676175e433\">\n                <Members>\n                  <Member Order=\"Ascending\">CuentaCorrCliente</Member>\n                  <Member Order=\"Ascending\">CuentaCorrFacturaTipo</Member>\n                  <Member Order=\"Ascending\">CuentaCorrEstado</Member>\n                </Members>\n                <Properties />\n              </Part>\n              <Properties><Property><Name>Name</Name><Value>I_Cliente_Tipo_Estado</Value></Property></Properties>\n            </Index>\n          </TableIndex>\n        </Indexes>\n        ",
+            "properties": {
+              "Name": [
+                "ICuentaCorr",
+                "ICuentaCorr3",
+                "ICuentaCorr2",
+                "ICuentaCorr4",
+                "ICuentaCorr5",
+                "ICuentaCorr1",
+                "UCuentaCorrEstadoAsc",
+                "UCuentaCorrEstadoDsc",
+                "UCuentaCorrFacturaFechaAsc",
+                "UCuentaCorrFacturaFechaDsc",
+                "UCuentaCorrFacturaTipoAsc",
+                "UCuentaCorrFacturaTipoDsc",
+                "CuentaCorrMedioCobroCodAsc",
+                "CuentaCorrMedioCobroCodDsc",
+                "CuentaCorrIndice",
+                "I_CuentaCorr_Cliente_Carrera_CLCarrera_Modalidad_Tipo",
+                "I_CuentaCorr_FechaVto_Id",
+                "I_CuentaCorr_FacturaFecha_Id",
+                "UCuentaCorr_Tipo_Serie_Sucursal_Numero",
+                "I_Cliente_Tipo_Estado"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

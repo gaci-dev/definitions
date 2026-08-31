@@ -1,0 +1,8 @@
+{
+  "kind": "object_defaults",
+  "part_attributes": {
+    "type": "babf62c5-0111-49e9-a1c3-cc004d90900a"
+  },
+  "properties": {},
+  "raw_xml": "<Part type=\"babf62c5-0111-49e9-a1c3-cc004d90900a\">\n        <Properties />\n      </Part>\n      "
+}

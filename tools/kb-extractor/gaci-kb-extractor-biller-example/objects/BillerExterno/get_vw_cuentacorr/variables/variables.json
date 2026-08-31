@@ -1,0 +1,29 @@
+{
+  "kind": "variables",
+  "part_attributes": {
+    "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47"
+  },
+  "properties": {
+    "Name": "CuentaCorr_vista",
+    "ATTCUSTOMTYPE": "sdt:CuentaCorr_vista, BillerExterno",
+    "IsDefault": "False"
+  },
+  "variables": [
+    {
+      "name": "CuentaCorr_vista",
+      "type": "sdt:CuentaCorr_vista, BillerExterno",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "CuentaCorr_vista",
+        "ATTCUSTOMTYPE": "sdt:CuentaCorr_vista, BillerExterno"
+      },
+      "attributes": {
+        "Name": "CuentaCorr_vista"
+      },
+      "raw": "<Variable Name=\"CuentaCorr_vista\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorr_vista</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:CuentaCorr_vista, BillerExterno</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "CuentaCorr_vista"
+    }
+  ],
+  "raw": "<Part type=\"e4c4ade7-53f0-4a56-bdfd-843735b66f47\">\n        <Variable Name=\"CuentaCorr_vista\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>CuentaCorr_vista</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:CuentaCorr_vista, BillerExterno</Value></Property></Properties>\n        </Variable>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      "
+}

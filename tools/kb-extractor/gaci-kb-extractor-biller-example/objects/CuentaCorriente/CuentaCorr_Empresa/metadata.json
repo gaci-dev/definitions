@@ -1,0 +1,38 @@
+{
+  "attributes": {
+    "parentGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "user": "[REDACTED]",
+    "versionDate": "0001-01-01T00:00:00.0000000",
+    "lastUpdate": "2023-10-24T10:45:33.0000000Z",
+    "checksum": "4d017226d2aab32eb6c91bfed89d297f",
+    "fullyQualifiedName": "CuentaCorriente.CuentaCorr_Empresa",
+    "moduleGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "guid": "59a82731-c1e0-4dd8-a9a3-651a6a17c16c",
+    "name": "CuentaCorr_Empresa",
+    "type": "87313f43-5eb2-41d7-9b8c-e8d9f5bf9588",
+    "description": "Cuenta Corriente Empresa",
+    "parent": "CuentaCorriente",
+    "parentType": "c88fffcd-b6f8-0000-8fec-00b5497e2117"
+  },
+  "guid": "59a82731-c1e0-4dd8-a9a3-651a6a17c16c",
+  "object_kind": "unknown",
+  "fully_qualified_name": "CuentaCorriente.CuentaCorr_Empresa",
+  "module": "CuentaCorriente",
+  "name": "CuentaCorr_Empresa",
+  "normalized_path": "objects/CuentaCorriente/CuentaCorr_Empresa",
+  "parts": [
+    {
+      "index": 1,
+      "type": "74203da2-41b1-402c-0001-d8d564a2c2fa",
+      "file": "parts/001-74203da2-41b1-402c-0001-d8d564a2c2fa.txt",
+      "kind": null,
+      "part_kind": null
+    }
+  ],
+  "semantic_counts": {
+    "parts": 1,
+    "parts_by_kind": {
+      "unknown": 1
+    }
+  }
+}

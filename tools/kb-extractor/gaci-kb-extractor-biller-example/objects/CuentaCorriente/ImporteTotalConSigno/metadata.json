@@ -1,0 +1,48 @@
+{
+  "attributes": {
+    "parentGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2024-10-14T19:06:26.0000000Z",
+    "checksum": "5e5aefbb39d319359a63df131bde7abf",
+    "fullyQualifiedName": "CuentaCorriente.ImporteTotalConSigno",
+    "moduleGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "guid": "e684a21c-d30b-40c1-8794-83aa5095d324",
+    "name": "ImporteTotalConSigno",
+    "type": "00972a17-9975-449e-aab1-d26165d51393",
+    "description": "Importe Total Con Signo",
+    "parent": "CuentaCorriente",
+    "parentType": "c88fffcd-b6f8-0000-8fec-00b5497e2117"
+  },
+  "guid": "e684a21c-d30b-40c1-8794-83aa5095d324",
+  "object_kind": "domain",
+  "fully_qualified_name": "CuentaCorriente.ImporteTotalConSigno",
+  "module": "CuentaCorriente",
+  "name": "ImporteTotalConSigno",
+  "normalized_path": "objects/CuentaCorriente/ImporteTotalConSigno",
+  "parts": [
+    {
+      "index": 1,
+      "type": "ad3ca970-19d0-44e1-a7b7-db05556e820c",
+      "file": "parts/001-ad3ca970-19d0-44e1-a7b7-db05556e820c.txt",
+      "kind": "help",
+      "part_kind": "help",
+      "projection_file": "help.md"
+    },
+    {
+      "index": 2,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/002-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "help": 1,
+      "object_defaults": 1
+    }
+  }
+}

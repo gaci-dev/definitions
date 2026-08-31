@@ -1,0 +1,48 @@
+{
+  "attributes": {
+    "parentGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-02-24T15:17:58.0000000Z",
+    "checksum": "7d78d8bd57a0e7302bf54af0537f9be9",
+    "fullyQualifiedName": "CuentaCorriente.EstadoCuentaCorr",
+    "moduleGuid": "f9a948fd-8998-4560-8021-3eb486fbc771",
+    "guid": "4590e980-a6b2-4677-8f8d-28cd76ce5c33",
+    "name": "EstadoCuentaCorr",
+    "type": "00972a17-9975-449e-aab1-d26165d51393",
+    "description": "Estado",
+    "parent": "CuentaCorriente",
+    "parentType": "c88fffcd-b6f8-0000-8fec-00b5497e2117"
+  },
+  "guid": "4590e980-a6b2-4677-8f8d-28cd76ce5c33",
+  "object_kind": "domain",
+  "fully_qualified_name": "CuentaCorriente.EstadoCuentaCorr",
+  "module": "CuentaCorriente",
+  "name": "EstadoCuentaCorr",
+  "normalized_path": "objects/CuentaCorriente/EstadoCuentaCorr",
+  "parts": [
+    {
+      "index": 1,
+      "type": "ad3ca970-19d0-44e1-a7b7-db05556e820c",
+      "file": "parts/001-ad3ca970-19d0-44e1-a7b7-db05556e820c.txt",
+      "kind": "help",
+      "part_kind": "help",
+      "projection_file": "help.md"
+    },
+    {
+      "index": 2,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/002-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "help": 1,
+      "object_defaults": 1
+    }
+  }
+}

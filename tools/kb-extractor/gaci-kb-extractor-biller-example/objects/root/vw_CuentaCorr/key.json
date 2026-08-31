@@ -1,0 +1,16 @@
+{
+  "kind": "key",
+  "part_attributes": {
+    "type": "00000000-0000-0000-0002-000000000004"
+  },
+  "properties": {},
+  "raw_xml": "<Part type=\"00000000-0000-0000-0002-000000000004\">\n        <Key>\n          <Item guid=\"94a127ee-c090-42e6-85ef-82995df198fe\">vw_CC_Id</Item>\n        </Key>\n        <Properties />\n      </Part>\n      ",
+  "keys": [
+    {
+      "tag": "Key",
+      "attributes": {},
+      "text": "vw_CC_Id",
+      "raw_xml": "<Key>\n          <Item guid=\"94a127ee-c090-42e6-85ef-82995df198fe\">vw_CC_Id</Item>\n        </Key>\n        "
+    }
+  ]
+}

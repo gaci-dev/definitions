@@ -1,0 +1,51 @@
+CuentaCorr_vista
+{
+	CuentaCorr_vistaItem
+	{
+		vw_CC_Id = vw_CC_Id
+		vw_CC_Empresa = vw_CC_Empresa
+		vw_CC_Cliente = vw_CC_Cliente
+		vw_CC_ClieNombre = vw_CC_ClieNombre
+		vw_CC_ClieNroDoc = vw_CC_ClieNroDoc
+		vw_CC_ClieCBU = vw_CC_ClieCBU
+		vw_CC_ClieEmail = vw_CC_ClieEmail
+		vw_CC_EstAdmId = vw_CC_EstAdmId
+		vw_CC_EstAdmDesc = vw_CC_EstAdmDesc
+		vw_CC_EstAcaId = vw_CC_EstAcaId
+		vw_CC_EstAcaDesc = vw_CC_EstAcaDesc
+		vw_CC_FacTipo = vw_CC_FacTipo
+		vw_CC_FacSerie = vw_CC_FacSerie
+		vw_CC_FacSuc = vw_CC_FacSuc
+		vw_CC_FacNro = vw_CC_FacNro
+		vw_CC_FacFecha = vw_CC_FacFecha
+		vw_CC_FacVto = vw_CC_FacVto
+		vw_CC_FacMoneda = vw_CC_FacMoneda
+		vw_CC_FacTotal = vw_CC_FacTotal
+		vw_CC_FacNroSAP = vw_CC_FacNroSAP
+		vw_CC_McCod = vw_CC_McCod
+		vw_CC_McNro = vw_CC_McNro
+		vw_CC_McMoneda = vw_CC_McMoneda
+		vw_CC_McTotal = vw_CC_McTotal
+		vw_CC_McFecha = vw_CC_McFecha
+		vw_CC_McVto = vw_CC_McVto
+		vw_CC_AsigNro = vw_CC_AsigNro
+		vw_CC_AsigFecha = vw_CC_AsigFecha
+		vw_CC_DiasPago = vw_CC_DiasPago
+		vw_CC_IntTipo = vw_CC_IntTipo
+		vw_CC_IntNro = vw_CC_IntNro
+		vw_CC_Carrera = vw_CC_Carrera
+		vw_CC_CLCarreraId = vw_CC_CLCarreraId
+		vw_CC_CLObs = vw_CC_CLObs
+		vw_CC_MaterialId = vw_CC_MaterialId
+		vw_CC_CCostoId = vw_CC_CCostoId
+		vw_CC_CCostoDesc = vw_CC_CCostoDesc
+		vw_CC_FacDetPlanItem = vw_CC_FacDetPlanItem
+		vw_CC_FacDetPlanId = vw_CC_FacDetPlanId
+		vw_CC_FacDebAuto = vw_CC_FacDebAuto
+		vw_CC_Texto = vw_CC_Texto
+		vw_CC_Anulado = vw_CC_Anulado
+		vw_CC_ModalidadId = vw_CC_ModalidadId
+		vw_CC_Usuario = vw_CC_Usuario
+		vw_CC_FechaHoraAud = vw_CC_FechaHoraAud
+	}
+}

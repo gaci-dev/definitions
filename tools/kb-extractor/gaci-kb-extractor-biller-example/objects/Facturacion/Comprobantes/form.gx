@@ -1,0 +1,21 @@
+# GeneXus layout/form projection
+
+This file is a readable projection of a layout part.
+
+- `GxMultiForm` (rootId='1' version='html:15.0.0;layout:17.11.0')
+- `Form` (id='1' type='layout')
+- `detail`
+- `layout`
+- `table` (controlName='LayoutMainTable' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `table` (class='TableWizardMainWithShadow' controlName='TableMain')
+- `row`
+- `cell` (cellClass='WizardStepsCell' hAlign='Center')
+- `component` (controlName='StepTitles')
+- `row`
+- `cell` (cellClass='CellPaddingBottom')
+- `textblock` (caption='Descripción del paso' class='WizardStepDescription' controlName='WizardStepDescription')
+- `row`
+- `cell` (cellClass='WizardStepsPositionCell')
+- `component` (controlName='WizardStepWC')

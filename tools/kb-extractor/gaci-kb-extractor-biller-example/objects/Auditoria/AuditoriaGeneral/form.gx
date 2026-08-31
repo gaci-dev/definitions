@@ -1,0 +1,51 @@
+# GeneXus layout/form projection
+
+This file is a readable projection of a layout part.
+
+- `GxMultiForm` (rootId='1' version='html:15.0.0;layout:17.11.0')
+- `Form` (id='1' type='layout')
+- `detail`
+- `layout`
+- `table` (controlName='LayoutMainTable' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `table` (controlName='Table' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell`
+- `table` (controlName='TransactionDetail_TableAttributes' responsiveSizes='[]' tableType='Responsive')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaGUID' class='AttributeFL' labelCaption='GUID')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaTRN' class='AttributeFL' labelCaption='Transaccion')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaPK' class='AttributeFL' labelCaption='Clave Primaria')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaATTR' class='AttributeFL' labelCaption='Atributo')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaOldValue' class='AttributeFL' labelCaption='Valor Anterior')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaValue' class='AttributeFL' labelCaption='Valor')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaMode' class='AttributeFL' labelCaption='Operacion Realizada')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaUser' class='AttributeFL' labelCaption='Usuario')
+- `row`
+- `cell` (cellClass='DataContentCellFL')
+- `data` (attribute='AuditoriaDateTime' class='AttributeFL' labelCaption='del Evento')
+- `row`
+- `cell`
+- `actiongroup` (controlName='ActionGroup_Actions')
+- `actionGroups`
+- `actionGroup` (class='CellMarginTop10' controlName='ActionGroup_Actions')
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GXM_update</Value></Property></Properties>' caption='GXM_update' controlName='BtnUpdate' onClickEvent="'DoUpdate'")
+- `item`
+- `action` (PATTERN_ELEMENT_CUSTOM_PROPERTIES='<Properties><Property><Name>title</Name><Value>GX_BtnDelete</Value></Property></Properties>' caption='GX_BtnDelete' class='BtnDefault' controlName='BtnDelete' onClickEvent="'DoDelete'")

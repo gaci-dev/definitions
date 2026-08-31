@@ -1,0 +1,75 @@
+{
+  "attributes": {
+    "parentGuid": "870f4e61-71b1-4359-ae62-ca12e8392c1e",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-05-19T20:08:00.0000000Z",
+    "checksum": "46845232663a219021331ce79c4586e4",
+    "fullyQualifiedName": "BillerExterno.DP_getCuentaCorr",
+    "moduleGuid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+    "guid": "e1aef07e-475d-4c41-afd7-f6763f5884c8",
+    "name": "DP_getCuentaCorr",
+    "type": "2a9e9aba-d2de-4801-ae7f-5e3819222daf",
+    "description": "DP_get Cuenta Corr",
+    "parent": "BillerExterno.CuentaCorr",
+    "parentType": "00000000-0000-0000-0000-000000000008"
+  },
+  "guid": "e1aef07e-475d-4c41-afd7-f6763f5884c8",
+  "object_kind": "data_provider",
+  "fully_qualified_name": "BillerExterno.DP_getCuentaCorr",
+  "module": "BillerExterno",
+  "name": "DP_getCuentaCorr",
+  "normalized_path": "objects/BillerExterno/DP_getCuentaCorr",
+  "parts": [
+    {
+      "index": 1,
+      "type": "1d8aeb5a-6e98-45a7-92d2-d8de7384e432",
+      "file": "parts/001-1d8aeb5a-6e98-45a7-92d2-d8de7384e432.txt",
+      "kind": "data_provider_source",
+      "part_kind": "data_provider_source",
+      "projection_file": "data-provider-source.gx"
+    },
+    {
+      "index": 2,
+      "type": "9b0a32a3-de6d-4be1-a4dd-1b85d3741534",
+      "file": "parts/002-9b0a32a3-de6d-4be1-a4dd-1b85d3741534.txt",
+      "kind": "rules",
+      "part_kind": "rules",
+      "projection_file": "rules.gx"
+    },
+    {
+      "index": 3,
+      "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47",
+      "file": "parts/003-e4c4ade7-53f0-4a56-bdfd-843735b66f47.txt",
+      "kind": "variables",
+      "part_kind": "variables",
+      "projection_file": "variables/variables.json"
+    },
+    {
+      "index": 4,
+      "type": "ad3ca970-19d0-44e1-a7b7-db05556e820c",
+      "file": "parts/004-ad3ca970-19d0-44e1-a7b7-db05556e820c.txt",
+      "kind": "help",
+      "part_kind": "help",
+      "projection_file": "help.md"
+    },
+    {
+      "index": 5,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/005-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 5,
+    "parts_by_kind": {
+      "data_provider_source": 1,
+      "rules": 1,
+      "variables": 1,
+      "help": 1,
+      "object_defaults": 1
+    }
+  }
+}

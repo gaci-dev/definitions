@@ -1,0 +1,51 @@
+{
+  "kind": "variables",
+  "part_attributes": {
+    "type": "e4c4ade7-53f0-4a56-bdfd-843735b66f47"
+  },
+  "properties": {
+    "Name": [
+      "json",
+      "sdt_auditoria"
+    ],
+    "ATTCUSTOMTYPE": [
+      "bas:LongVarChar",
+      "sdt:sdt_auditoria, Auditoria"
+    ],
+    "idIsAutoDefinedVariable": "False",
+    "IsDefault": "False"
+  },
+  "variables": [
+    {
+      "name": "json",
+      "type": "bas:LongVarChar",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "json",
+        "ATTCUSTOMTYPE": "bas:LongVarChar"
+      },
+      "attributes": {
+        "Name": "json"
+      },
+      "raw": "<Variable Name=\"json\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>json</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        "
+    },
+    {
+      "name": "sdt_auditoria",
+      "type": "sdt:sdt_auditoria, Auditoria",
+      "based_on": null,
+      "nullable": null,
+      "properties": {
+        "Name": "sdt_auditoria",
+        "idIsAutoDefinedVariable": "False",
+        "ATTCUSTOMTYPE": "sdt:sdt_auditoria, Auditoria"
+      },
+      "attributes": {
+        "Name": "sdt_auditoria"
+      },
+      "raw": "<Variable Name=\"sdt_auditoria\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>sdt_auditoria</Value></Property><Property><Name>idIsAutoDefinedVariable</Name><Value>False</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:sdt_auditoria, Auditoria</Value></Property></Properties>\n        </Variable>\n        ",
+      "uses_sdt": "sdt_auditoria"
+    }
+  ],
+  "raw": "<Part type=\"e4c4ade7-53f0-4a56-bdfd-843735b66f47\">\n        <Variable Name=\"json\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>json</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>\n        </Variable>\n        <Variable Name=\"sdt_auditoria\">\n          <Documentation />\n          <Properties><Property><Name>Name</Name><Value>sdt_auditoria</Value></Property><Property><Name>idIsAutoDefinedVariable</Name><Value>False</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:sdt_auditoria, Auditoria</Value></Property></Properties>\n        </Variable>\n        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>\n      </Part>\n      "
+}

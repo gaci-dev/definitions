@@ -1,0 +1,53 @@
+<Part type="264be5fb-1b28-4b25-a598-6ca900dd059f">
+        <Level Name="vw_CuentaCorr" Type="vw_CuentaCorr" Description="vw_Cuenta Corr" Guid="06e63df3-842b-4008-af8d-6ee4880d1c56">
+          <Properties />
+          <Attribute key="True" guid="94a127ee-c090-42e6-85ef-82995df198fe">vw_CC_Id</Attribute>
+          <Attribute key="False" guid="10c8c5f7-00ab-4f68-9925-ae0062037eae">vw_CC_Empresa</Attribute>
+          <Attribute key="False" guid="3f3b558a-5c3a-46e2-9469-a3264d823ac3">vw_CC_Estado</Attribute>
+          <Attribute key="False" guid="e9b0e090-ba05-495c-8308-333d96a3f5e2">vw_CC_Cliente</Attribute>
+          <Attribute key="False" guid="ca3a0c1d-ce9e-43a0-b5a9-6fc09bd620c7">vw_CC_ClieNombre</Attribute>
+          <Attribute key="False" guid="92cb5d83-cf3a-4f2d-b6e7-4cb0ffa974ca">vw_CC_ClieNroDoc</Attribute>
+          <Attribute key="False" guid="54a95e97-d687-4300-aefa-5172ca22d725">vw_CC_ClieCBU</Attribute>
+          <Attribute key="False" guid="24f2d76a-fa85-4caa-b35a-d7e28e4dac21">vw_CC_ClieEmail</Attribute>
+          <Attribute key="False" guid="d29dae3a-1467-4ae5-84d2-a220d0c54918">vw_CC_EstAdmId</Attribute>
+          <Attribute key="False" guid="df4c9a6c-c912-494c-981a-1577cded12b5">vw_CC_EstAdmDesc</Attribute>
+          <Attribute key="False" guid="dda0d14b-4c04-4e80-a09f-2e3aba8c24a7">vw_CC_EstAcaId</Attribute>
+          <Attribute key="False" guid="ba3904a9-7127-4666-b058-dbd766c1e68c">vw_CC_EstAcaDesc</Attribute>
+          <Attribute key="False" guid="87b746c4-fe4c-4233-abbf-b70bca562432">vw_CC_FacTipo</Attribute>
+          <Attribute key="False" guid="b46bb509-4ae2-4b08-93e4-9c0a36e4a6f7">vw_CC_FacSerie</Attribute>
+          <Attribute key="False" guid="6e433e7b-6040-4a1b-a3eb-454d1568f48d">vw_CC_FacSuc</Attribute>
+          <Attribute key="False" guid="8079813c-62ed-4ec0-bff4-3caf1a750900">vw_CC_FacNro</Attribute>
+          <Attribute key="False" guid="65963ec7-cc73-4b2a-ad92-95344e7a6d23">vw_CC_FacFecha</Attribute>
+          <Attribute key="False" guid="4b9d07ed-c0e9-4e5a-9bbe-945fd14dd9c4">vw_CC_FacVto</Attribute>
+          <Attribute key="False" guid="e0bd1c93-f22d-4ee6-b971-768cfc87d08f">vw_CC_FacMoneda</Attribute>
+          <Attribute key="False" guid="e50b68c2-a8a2-4936-8dba-51b6d42984d3">vw_CC_FacTotal</Attribute>
+          <Attribute key="False" guid="853b4b73-37b2-48b9-bcf8-84990e44d723">vw_CC_FacNroSAP</Attribute>
+          <Attribute key="False" guid="a5bc7c04-52dd-4f68-ad83-0a332cc10592">vw_CC_McCod</Attribute>
+          <Attribute key="False" guid="8a34ab26-6339-46b0-b9a1-bdfb467f520d">vw_CC_McNro</Attribute>
+          <Attribute key="False" guid="47595258-266b-4542-a5d8-8a1717420059">vw_CC_McMoneda</Attribute>
+          <Attribute key="False" guid="21677c3c-e5f7-49e4-a306-46bf75505dda">vw_CC_McTotal</Attribute>
+          <Attribute key="False" guid="a3104199-ce82-4121-9ac1-1cfccac42a21">vw_CC_McFecha</Attribute>
+          <Attribute key="False" guid="74301933-130d-4472-bf16-b9af4e131cf5">vw_CC_McVto</Attribute>
+          <Attribute key="False" guid="8a3a7255-489d-49fa-a61c-aae878980197">vw_CC_AsigNro</Attribute>
+          <Attribute key="False" guid="7d08fd61-e70f-4150-b614-02f52aca8758">vw_CC_AsigFecha</Attribute>
+          <Attribute key="False" guid="aebdf991-a795-4229-b433-489f2f690e1f">vw_CC_DiasPago</Attribute>
+          <Attribute key="False" guid="49977f86-583a-43ad-aaf7-6dfd13f183bb">vw_CC_IntTipo</Attribute>
+          <Attribute key="False" guid="51a25d71-febd-4372-b770-c4c8c7ec6674">vw_CC_IntNro</Attribute>
+          <Attribute key="False" guid="360547a6-6eb1-417e-b90a-32ee4f86861e">vw_CC_Carrera</Attribute>
+          <Attribute key="False" guid="f244bbb0-5008-4b66-bf0d-f7a3d1411682">vw_CC_CLCarreraId</Attribute>
+          <Attribute key="False" guid="c31083cb-f01d-40c7-87f8-d2f4778f255d">vw_CC_CLObs</Attribute>
+          <Attribute key="False" guid="d87d8fe8-4ac9-45f6-8f74-6f0f2402b4d9">vw_CC_MaterialId</Attribute>
+          <Attribute key="False" guid="d28c9f8f-ccbd-4b5d-acc2-1ed110cef934">vw_CC_CCostoId</Attribute>
+          <Attribute key="False" guid="89a5c793-2d23-441f-86ce-41c8daa1493c">vw_CC_CCostoDesc</Attribute>
+          <Attribute key="False" guid="fd5a1ee8-103a-444f-9c08-0e8383810f4b">vw_CC_FacDetPlanItem</Attribute>
+          <Attribute key="False" guid="4c006131-c17c-4df0-866d-083949148f2b">vw_CC_FacDetPlanId</Attribute>
+          <Attribute key="False" guid="9726d499-e98e-4df4-8043-3e0a5d2b01ff">vw_CC_FacDebAuto</Attribute>
+          <Attribute key="False" guid="b7dfca28-23b4-454b-9a1d-80cb446a7e23">vw_CC_Texto</Attribute>
+          <Attribute key="False" guid="8549759c-13cf-4eed-8b81-f6ac20d5df8f">vw_CC_Anulado</Attribute>
+          <Attribute key="False" guid="c75d7102-0418-4cba-8dc6-e605c5be20fa">vw_CC_ModalidadId</Attribute>
+          <Attribute key="False" guid="6b0975c7-0a87-400a-8a6a-16c8c1565ee3">vw_CC_Usuario</Attribute>
+          <Attribute key="False" guid="a1b3e2d6-5557-4d62-a8bc-a97d4bd3cb35">vw_CC_FechaHoraAud</Attribute>
+        </Level>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

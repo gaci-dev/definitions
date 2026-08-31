@@ -1,0 +1,6 @@
+&CuentaCorr_vista = DP_getCuentaCorr()
+
+//Msg(&CuentaCorr_vista.ToJson())
+//Msg(&CuentaCorr_vista.ToJson(), nowait)
+
+return

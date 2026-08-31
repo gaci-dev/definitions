@@ -1,0 +1,168 @@
+<Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="CarreraId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CarreraId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CL_carreraId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CL_carreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CL_carreraId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ClienteId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ClienteId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Combo_DataJson">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Combo_DataJson</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ComboCuentaCorrCarrera">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCarrera</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ComboCuentaCorrCL_CarreraId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrCL_CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCL_CarreraId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ComboCuentaCorrCliente">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrCliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCliente</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ComboCuentaCorrEmpresa">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrEmpresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEmpresa</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ComboCuentaCorrMedioCobroId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrMedioCobroId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ComboCuentaCorrMedioCobroMoneda">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ComboCuentaCorrMedioCobroMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroMoneda</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ComboSelectedText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ComboSelectedText</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="ComboSelectedValue">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>ComboSelectedValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Cond_CuentaCorrCarrera">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Cond_CuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCarrera</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrCarrera_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrCarrera_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrCL_CarreraId_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrCL_CarreraId_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrCliente_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrCliente_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrEmpresa_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrEmpresa_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrMedioCobroId_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroId_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CuentaCorrMedioCobroMoneda_Data">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CuentaCorrMedioCobroMoneda_Data</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTComboData, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="CurrentStep">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>CurrentStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DDO_TitleSettingsIcons">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DDO_TitleSettingsIcons</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:DVB_SDTDropDownOptionsTitleSettingsIcons, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="EmpresaId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>EmpresaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:EmpresaId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GoingBack">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GoingBack</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Insert_CuentaCorrCarrera">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrCarrera</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCarrera</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Insert_CuentaCorrCL_CarreraId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrCL_CarreraId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCL_CarreraId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Insert_CuentaCorrCliente">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrCliente</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrCliente</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Insert_CuentaCorrEmpresa">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrEmpresa</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrEmpresa</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Insert_CuentaCorrMedioCobroId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrMedioCobroId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Insert_CuentaCorrMedioCobroMoneda">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrMedioCobroMoneda</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrMedioCobroMoneda</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Insert_CuentaCorrModalidadId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Insert_CuentaCorrModalidadId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:CuentaCorrModalidadId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="MedioCobroId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>MedioCobroId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:MedioCobroId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="MonedaId">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>MonedaId</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:MonedaId</Value></Property></Properties>
+        </Variable>
+        <Variable Name="PreviousStep">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>PreviousStep</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TrnContext">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TrnContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext, WorkWithPlus_CommonObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TrnContextAtt">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TrnContextAtt</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPTransactionContext.Attribute, WorkWithPlus_CommonObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WebSession">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WWPContext">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="EstadoAcademicodesc">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>EstadoAcademicodesc</Value></Property><Property><Name>Description</Name><Value>Estado Academico Descripcion</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:EstadoAcademicoDescrip</Value></Property></Properties>
+        </Variable>
+        <Variable Name="EstadoAdminDescrip">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>EstadoAdminDescrip</Value></Property><Property><Name>Description</Name><Value>Estado Admin Descripcion</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:EstadoAdminDescrip</Value></Property></Properties>
+        </Variable>
+        <Variable Name="clientenroDoc">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>clientenroDoc</Value></Property><Property><Name>Description</Name><Value>Nro. Documento</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:ClienteNroDoc</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

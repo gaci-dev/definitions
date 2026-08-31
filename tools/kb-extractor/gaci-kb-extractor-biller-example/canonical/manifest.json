@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "records": "records.jsonl",
+  "record_counts": {
+    "objects": 47,
+    "parts": 197,
+    "references": 0,
+    "dependencies": 90
+  },
+  "semantic_counts": {
+    "objects_by_kind": {
+      "api": 1,
+      "data_provider": 1,
+      "data_selector": 2,
+      "domain": 7,
+      "folder": 2,
+      "index_definition": 1,
+      "module": 2,
+      "procedure": 8,
+      "sdt": 2,
+      "table": 3,
+      "table_view": 1,
+      "transaction": 4,
+      "unknown": 5,
+      "webpanel": 8
+    },
+    "parts_by_kind": {
+      "api_source": 1,
+      "auxiliary_source": 16,
+      "data_provider_source": 1,
+      "data_selector": 2,
+      "defaults": 4,
+      "events": 13,
+      "export_metadata": 2,
+      "form_layout": 12,
+      "help": 29,
+      "indexes": 4,
+      "key": 3,
+      "members": 1,
+      "module_metadata": 2,
+      "object_defaults": 36,
+      "platforms": 1,
+      "procedure_code": 8,
+      "report_layout": 8,
+      "rules": 21,
+      "sdt_structure": 2,
+      "transaction_structure": 4,
+      "unknown": 5,
+      "variables": 22
+    }
+  },
+  "kb": {
+    "guid": "fdc1eb4b-008a-4ca2-aa3e-43da32a9389d"
+  },
+  "versions": [
+    {
+      "guid": "42fce5e2-b2ed-4be6-afd6-526f735e739d",
+      "name": "Biller"
+    }
+  ],
+  "reconciliation": {
+    "mode": "partial",
+    "scope": "kb-version",
+    "complete_input": false,
+    "retired_objects": [],
+    "retired_count": 0
+  },
+  "graph": {
+    "nodes": "..[REDACTED_PATH]",
+    "edges": "..[REDACTED_PATH]"
+  }
+}

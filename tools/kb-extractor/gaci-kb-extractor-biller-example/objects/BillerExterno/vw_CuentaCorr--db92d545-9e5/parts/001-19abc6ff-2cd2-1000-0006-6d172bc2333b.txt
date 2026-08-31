@@ -1,0 +1,11 @@
+<Part type="19abc6ff-2cd2-1000-0006-6d172bc2333b">
+        <Platforms>
+          <DataViewStructurePlatform Dbms="12">
+            <PlatformProperties>
+              <Properties><Property><Name>NAME</Name><Value>vw_CuentaCorr</Value></Property><Property><Name>SCHEMA</Name><Value>biller</Value></Property></Properties>
+            </PlatformProperties>
+          </DataViewStructurePlatform>
+        </Platforms>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

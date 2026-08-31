@@ -1,0 +1,236 @@
+<Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="IsAuthorized">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>IsAuthorized</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WWPContext">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WWPContext</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPContext, WWPBaseObjects</Value></Property></Properties>
+        </Variable>
+        <Variable Name="OrderedBy">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>OrderedBy</Value></Property></Properties>
+        </Variable>
+        <Variable Name="OrderedDsc">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>OrderedDsc</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="FilterFullText">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>FilterFullText</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:WWPFullTextFilter, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersSelector1">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector1</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersOperator1">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator1</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AuditoriaTRN1">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN1</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>
+        </Variable>
+        <Variable Name="FilterAuditoriaTRNDescription">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>FilterAuditoriaTRNDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AuditoriaTRN">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersEnabled2">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersSelector2">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersOperator2">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator2</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AuditoriaTRN2">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN2</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersEnabled3">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersEnabled3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersSelector3">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersSelector3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DynamicFiltersOperator3">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DynamicFiltersOperator3</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AuditoriaTRN3">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AuditoriaTRN3</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridStateDynamicFilter">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridStateDynamicFilter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.DynamicFilter, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AuditoriaModeDescription">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AuditoriaModeDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Session">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Session</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridStateXML">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridStateXML</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridState">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridState</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="GridStateFilterValue">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>GridStateFilterValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:WWPGridState.FilterValue, WorkWithPlus_Web</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaTRN">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaTRN</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaTRN_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaTRN_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaPK">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaPK</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaPK_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaPK_Sel</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaATTR">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaATTR</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaATTR</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaATTR_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaATTR_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaATTR</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaOldValue">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaOldValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaOldValue_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaOldValue_Sel</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaValue">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaValue</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaValue_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaValue_Sel</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaMode_SelsJson">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaMode_SelsJson</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaMode_SelDscs">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaMode_SelDscs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaMode_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaMode_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaMode</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaMode_Sels">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaMode_Sels</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaMode</Value></Property><Property><Name>AttCollection</Name><Value>True</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaUser">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaUser</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaUser</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaUser_Sel">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaUser_Sel</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaUser</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaDateTime">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaDateTime</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaDateTime</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaDateTime_To">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaDateTime_To</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaDateTime</Value></Property></Properties>
+        </Variable>
+        <Variable Name="FilterTFAuditoriaMode_SelValueDescription">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>FilterTFAuditoriaMode_SelValueDescription</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TFAuditoriaDateTime_To_Description">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TFAuditoriaDateTime_To_Description</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TempBoolean">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TempBoolean</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property></Properties>
+        </Variable>
+        <Variable Name="i">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>i</Value></Property><Property><Name>Length</Name><Value>10</Value></Property><Property><Name>AttMaxLen</Name><Value>10</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AddressLine1">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AddressLine1</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AddressLine2">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AddressLine2</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AddressLine3">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AddressLine3</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="AppName">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>AppName</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Attribute">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Attribute</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="DateInfo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>DateInfo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Filter">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Filter</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Mail">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Mail</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="PageInfo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>PageInfo</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Phone">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Phone</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Title">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Title</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>200</Value></Property><Property><Name>AttMaxLen</Name><Value>200</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Website">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Website</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      

@@ -1,0 +1,47 @@
+{
+  "attributes": {
+    "parentGuid": "0389e3e2-e4e1-095f-3356-3d4c736a7d67",
+    "user": "[REDACTED]",
+    "versionDate": "2026-05-21T18:08:45.0000000Z",
+    "lastUpdate": "2026-05-20T18:09:42.0000000Z",
+    "checksum": "42dc0389ef05ce107cfda9c06bf46757",
+    "fullyQualifiedName": "BillerExterno.vw_CuentaCorrViewWWDS",
+    "moduleGuid": "679986c6-da99-4f21-bb5f-6f924ef62176",
+    "guid": "b0b705ae-9aa0-42ab-833f-0ed657d91fc1",
+    "name": "vw_CuentaCorrViewWWDS",
+    "type": "ffd44be7-3bb4-4d01-9e7e-d1c1a3c095af",
+    "description": "vw_Cuenta Corr View WWDS",
+    "parent": "[REDACTED]",
+    "parentType": "07135890-56fc-489b-b408-063722fa9f7d"
+  },
+  "guid": "b0b705ae-9aa0-42ab-833f-0ed657d91fc1",
+  "object_kind": "data_selector",
+  "fully_qualified_name": "BillerExterno.vw_CuentaCorrViewWWDS",
+  "module": "BillerExterno",
+  "name": "vw_CuentaCorrViewWWDS",
+  "normalized_path": "objects/BillerExterno/vw_CuentaCorrViewWWDS",
+  "parts": [
+    {
+      "index": 1,
+      "type": "a2bc65a1-999f-4e9b-b837-72285cc9bb16",
+      "file": "parts/001-a2bc65a1-999f-4e9b-b837-72285cc9bb16.txt",
+      "kind": "data_selector",
+      "part_kind": "data_selector"
+    },
+    {
+      "index": 2,
+      "type": "babf62c5-0111-49e9-a1c3-cc004d90900a",
+      "file": "parts/002-babf62c5-0111-49e9-a1c3-cc004d90900a.txt",
+      "kind": "object_defaults",
+      "part_kind": "object_defaults",
+      "projection_file": "object-defaults.json"
+    }
+  ],
+  "semantic_counts": {
+    "parts": 2,
+    "parts_by_kind": {
+      "data_selector": 1,
+      "object_defaults": 1
+    }
+  }
+}

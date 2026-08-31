@@ -1,0 +1,36 @@
+<Part type="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
+        <Level Name="sdt_auditoria">
+          <LevelInfo guid="2a70b7ef-8922-4ea9-91c6-72834499d8ea" name="sdt_auditoria" type="a76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="sdt_auditoria" user="">
+            <Properties><Property><Name>Name</Name><Value>sdt_auditoria</Value></Property></Properties>
+          </LevelInfo>
+          <Item guid="3e636094-8010-4fad-b8a1-6d93df4dc01d" name="AuditoriaGUID" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Auditoria GUID" user="">
+            <Properties><Property><Name>Name</Name><Value>AuditoriaGUID</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaGUID</Value></Property></Properties>
+          </Item>
+          <Item guid="cc641fc2-d810-4199-998b-927e55b62461" name="AuditoriaTRN" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Auditoria Transaccion" user="">
+            <Properties><Property><Name>Name</Name><Value>AuditoriaTRN</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaTRN</Value></Property></Properties>
+          </Item>
+          <Item guid="b5629082-388a-4b4c-b6ba-fd955e5e6e23" name="AuditoriaPK" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Auditoria Clave Primaria" user="">
+            <Properties><Property><Name>Name</Name><Value>AuditoriaPK</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaPK</Value></Property></Properties>
+          </Item>
+          <Item guid="30ab27d4-b5b4-4975-9597-da1fcb495ff2" name="AuditoriaATTR" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Auditoria Atributo" user="">
+            <Properties><Property><Name>Name</Name><Value>AuditoriaATTR</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaATTR</Value></Property></Properties>
+          </Item>
+          <Item guid="3267242d-cfd6-45e6-94fb-fe07d42dd976" name="AuditoriaOldValue" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Auditoria Valor Anterior" user="">
+            <Properties><Property><Name>Name</Name><Value>AuditoriaOldValue</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaOldValue</Value></Property></Properties>
+          </Item>
+          <Item guid="42ef0be0-eae1-42ad-b5e4-8d460b81e8c9" name="AuditoriaValue" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Auditoria Valor" user="">
+            <Properties><Property><Name>Name</Name><Value>AuditoriaValue</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaValue</Value></Property></Properties>
+          </Item>
+          <Item guid="14128892-00b2-4a4f-8bbd-8a2b601e1f4a" name="AuditoriaMode" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Auditoria Operacion Realizada" user="">
+            <Properties><Property><Name>Name</Name><Value>AuditoriaMode</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaMode</Value></Property></Properties>
+          </Item>
+          <Item guid="ea7ce5b1-14fa-499e-971e-9a0ffcee19e0" name="AuditoriaUser" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Auditoria Usuario" user="">
+            <Properties><Property><Name>Name</Name><Value>AuditoriaUser</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaUser</Value></Property></Properties>
+          </Item>
+          <Item guid="44b65b79-58c2-40db-ab65-04c11f1f9993" name="AuditoriaDateTime" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Auditoria Fecha del Evento" user="">
+            <Properties><Property><Name>Name</Name><Value>AuditoriaDateTime</Value></Property><Property><Name>idBasedOn</Name><Value>Attribute:AuditoriaDateTime</Value></Property></Properties>
+          </Item>
+        </Level>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      
