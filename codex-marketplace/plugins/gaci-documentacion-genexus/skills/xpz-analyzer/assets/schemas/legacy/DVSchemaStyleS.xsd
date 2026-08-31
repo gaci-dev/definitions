@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="ExportFile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Model"/>
+        <xs:element ref="KMW"/>
+        <xs:element ref="Source"/>
+        <xs:element ref="Settings"/>
+        <xs:element ref="Dependencies"/>
+        <xs:element ref="Objects"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Model">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="AttLen" type="xs:integer"/>
+        <xs:element name="TblLen" type="xs:integer"/>
+        <xs:element name="ObjLen" type="xs:integer"/>
+      </xs:all>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KMW">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="MajorVersion" type="xs:integer" minOccurs="0"/>
+        <xs:element name="MinorVersion" type="xs:integer" minOccurs="0"/>
+        <xs:element name="Path" type="xs:string" minOccurs="0"/>
+        <xs:element name="MaxGxBuildSaved" type="xs:integer" minOccurs="0"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Source">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Version"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Version">
+    <xs:complexType>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Settings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Dependencies">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Objects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Object"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Object">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Part"/>
+        <xs:element maxOccurs="unbounded" ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="description" use="required"/>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="lastUpdate" use="required"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="parent" use="required" type="xs:NCName"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Part">
+    <xs:complexType>
+      <xs:choice minOccurs="0">
+        <xs:element ref="Indexes"/>
+        <xs:any namespace="##any">
+          <xs:element ref="Document"/>
+          <xs:element ref="Properties"/>
+        </xs:any>
+        <xs:all>
+          <xs:element ref="RedundancyFromPreviousVersion" minOccurs="1" maxOccurs="1"/>
+          <xs:element ref="Level"/>
+        </xs:all>
+        <xs:all>
+          <xs:element ref="Attributes" minOccurs="0"/>
+          <xs:element ref="Platforms" minOccurs="0"/>
+        </xs:all>
+        <xs:sequence>
+          <xs:element ref="IsDefault"/>
+          <xs:element ref="FormAttributes"/>
+          <xs:element ref="InnerHtml"/>
+        </xs:sequence>
+      </xs:choice>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Indexes">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Form"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Form">
+    <xs:complexType>
+      <xs:any minOccurs="1">
+        <xs:element ref="Type"/>
+        <xs:element ref="Class"/>
+        <xs:element ref="Canvas"/>
+      </xs:any>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Type" type="xs:NCName"/>
+  <xs:element name="Class" type="xs:NCName"/>
+  <xs:element name="Canvas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Elements"/>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Elements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Button"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="DataEntry"/>
+          <xs:element ref="Label"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Button">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DataEntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Label">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RedundancyFromPreviousVersion">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Level">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Attribute"/>
+      </xs:sequence>
+      <xs:attribute name="Name" use="required" type="xs:NCName"/><xs:attribute name="Description" use="required"/>
+      
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Attribute">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="isNullable" type="xs:NCName"/>
+          <xs:attribute name="key" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Attributes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="DataViewAttribute"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DataViewAttribute">
+    <xs:complexType>
+      <xs:attribute name="ExternalName" use="required"/>
+      <xs:attribute name="InternalName" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Platforms">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="IsDefault" type="xs:NCName"/>
+  <xs:element name="FormAttributes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Property"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InnerHtml" type="xs:string"/>
+  <xs:element name="Properties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Property"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Property">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+        <xs:element ref="Value"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Name" type="xs:NCName"/>
+  <xs:element name="Value" type="xs:string"/>
+</xs:schema>

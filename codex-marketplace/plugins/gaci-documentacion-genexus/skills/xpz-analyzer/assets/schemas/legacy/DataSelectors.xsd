@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="gxbasic.xsd"/>
+  <xs:element name="ExportFile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="KMW"/>
+        <xs:element ref="Source"/>
+        <xs:element ref="Actions"/>
+        <xs:element ref="Objects"/>
+        <xs:element ref="Attributes"/>
+        <xs:element ref="Dependencies"/>
+        <xs:element ref="ObjectsIdentityMapping"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Actions">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Objects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Object"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Object" >
+  	<xs:complexContent>
+  		<xs:extension base="Object">
+			<!-- Data Selector -->
+ 	 		<xs:attribute name="type" fixed="ffd44be7-3bb4-4d01-9e7e-d1c1a3c095af"></xs:attribute>
+  		</xs:extension>
+  	</xs:complexContent>
+  </xs:element>
+  <xs:element name="Part">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="Level"/>
+          <xs:element ref="Variables"/>
+          <xs:element ref="Parameters"/>
+        </xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Level">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Condition"/>
+        <xs:element minOccurs="0" ref="OrderItem"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrderItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Order"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Order">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Condition"/>
+        <xs:element ref="Items"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Items">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="OrderedItem"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrderedItem">
+    <xs:complexType>
+      <xs:attribute name="Name" use="required" type="xs:NCName"/>
+      <xs:attribute name="Type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Variables">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Variable"/>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Variable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Documentation"/>
+        <xs:element ref="Help"/>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="Name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Documentation">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Help">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Parameters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Parameter"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Parameter">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Type"/>
+        <xs:element ref="Name"/>
+        <xs:element ref="Description"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Type" type="xs:NCName"/>
+  <xs:element name="Description" type="xs:string"/>
+  <xs:element name="Attributes">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Condition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="Source"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Properties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Property"/>
+      </xs:sequence>
+      <xs:attribute name="Name"/>
+      <xs:attribute name="PackageName" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Property">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+        <xs:element ref="Value"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Value" type="xs:anyURI"/>
+  <xs:element name="Name" type="xs:NCName"/>
+</xs:schema>

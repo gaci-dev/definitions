@@ -1,0 +1,7 @@
+interface:
+  display_name: "Analizador GeneXus XPZ"
+  short_description: "Analiza XPZ de forma segura y documentable"
+  default_prompt: "Usa $xpz-analyzer para inventariar y analizar este archivo XPZ de GeneXus."
+
+policy:
+  allow_implicit_invocation: true

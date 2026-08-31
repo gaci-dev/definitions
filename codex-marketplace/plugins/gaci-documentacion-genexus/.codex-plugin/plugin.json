@@ -1,0 +1,18 @@
+{
+  "name": "gaci-documentacion-genexus",
+  "version": "0.2.0",
+  "description": "Analisis profundo de GeneXus y XPZ con documentacion corporativa Gaci",
+  "author": {
+    "name": "Gaci"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Documentacion GeneXus Gaci",
+    "shortDescription": "Analiza GeneXus y XPZ; genera PDF y DOCX Gaci.",
+    "longDescription": "Combina las skills provistas para GeneXus, un analizador seguro de archivos XPZ y el generador corporativo de documentacion de Gaci.",
+    "developerName": "Gaci",
+    "category": "Productivity",
+    "capabilities": ["GeneXus", "XPZ", "technical-documentation"],
+    "defaultPrompt": "Analiza este proyecto o XPZ de GeneXus y genera su documentacion tecnica con el formato corporativo Gaci."
+  }
+}

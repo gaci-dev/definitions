@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="gxbasic.xsd"/>
+  <xs:element name="ExportFile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="KMW"/>
+        <xs:element ref="Source"/>
+        <xs:element ref="Actions"/>
+        <xs:element ref="Objects"/>
+        <xs:element ref="Attributes"/>
+        <xs:element ref="Dependencies"/>
+        <xs:element ref="ObjectsIdentityMapping"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Actions">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Objects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Object"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Object">
+  	<xs:complexContent>
+  		<xs:extension base="Object">
+			<!-- Web Panel -->
+ 	 		<xs:attribute name="type" fixed="198E8EA4-1D49-4c9c-8A9A-417024BAA9D1"></xs:attribute>
+  		</xs:extension>
+  	</xs:complexContent>
+  </xs:element>
+  <xs:element name="Part">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="Help"/>
+          <xs:element ref="Source"/>
+          <xs:element ref="Document"/>
+          <xs:element ref="InnerHtml"/>
+          <xs:element minOccurs="0" maxOccurs="unbounded" ref="Variable"/>
+        </xs:choice>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Form"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Form">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Type"/>
+        <xs:element ref="Class"/>
+        <xs:element ref="ClassGuid"/>
+        <xs:element ref="SizeUnit"/>
+        <xs:element ref="Info"/>
+        <xs:element ref="Canvas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Type" type="xs:NCName"/>
+  <xs:element name="Class" type="xs:NCName"/>
+  <xs:element name="ClassGuid" type="GUID"/>
+  <xs:element name="SizeUnit" type="xs:NCName"/>
+  <xs:element name="Info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Canvas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Elements"/>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InnerHtml" type="xs:string"/>
+  <xs:element name="Variable">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element ref="Documentation"/>
+        <xs:element ref="Help"/>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="Name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Documentation">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Attributes">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Help">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="HelpItem"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelpItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Language"/>
+        <xs:element ref="Content"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Language" type="xs:string"/>
+  <xs:element name="Content" type="xs:string"/>
+  <xs:element name="Properties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Property"/>
+      </xs:sequence>
+      <xs:attribute name="Name"/>
+      <xs:attribute name="PackageName" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Property">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+        <xs:element ref="Value"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Name" type="xs:NCName"/>
+  <xs:element name="Value" type="xs:string"/>
+  <xs:element name="Elements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="Button"/>
+          <xs:element ref="DataEntry"/>
+          <xs:element ref="Image"/>
+          <xs:element ref="Label"/>
+          <xs:element ref="Line"/>
+          <xs:element ref="Rect"/>
+          <xs:element ref="Tab"/>
+          <xs:element ref="TabPage"/>
+        </xs:choice>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="Grid"/>
+          <xs:element maxOccurs="unbounded" ref="GridColumn"/>
+        </xs:sequence>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Button">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DataEntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Image">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Label">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Line">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Rect">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tab">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Elements"/>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TabPage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Elements"/>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Grid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Elements"/>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GridColumn">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+<!--Work Panel Schema--></xs:schema>

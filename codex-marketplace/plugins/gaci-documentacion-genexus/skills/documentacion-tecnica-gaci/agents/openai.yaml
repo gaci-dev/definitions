@@ -1,0 +1,7 @@
+interface:
+  display_name: "Documentacion tecnica Gaci"
+  short_description: "Genera PDF y DOCX con formato corporativo"
+  default_prompt: "Usa $documentacion-tecnica-gaci para documentar tecnicamente este proyecto con el generador corporativo."
+
+policy:
+  allow_implicit_invocation: true

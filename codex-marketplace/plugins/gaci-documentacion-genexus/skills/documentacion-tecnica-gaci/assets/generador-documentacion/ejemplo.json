@@ -1,0 +1,91 @@
+{
+  "document": {
+    "title": "Mapa técnico de Sistema Ejemplo",
+    "subtitle": "Componentes, conexiones y configuración",
+    "product": "Producto Ejemplo",
+    "version": "v1.0",
+    "objective": "Explicar de forma simple cómo se conectan los componentes del sistema.",
+    "scope": "Cliente, servicio de aplicación, base de datos e integración externa opcional.",
+    "strategy": "Centralizar el acceso a datos y mantener las credenciales fuera del cliente.",
+    "result": "Una referencia operativa con datos ficticios y estructura real.",
+    "footer": "Mapa técnico de Sistema Ejemplo"
+  },
+  "output": {
+    "basename": "Mapa_Tecnico_Sistema_Ejemplo"
+  },
+  "summary": {
+    "title": "Resumen",
+    "intro": "El cliente consume un servicio central. Solo el servicio accede a la base de datos.",
+    "metrics": [
+      { "value": "2", "label": "conexiones obligatorias" },
+      { "value": "3", "label": "variables obligatorias" },
+      { "value": "1", "label": "integración opcional" }
+    ],
+    "classificationTitle": "Clasificación",
+    "classification": "Circuito principal: Cliente → Servicio → Base de datos.\nCircuito opcional: Servicio → Proveedor externo."
+  },
+  "pages": [
+    {
+      "title": "Mapa de conexiones",
+      "intro": "Cada componente conoce únicamente los destinos que necesita para operar.",
+      "blocks": [
+        {
+          "type": "flow",
+          "items": [
+            { "title": "1. CLIENTE", "body": "Interfaz instalada en el equipo", "connector": "HTTPS" },
+            { "title": "2. SERVICIO", "body": "Valida y procesa las solicitudes", "connector": "TCP" },
+            { "title": "3. BASE DE DATOS", "body": "Almacena la información" }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Requisitos de red",
+          "columns": [
+            { "label": "Origen", "width": 1 },
+            { "label": "Destino", "width": 1 },
+            { "label": "Protocolo", "width": 1 },
+            { "label": "Uso", "width": 2 }
+          ],
+          "rows": [
+            ["Cliente", "Servicio", "HTTPS / 443", "Operaciones de usuario"],
+            ["Servicio", "Base de datos", "TCP / puerto configurado", "Lectura y escritura"],
+            ["Servicio", "Proveedor externo", "HTTPS / 443", "Integración opcional"]
+          ]
+        },
+        {
+          "type": "steps",
+          "title": "Secuencia normal",
+          "items": [
+            { "title": "1. CONFIGURAR", "body": "Definir los destinos y secretos del ambiente." },
+            { "title": "2. INICIAR", "body": "Levantar el servicio y validar sus dependencias." },
+            { "title": "3. VERIFICAR", "body": "Ejecutar una operación funcional desde el cliente." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Configuración",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Variables obligatorias",
+          "text": "Las variables críticas deben configurarse antes de iniciar el servicio. Nunca deben incluirse secretos reales en la documentación."
+        },
+        {
+          "type": "code",
+          "title": "Ejemplo con datos ficticios",
+          "lines": [
+            "DATABASE_URL=protocolo://usuario:clave@192.0.2.10:1234/BASE_EJEMPLO",
+            "ACCESS_SECRET=secreto-ficticio-largo",
+            "REFRESH_SECRET=otro-secreto-ficticio-distinto"
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Seguridad",
+          "text": "Usar valores reservados para documentación y reemplazarlos durante el despliegue."
+        }
+      ]
+    }
+  ]
+}

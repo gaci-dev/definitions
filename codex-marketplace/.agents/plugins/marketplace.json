@@ -1,0 +1,20 @@
+{
+  "name": "gaci",
+  "interface": {
+    "displayName": "Gaci"
+  },
+  "plugins": [
+    {
+      "name": "gaci-documentacion-genexus",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gaci-documentacion-genexus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsd="undefined">
+  <xs:include schemaLocation="gxbasic.xsd"/>
+  <xs:element name="ExportFile">
+    <xs:complexType>
+      <xs:all>
+        <xs:element ref="KMW"/>
+        <xs:element ref="Source" minOccurs="0"/>
+        <xs:element ref="Actions" minOccurs="0"/>
+        <xs:element ref="Object" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="Attributes" maxOccurs="1"/>
+        <xs:element ref="Dependencies"/>
+        <xs:element ref="ObjectsIdentityMapping"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Objects">
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element maxOccurs="unbounded" ref="Object"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Object" >
+  	<xs:complexContent>
+  		<xs:extension base="Object">
+			<!-- transaction-->
+ 	 		<xs:attribute name="type" fixed="5270d2d0-e41a-4f47-a335-4deb1817f6ed"></xs:attribute>
+  		</xs:extension>
+  	</xs:complexContent>
+  </xs:element>
+  <!--/xs:element-->
+  <xs:element name="Part">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="Help"/>
+          <xs:element ref="Level"/>
+          <xs:element ref="Source"/>
+          <xs:element ref="InnerHtml"/>
+          <xs:element minOccurs="0" maxOccurs="unbounded" ref="Variable"/>
+        </xs:choice>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="GUID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InnerHtml" type="xs:string"/>
+  <xs:element name="Variable">
+    <xs:complexType>
+      <xs:all minOccurs="0">
+        <xs:element ref="Documentation"/>
+        <xs:element ref="Help"/>
+        <xs:element ref="Properties"/>
+      </xs:all>
+      <xs:attribute name="Name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Documentation">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Categories" type="xs:string"/>
+  <xs:element name="Attributes">
+    <xs:complexType/>
+  </xs:element>
+  <!--xs:element name="Guid" type="xs:string"/-->
+  <xs:element name="Level">
+    <xs:complexType>
+      <xs:all minOccurs="0">
+        <xs:element ref="Level"/>
+        <xs:element ref="Properties"/>
+        <xs:element ref="Attribute"/>
+        <xs:element ref="AttributeProperties"/>
+        <xs:element ref="DescriptionAttribute"/>
+      </xs:all>
+      <xs:attribute name="Description" use="required"/>
+      <xs:attribute name="Guid" use="required" type="GUID"/>
+      <xs:attribute name="Name" use="required" type="xs:NCName"/>
+      <xs:attribute name="Type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Attribute">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="guid" use="required" type="GUID"/>
+          <xs:attribute name="isNullable" type="xs:NCName"/>
+          <xs:attribute name="key" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AttributeProperties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="Attribute" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DescriptionAttribute" type="xs:string"/>
+  <xs:element name="Help">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="HelpItem"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelpItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Language"/>
+        <xs:element ref="Content"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Language" type="xs:string"/>
+  <xs:element name="Content">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Properties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Property"/>
+      </xs:sequence>
+      <xs:attribute name="Name"/>
+      <xs:attribute name="PackageName" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Property">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+        <xs:element ref="Value"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Name" type="xs:NCName"/>
+  <xs:element name="Value" type="xs:anyURI"/>
+</xs:schema>

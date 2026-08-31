@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="ExportFile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="KMW"/>
+        <xs:element ref="Source"/>
+        <xs:element ref="Actions"/>
+        <xs:element ref="Objects"/>
+        <xs:element ref="Attributes"/>
+        <xs:element ref="Dependencies"/>
+        <xs:element ref="ObjectsIdentityMapping"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KMW">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="MajorVersion"/>
+        <xs:element ref="MinorVersion"/>
+        <xs:element ref="Build"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MajorVersion" type="xs:integer"/>
+  <xs:element name="MinorVersion" type="xs:integer"/>
+  <xs:element name="Build" type="xs:integer"/>
+  <xs:element name="Source">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Version"/>
+      </xs:sequence>
+      <xs:attribute name="kb" use="required"/>
+      <xs:attribute name="username" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Version">
+    <xs:complexType>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Actions">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Objects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Object"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Object">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Part"/>
+        <xs:element ref="Properties"/>
+        <xs:element ref="Categories"/>
+      </xs:sequence>
+      <xs:attribute name="checksum" use="required"/>
+      <xs:attribute name="description" use="required"/>
+      <xs:attribute name="fullyQualifiedName" use="required"/>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="lastUpdate" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="name" use="required"/>
+      <xs:attribute name="parent" use="required" type="xs:NCName"/>
+      <xs:attribute name="parentType" use="required"/>
+      <xs:attribute name="type" use="required"/>
+      <xs:attribute name="user" use="required"/>
+      <xs:attribute name="versionDate" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Part">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0">
+          <xs:element ref="DiagramDocument"/>
+          <xs:element ref="InnerHtml"/>
+          <xs:element ref="RelevantDataList"/>
+        </xs:choice>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DiagramDocument">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Layers"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Layers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Layer"/>
+      </xs:sequence>
+      <xs:attribute name="defaultLayerId" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Layer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Elements"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Elements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="StartEvent"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="Connector"/>
+          <xs:element ref="EndEvent"/>
+          <xs:element ref="Gateway"/>
+          <xs:element ref="IntermediateEvent"/>
+          <xs:element ref="SubProcess"/>
+          <xs:element ref="Task"/>
+          <xs:element ref="TextAnnotation"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartEvent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+        <xs:element ref="GraphicalProperties"/>
+        <xs:element ref="Ports"/>
+      </xs:sequence>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Connector">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+        <xs:element ref="GraphicalProperties"/>
+      </xs:sequence>
+      <xs:attribute name="fromId" use="required" type="xs:integer"/>
+      <xs:attribute name="fromPortId" use="required" type="xs:integer"/>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="toId" use="required" type="xs:integer"/>
+      <xs:attribute name="toPortId" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EndEvent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+        <xs:element ref="GraphicalProperties"/>
+        <xs:element ref="Ports"/>
+      </xs:sequence>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Gateway">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+        <xs:element ref="GraphicalProperties"/>
+        <xs:element ref="Ports"/>
+      </xs:sequence>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IntermediateEvent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+        <xs:element ref="GraphicalProperties"/>
+        <xs:element ref="Ports"/>
+      </xs:sequence>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubProcess">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+        <xs:element ref="GraphicalProperties"/>
+        <xs:element ref="Events"/>
+        <xs:element ref="Children"/>
+        <xs:element ref="Ports"/>
+      </xs:sequence>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Children">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Task">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+        <xs:element ref="GraphicalProperties"/>
+        <xs:element ref="Events"/>
+        <xs:element ref="Ports"/>
+      </xs:sequence>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TextAnnotation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+        <xs:element ref="GraphicalProperties"/>
+        <xs:element ref="Ports"/>
+      </xs:sequence>
+      <xs:attribute name="guid" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InnerHtml" type="xs:string"/>
+  <xs:element name="RelevantDataList">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Categories" type="xs:NCName"/>
+  <xs:element name="Attributes">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Dependencies">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Reference"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Reference">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="Id" use="required"/>
+      <xs:attribute name="Package" use="required"/>
+      <xs:attribute name="Type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObjectsIdentityMapping">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ObjectIdentity"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObjectIdentity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Guid"/>
+      </xs:sequence>
+      <xs:attribute name="Name" use="required"/>
+      <xs:attribute name="Type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Guid" type="xs:string"/>
+  <xs:element name="Properties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Property"/>
+      </xs:sequence>
+      <xs:attribute name="Name"/>
+      <xs:attribute name="PackageName" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GraphicalProperties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Property"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Ports">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Events">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Property">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+        <xs:element ref="Value"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Name" type="xs:NCName"/>
+  <xs:element name="Value" type="xs:string"/>
+</xs:schema>

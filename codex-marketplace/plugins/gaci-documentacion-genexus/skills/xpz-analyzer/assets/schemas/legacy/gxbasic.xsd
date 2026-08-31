@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:simpleType name="GUID"> 
+   	<xs:restriction base="xs:string"> 
+    	<xs:pattern value="([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})|(\{[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\})"/> 
+	</xs:restriction> 
+  </xs:simpleType>
+  <xs:element name="Guid" type="GUID"/>
+  <xs:element name="KMW">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="MajorVersion" type="xs:nonNegativeInteger" minOccurs="1" default="3"/>
+        <xs:element name="MinorVersion" type="xs:nonNegativeInteger" minOccurs="1" default="1"/>
+        <xs:element name="Build" type="xs:nonNegativeInteger" minOccurs="0"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Object">
+      <xs:all>
+        <xs:element maxOccurs="unbounded" ref="Part"/>
+        <xs:element ref="Properties"/>
+        <xs:element minOccurs="0" ref="Categories"/>
+      </xs:all>
+      <xs:attribute name="checksum" use="optional" type="xs:hexBinary"/>
+      <xs:attribute name="description" use="optional"/>
+      <xs:attribute name="fullyQualifiedName" use="optional" type="xs:NCName"/>
+      <xs:attribute name="guid" use="required" type="GUID"/>
+      <xs:attribute name="lastUpdate" use="required" type="xs:dateTime"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="parent" use="optional" type="xs:NCName"/>
+      <xs:attribute name="parentType" use="optional" type="GUID"/>
+      <xs:attribute name="type" use="required" type="GUID"/>
+      <xs:attribute name="user" use="optional"/>
+      <xs:attribute name="versionDate" use="optional" type="xs:dateTime"/>
+  </xs:complexType>
+  <xs:element name="Dependencies">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Reference"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Reference">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="Properties"/>
+      </xs:sequence>
+      <xs:attribute name="Id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="Package" use="required" type="GUID"/>
+      <xs:attribute name="Type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObjectsIdentityMapping">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="ObjectIdentity"/>
+        <xs:element ref="ObjectIdentityByTableComposition"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObjectIdentity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Guid"/>
+      </xs:sequence>
+      <xs:attribute name="Name" use="required" type="xs:NCName"/>
+      <xs:attribute name="Type" use="required" type="GUID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObjectIdentityByTableComposition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="KeyComposition"/>
+      </xs:sequence>
+      <xs:attribute name="Name" use="required" type="xs:NCName"/>
+      <xs:attribute name="Type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Source">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Version"/>
+      </xs:sequence>
+      <xs:attribute name="kb" type="GUID"/>
+      <xs:attribute name="username"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Version">
+    <xs:complexType>
+      <xs:attribute name="guid" use="required" type="GUID"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KeyComposition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Key"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Key" type="xs:string"/>
+</xs:schema>
